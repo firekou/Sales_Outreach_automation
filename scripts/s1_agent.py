@@ -1,43 +1,45 @@
 #!/usr/bin/env python3
 """
-AI Token King — S1 Agent（LinkedIn 直攻法）
+AI Token King — S1 Agent v2（LinkedIn 直攻法）
 
-承接 apify_linkedin_scraper.py 的輸出，補充 S1 策略所需的深度分析：
-  1. AI 使用者類型分類（A/B/C/D）
-  2. 發展邏輯三步驟分析
-  3. S1 三封信序列生成（依話術 SOP 05-talk-scripts.md）
-  4. Heat Score 計算（對齊 07-orchestrator-spec.md §七）
-  5. 輸出 Dripify CSV + Asana JSON
+三階段流程：
+  Stage 1：apify_linkedin_scraper.py → leads_v2_*.csv
+  Stage 2：s1_agent.py 深度分析 + 三封信 → 自動建立 Asana Task
+  Stage 3：匯出 Expandi CSV → 雲端自動排程觸擊 + 追蹤
 
 用法：
-  python s1_agent.py output/leads_v2_*.csv [--account kid] [--top 20]
+  python s1_agent.py output/leads_v2_*.csv [--account kid] [--top 20] [--push-asana]
 
-流程：
-  apify_linkedin_scraper.py → leads_v2_*.csv
-                ↓
-          s1_agent.py（本腳本）
-                ↓
-     s1_drafts_*.json      ← 三封信草稿 + 分析結果
-     s1_dripify_*.csv      ← 匯入 Dripify（連線邀請 + 第一封）
-     s1_asana_*.json       ← 寫入 Asana Task
+  --push-asana  執行後自動呼叫 Asana API 建立任務（需 ASANA_TOKEN + ASANA_PROJECT_GID）
+
+輸出：
+  s1_drafts_*.json      ← 完整分析結果 + 三封信草稿
+  s1_expandi_*.csv      ← 直接匯入 Expandi 雲端排程
+  Asana Tasks           ← 若加 --push-asana，自動建立（含背景分析 + 文案）
 """
 
 import os
 import csv
 import json
+import time
 import argparse
 from datetime import datetime
 from pathlib import Path
 
 try:
     import anthropic
+    import requests as _requests
     from dotenv import load_dotenv
 except ImportError:
-    print("請先安裝：pip install anthropic python-dotenv")
+    print("請先安裝：pip install anthropic requests python-dotenv")
     raise
 
 load_dotenv()
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+ASANA_TOKEN       = os.getenv("ASANA_TOKEN", "")
+ASANA_PROJECT_GID = os.getenv("ASANA_PROJECT_GID", "")
+ASANA_BASE_URL    = "https://app.asana.com/api/1.0"
+
 client_ai = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
 
 OUTPUT_DIR = Path(__file__).parent / "output"
@@ -305,85 +307,157 @@ def process_leads(csv_path: str, account: str, top_n: int):
             "contact_stage":        "連線未發",
             "generated_at":         datetime.now().isoformat(),
             # Asana
-            "asana_task_name":      f"[S1][{priority}][{ai_type}] {name} | {lead.get('title','')[:25]} | {company} | Heat:{heat}",
+            "asana_task_name":      f"[S1][{priority}][Type:{ai_type}] {name} | {lead.get('title','')[:25]} | {company} | Heat:{heat}",
         }
         results.append(result)
 
     return results
 
 
-def save_outputs(results: list, account: str):
+def _split_name(full: str) -> tuple[str, str]:
+    import re
+    if not full:
+        return "", ""
+    full = full.strip()
+    if re.match(r"^[一-鿿·•]{2,5}$", full):
+        return full[1:], full[0]
+    parts = full.split()
+    if len(parts) == 1:
+        return full, ""
+    return " ".join(parts[:-1]), parts[-1]
+
+
+def _build_asana_notes(r: dict) -> str:
+    return (
+        f"═══ 背景分析 ═══\n"
+        f"LinkedIn：{r.get('linkedin_url', '')}\n"
+        f"職稱：{r.get('title', '')} ｜ 公司：{r.get('company', '')}\n"
+        f"ICP 分數：{r.get('icp_score', '')} ｜ Heat：{r.get('heat_score', '')} ｜ 優先級：{r.get('priority', '')}\n"
+        f"AI 使用者類型：{r.get('ai_user_type', '')} — {r.get('ai_type_name', '')}\n\n"
+        f"【發展邏輯】\n{r.get('development_logic', '')}\n\n"
+        f"【職涯轉折點】{r.get('career_turning_point', '')}\n"
+        f"【下一個目標】{r.get('next_goal', '')}\n"
+        f"【建議切入角色】{r.get('recommended_angle', '')}\n"
+        f"【個人化鉤子】{r.get('personalization_hook', '')}\n\n"
+        f"═══ 文案草稿 ═══\n\n"
+        f"【連線邀請（≤200字）】\n{r.get('connection_request', '')}\n\n"
+        f"【第一封 Day 1（連線接受後）】\n{r.get('msg1_day1', '')}\n\n"
+        f"【第二封 — 有回覆版】\n{r.get('msg2_with_reply', '')}\n\n"
+        f"【第二封 — 無回覆追蹤版】\n{r.get('msg2_no_reply', '')}\n\n"
+        f"【第三封 — 引入方案】\n{r.get('msg3_pitch', '')}\n\n"
+        f"═══ 執行狀態 ═══\n"
+        f"策略：S1 直攻法 ｜ 帳號：{r.get('source_account', '')} ｜ 發送人：{r.get('sender_name', '')}\n"
+        f"Expandi 已匯入：待確認 ｜ 聯絡階段：連線未發\n"
+    )
+
+
+def push_to_asana(results: list) -> int:
+    """
+    將分析結果自動建立 Asana Tasks。
+    每筆 Lead 建立一個 Task，notes 包含完整背景分析 + 三封信草稿。
+    返回成功建立的數量。
+    """
+    if not ASANA_TOKEN:
+        print("  ⚠ 缺少 ASANA_TOKEN，跳過 Asana 自動建立")
+        return 0
+    if not ASANA_PROJECT_GID:
+        print("  ⚠ 缺少 ASANA_PROJECT_GID，跳過 Asana 自動建立")
+        return 0
+
+    headers = {
+        "Authorization": f"Bearer {ASANA_TOKEN}",
+        "Content-Type": "application/json",
+    }
+    success = 0
+
+    for i, r in enumerate(results, 1):
+        payload = {
+            "data": {
+                "name":     r["asana_task_name"],
+                "notes":    _build_asana_notes(r),
+                "projects": [ASANA_PROJECT_GID],
+            }
+        }
+        try:
+            resp = _requests.post(
+                f"{ASANA_BASE_URL}/tasks",
+                headers=headers,
+                json=payload,
+                timeout=15,
+            )
+            if resp.status_code in (200, 201):
+                task_gid = resp.json().get("data", {}).get("gid", "")
+                print(f"  ✅ [{i}/{len(results)}] Asana Task 建立：{r.get('name')} (gid:{task_gid})")
+                success += 1
+            else:
+                print(f"  ✗ [{i}/{len(results)}] {r.get('name')} — HTTP {resp.status_code}: {resp.text[:80]}")
+        except Exception as e:
+            print(f"  ✗ [{i}/{len(results)}] {r.get('name')} — {e}")
+
+        if i < len(results):
+            time.sleep(0.3)  # Asana API rate limit（150 req/min）
+
+    return success
+
+
+def save_outputs(results: list, account: str, push_asana: bool = False):
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # 1. 完整 JSON（含所有分析結果）
     json_path = OUTPUT_DIR / f"s1_drafts_{account}_{ts}.json"
     json_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # 2. Dripify CSV（連線邀請 → custom1，第一封 → custom2）
-    dripify_path = OUTPUT_DIR / f"s1_dripify_{account}_{ts}.csv"
-    dripify_fields = ["linkedin", "first_name", "last_name", "company_name",
-                      "position", "location", "tags", "custom1", "custom2", "custom3"]
+    # 2. Expandi CSV（Stage 3：雲端排程觸擊）
+    # 欄位：LinkedIn Profile URL + 個人化變數（在 Expandi Campaign 中以 {{欄位名}} 引用）
+    expandi_path = OUTPUT_DIR / f"s1_expandi_{account}_{ts}.csv"
+    expandi_fields = [
+        "LinkedIn Profile URL",
+        "First Name",
+        "Last Name",
+        "Company",
+        "Position",
+        "Location",
+        "connection_note",    # {{connection_note}} — 連線邀請個人化附言
+        "first_message",      # {{first_message}}  — Day 1 第一封訊息
+        "follow_up",          # {{follow_up}}      — Day 3 無回覆追蹤版
+        "heat_score",
+        "ai_type",
+        "priority",
+    ]
 
-    def split_name(full):
-        parts = full.strip().split()
-        if len(parts) == 1:
-            return full, ""
-        return " ".join(parts[:-1]), parts[-1]
-
-    with dripify_path.open("w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=dripify_fields)
+    with expandi_path.open("w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=expandi_fields)
         w.writeheader()
         for r in results:
-            first, last = split_name(r.get("name", ""))
+            first, last = _split_name(r.get("name", ""))
             conn = r.get("connection_request", "")
             if len(conn) > 300:
                 conn = conn[:297] + "..."
             w.writerow({
-                "linkedin":     r.get("linkedin_url", ""),
-                "first_name":   first,
-                "last_name":    last,
-                "company_name": r.get("company", ""),
-                "position":     r.get("title", ""),
-                "location":     r.get("location", ""),
-                "tags":         f"S1,{r.get('priority','')},{r.get('ai_user_type','')},{account}",
-                "custom1":      conn,
-                "custom2":      r.get("msg1_day1", "")[:1900],
-                "custom3":      f"Heat:{r.get('heat_score','')}|Type:{r.get('ai_user_type','')}",
+                "LinkedIn Profile URL": r.get("linkedin_url", ""),
+                "First Name":    first,
+                "Last Name":     last,
+                "Company":       r.get("company", ""),
+                "Position":      r.get("title", ""),
+                "Location":      r.get("location", ""),
+                "connection_note":   conn,
+                "first_message":     r.get("msg1_day1", "")[:1900],
+                "follow_up":         r.get("msg2_no_reply", "")[:1900],
+                "heat_score":        r.get("heat_score", ""),
+                "ai_type":           r.get("ai_user_type", ""),
+                "priority":          r.get("priority", ""),
             })
 
-    # 3. Asana JSON（供 asana_dedup.py 或 Asana API 寫入）
-    asana_path = OUTPUT_DIR / f"s1_asana_{account}_{ts}.json"
-    asana_tasks = []
-    for r in results:
-        asana_tasks.append({
-            "name": r["asana_task_name"],
-            "notes": (
-                f"【發展邏輯】{r.get('development_logic', '')}\n\n"
-                f"【轉折點】{r.get('career_turning_point', '')}\n"
-                f"【下一個目標】{r.get('next_goal', '')}\n"
-                f"【建議切入角色】{r.get('recommended_angle', '')}\n\n"
-                f"【連線邀請】\n{r.get('connection_request', '')}\n\n"
-                f"【第一封（Day 1）】\n{r.get('msg1_day1', '')}\n\n"
-                f"【第二封-有回覆版】\n{r.get('msg2_with_reply', '')}\n\n"
-                f"【第二封-無回覆追蹤版】\n{r.get('msg2_no_reply', '')}\n\n"
-                f"【第三封-引入方案】\n{r.get('msg3_pitch', '')}"
-            ),
-            "custom_fields": {
-                "Heat Score":     r.get("heat_score", 0),
-                "AI 使用者類型":   r.get("ai_user_type", ""),
-                "策略來源":       "S1",
-                "聯絡階段":       "連線未發",
-                "執行環境":       "地端 Dripify",
-            },
-            "linkedin_url":  r.get("linkedin_url", ""),
-            "priority":      r.get("priority", "C"),
-        })
-    asana_path.write_text(json.dumps(asana_tasks, ensure_ascii=False, indent=2), encoding="utf-8")
+    # 3. Stage 2：Asana 自動建立 Task（可選）
+    asana_pushed = 0
+    if push_asana:
+        print(f"\n📋 Stage 2：推送至 Asana CRM（{len(results)} 筆）...")
+        asana_pushed = push_to_asana(results)
 
-    return json_path, dripify_path, asana_path
+    return json_path, expandi_path, asana_pushed
 
 
-def print_summary(results: list, json_path, dripify_path, asana_path, account: str):
+def print_summary(results: list, json_path, expandi_path, asana_pushed: int, account: str):
     a_count = sum(1 for r in results if r["priority"] == "A")
     b_count = sum(1 for r in results if r["priority"] == "B")
     type_dist = {}
@@ -392,7 +466,7 @@ def print_summary(results: list, json_path, dripify_path, asana_path, account: s
         type_dist[t] = type_dist.get(t, 0) + 1
 
     print("\n" + "=" * 65)
-    print(f"  S1 Agent 完成 — 帳號：{account}")
+    print(f"  S1 Agent v2 完成 — 帳號：{account}")
     print("=" * 65)
     print(f"  處理筆數：{len(results)}")
     print(f"  優先級 A（今日執行）：{a_count} 筆")
@@ -412,29 +486,36 @@ def print_summary(results: list, json_path, dripify_path, asana_path, account: s
                   f"{r['name']} | {r['title'][:20]} | {r['company']}")
 
     print()
-    print(f"  輸出檔案：")
-    print(f"    完整草稿：{json_path.name}")
-    print(f"    Dripify：{dripify_path.name}  ← 直接匯入地端 Dripify")
-    print(f"    Asana：  {asana_path.name}    ← 寫入 Asana CRM")
+    print(f"  ── 三階段輸出 ──────────────────────────────────")
+    print(f"  Stage 1 輸入：leads_v2_*.csv（Apify 抓取）")
+    print(f"  Stage 2 Asana：{'✅ 已自動建立 ' + str(asana_pushed) + ' 筆 Task' if asana_pushed else '⚠ 未推送（加 --push-asana 自動建立）'}")
+    print(f"  Stage 3 Expandi：{expandi_path.name}")
     print()
-    print(f"  Dripify Campaign 設定提醒：")
-    print(f"    連結請求訊息：{{{{custom1}}}}")
-    print(f"    Follow-up 1（Day 1 連線接受後）：{{{{custom2}}}}")
+    print(f"  完整草稿：{json_path.name}")
     print()
-    print(f"  下一步：")
-    print(f"    1. 確認 s1_dripify_*.csv 草稿無誤")
-    print(f"    2. 匯入 Dripify → 今日 A 級優先執行")
-    print(f"    3. 執行 asana_dedup.py 寫入 Asana CRM")
+    print(f"  ── Expandi Campaign 設定提醒 ──────────────────")
+    print(f"    連線邀請：{{{{connection_note}}}}")
+    print(f"    Step 2（Day 1 連線後）：{{{{first_message}}}}")
+    print(f"    Step 3（Day 3 無回覆）：{{{{follow_up}}}}")
+    print()
+    print(f"  ── 下一步 ─────────────────────────────────────")
+    print(f"    1. 確認 {expandi_path.name} 草稿")
+    print(f"    2. Expandi → Leads → Import CSV → 匯入")
+    print(f"    3. 加入已設定好 3 步驟序列的 Campaign（今日 A 級優先）")
+    if not asana_pushed:
+        print(f"    4. 重新執行加 --push-asana 推送至 Asana CRM")
     print("=" * 65)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="S1 Agent — LinkedIn 直攻法執行引擎")
+    parser = argparse.ArgumentParser(description="S1 Agent v2 — LinkedIn 直攻法｜三階段流程")
     parser.add_argument("csv_path", help="apify_linkedin_scraper.py 的輸出 CSV")
     parser.add_argument("--account", choices=list(ACCOUNTS.keys()), default=DEFAULT_ACCOUNT,
                         help=f"發送帳號（預設：{DEFAULT_ACCOUNT}）")
     parser.add_argument("--top", type=int, default=20,
                         help="處理前 N 筆 HOT/WARM Lead（預設：20）")
+    parser.add_argument("--push-asana", action="store_true",
+                        help="分析完成後自動呼叫 Asana API 建立 Task（需 ASANA_TOKEN + ASANA_PROJECT_GID）")
     args = parser.parse_args()
 
     if not ANTHROPIC_API_KEY:
@@ -447,8 +528,8 @@ def main():
         print("⚠ 無可處理的 HOT/WARM Lead")
         return
 
-    json_path, dripify_path, asana_path = save_outputs(results, args.account)
-    print_summary(results, json_path, dripify_path, asana_path, args.account)
+    json_path, expandi_path, asana_pushed = save_outputs(results, args.account, push_asana=args.push_asana)
+    print_summary(results, json_path, expandi_path, asana_pushed, args.account)
 
 
 if __name__ == "__main__":
