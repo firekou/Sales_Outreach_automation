@@ -284,7 +284,8 @@ def run_combo(combo: dict, client: ApifyClient) -> list:
         log.error(f"  ✗ 初始化失敗：{e}")
         return []
 
-    items = list(client.dataset(run["defaultDatasetId"]).iterate_items())
+    dataset_id = run.default_dataset_id if hasattr(run, "default_dataset_id") else run["defaultDatasetId"]
+    items = list(client.dataset(dataset_id).iterate_items())
     if not items:
         log.warning("  ⚠ 無回應")
         return []
@@ -307,7 +308,8 @@ def run_combo(combo: dict, client: ApifyClient) -> list:
             pr = client.actor(ACTOR_ID).call(
                 run_input={"request_id": request_id, "page": page}
             )
-            pi = list(client.dataset(pr["defaultDatasetId"]).iterate_items())
+            pr_dataset_id = pr.default_dataset_id if hasattr(pr, "default_dataset_id") else pr["defaultDatasetId"]
+            pi = list(client.dataset(pr_dataset_id).iterate_items())
         except Exception as e:
             log.error(f"  ✗ 第 {page} 頁失敗：{e}")
             break
