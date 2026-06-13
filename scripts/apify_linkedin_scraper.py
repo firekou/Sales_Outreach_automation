@@ -86,6 +86,16 @@ ACCOUNTS = {
 }
 DEFAULT_ACCOUNT = "kid"
 
+# ── 搜尋組合限額設定 ──────────────────────────────────────
+# daily   = 日常執行（總量 ~400）
+# reserve = 儲備庫模式（總量 ~500，用 --reserve 旗標啟用）
+COMBO_LIMITS = {
+    "daily":   {"combo_A": 80,  "combo_B": 60,  "combo_C": 60,
+                "combo_D": 80,  "combo_E": 50,  "combo_G": 70},
+    "reserve": {"combo_A": 100, "combo_B": 80,  "combo_C": 70,
+                "combo_D": 100, "combo_E": 60,  "combo_G": 90},
+}
+
 # ── 6 個搜尋組合 ──────────────────────────────────────────
 SEARCH_COMBOS = [
     {
@@ -98,7 +108,7 @@ SEARCH_COMBOS = [
             "functions": ["Information Technology"],
             "seniority_levels": ["Director", "Experienced Manager", "CXO"],
             "posted_on_linkedin": "true",
-            "limit": 80,
+            "limit": COMBO_LIMITS["daily"]["combo_A"],
         },
     },
     {
@@ -111,7 +121,7 @@ SEARCH_COMBOS = [
             "functions": ["Marketing"],
             "seniority_levels": ["Director", "Owner/Partner", "CXO"],
             "posted_on_linkedin": "true",
-            "limit": 60,
+            "limit": COMBO_LIMITS["daily"]["combo_B"],
         },
     },
     {
@@ -124,7 +134,7 @@ SEARCH_COMBOS = [
             "functions": ["Consulting", "Information Technology"],
             "seniority_levels": ["Director", "CXO", "Experienced Manager"],
             "posted_on_linkedin": "true",
-            "limit": 60,
+            "limit": COMBO_LIMITS["daily"]["combo_C"],
         },
     },
     {
@@ -137,7 +147,7 @@ SEARCH_COMBOS = [
             "functions": ["Engineering", "Information Technology"],
             "seniority_levels": ["CXO", "Vice President", "Owner/Partner"],
             "posted_on_linkedin": "true",
-            "limit": 80,
+            "limit": COMBO_LIMITS["daily"]["combo_D"],
         },
     },
     {
@@ -150,7 +160,7 @@ SEARCH_COMBOS = [
             "functions": ["Operations", "Business Development"],
             "seniority_levels": ["Director", "Experienced Manager", "CXO"],
             "posted_on_linkedin": "true",
-            "limit": 50,
+            "limit": COMBO_LIMITS["daily"]["combo_E"],
         },
     },
     {
@@ -163,10 +173,18 @@ SEARCH_COMBOS = [
             "functions": ["Product Management", "Engineering", "Information Technology"],
             "seniority_levels": ["Director", "Experienced Manager", "Strategic"],
             "posted_on_linkedin": "true",
-            "limit": 70,
+            "limit": COMBO_LIMITS["daily"]["combo_G"],
         },
     },
 ]
+
+
+def apply_reserve_limits():
+    """將所有組合的 limit 切換到儲備庫配額（合計 ~500）"""
+    for combo in SEARCH_COMBOS:
+        code = combo["code"]
+        if code in COMBO_LIMITS["reserve"]:
+            combo["input"]["limit"] = COMBO_LIMITS["reserve"][code]
 
 # ── SOP 5 維度 ICP 評分 ───────────────────────────────────
 #
@@ -390,12 +408,22 @@ def main():
         help=f"發送帳號 (default: {DEFAULT_ACCOUNT})。各帳號有獨立配額與風格。",
     )
     parser.add_argument(
+        "--reserve",
+        action="store_true",
+        help="儲備庫模式：提升各組合配額，單次執行目標 500 筆（合計：A:100 B:80 C:70 D:100 E:60 G:90）",
+    )
+    parser.add_argument(
         "--skip-asana-dedup",
         action="store_true",
         help="跳過 Asana 去重檢查（快速模式，不建議用於正式執行）",
     )
     args = parser.parse_args()
     account = args.account
+
+    if args.reserve:
+        apply_reserve_limits()
+        total = sum(COMBO_LIMITS["reserve"].values())
+        log.info(f"🗄 儲備庫模式：各組合配額已調整，目標 {total} 筆")
     acc_info = ACCOUNTS[account]
 
     log.info(f"📌 帳號：{account}（{acc_info['display_name']}），日限 {acc_info['daily_limit']}，時間窗 {acc_info['send_window']}")
