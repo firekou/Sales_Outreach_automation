@@ -106,7 +106,7 @@ RESERVE_COMBOS = [
             "functions": ["Information Technology"],
             "seniority_levels": ["Director", "Experienced Manager", "CXO"],
             "posted_on_linkedin": "true",
-            "limit": 100,
+            "limit": 200,
         },
     },
     {
@@ -124,7 +124,7 @@ RESERVE_COMBOS = [
             "functions": ["Marketing"],
             "seniority_levels": ["Director", "Owner/Partner", "CXO"],
             "posted_on_linkedin": "true",
-            "limit": 80,
+            "limit": 200,
         },
     },
     {
@@ -141,7 +141,7 @@ RESERVE_COMBOS = [
             "functions": ["Consulting", "Information Technology"],
             "seniority_levels": ["Director", "CXO", "Experienced Manager"],
             "posted_on_linkedin": "true",
-            "limit": 80,
+            "limit": 150,
         },
     },
     {
@@ -159,7 +159,7 @@ RESERVE_COMBOS = [
             "functions": ["Engineering", "Information Technology"],
             "seniority_levels": ["CXO", "Vice President", "Owner/Partner"],
             "posted_on_linkedin": "true",
-            "limit": 100,
+            "limit": 250,
         },
     },
     {
@@ -176,7 +176,7 @@ RESERVE_COMBOS = [
             "functions": ["Operations", "Business Development"],
             "seniority_levels": ["Director", "Experienced Manager", "CXO"],
             "posted_on_linkedin": "true",
-            "limit": 70,
+            "limit": 150,
         },
     },
     {
@@ -193,7 +193,7 @@ RESERVE_COMBOS = [
             "functions": ["Product Management", "Engineering", "Information Technology"],
             "seniority_levels": ["Director", "Experienced Manager", "Strategic"],
             "posted_on_linkedin": "true",
-            "limit": 90,
+            "limit": 200,
         },
     },
     {
@@ -211,11 +211,12 @@ RESERVE_COMBOS = [
             "functions": ["Entrepreneurship"],
             "seniority_levels": ["CXO", "Owner/Partner"],
             "posted_on_linkedin": "true",
-            "limit": 130,
+            "limit": 350,
         },
     },
 ]
-# 總原始上限 = 100+80+80+100+70+90+130 = 650
+# 活躍篩選版上限 = 200+200+150+250+150+200+350 = 1500
+# 無活躍篩選版同樣上限，但 posted_on_linkedin 欄位會被移除
 
 # ── ICP 評分（與主腳本一致）──────────────────────────────────
 TITLE_DECISION_KW = [
@@ -242,7 +243,7 @@ INDUSTRY_KW_SCORE = {
 }
 
 
-def icp_score(title: str, about: str) -> int:
+def icp_score(title: str, about: str, activity_filtered: bool = True) -> int:
     t = title.lower()
     a = (about or "").lower()
     txt = t + " " + a
@@ -260,7 +261,13 @@ def icp_score(title: str, about: str) -> int:
         if kw in txt and pts > industry_pts:
             industry_pts = pts
 
-    activity_pts = 15
+    # 有 posted_on_linkedin 篩選保證活躍 → 固定 15 分
+    # 無篩選時從 about 文字偵測 AI/科技關鍵字作為活躍代理指標（上限 10 分）
+    if activity_filtered:
+        activity_pts = 15
+    else:
+        activity_pts = min(sum(1 for kw in AI_SIGNAL_KW if kw in txt) * 3, 10)
+
     ai_hits = sum(1 for kw in AI_SIGNAL_KW if kw in txt)
     ai_pts = min(ai_hits * 5, 15)
 
@@ -326,12 +333,12 @@ def run_combo(combo: dict, client: ApifyClient) -> list:
     return all_data
 
 
-def normalize(raw: dict, combo: dict, account: str) -> dict:
+def normalize(raw: dict, combo: dict, account: str, activity_filtered: bool = True) -> dict:
     title = raw.get("job_title") or raw.get("title") or ""
     about = raw.get("about") or ""
     name = raw.get("full_name") or raw.get("name") or ""
     company = raw.get("company") or ""
-    score = icp_score(title, about)
+    score = icp_score(title, about, activity_filtered=activity_filtered)
     cls = classify(score)
     acc_info = ACCOUNTS.get(account, ACCOUNTS[DEFAULT_ACCOUNT])
     return {
@@ -355,7 +362,7 @@ def normalize(raw: dict, combo: dict, account: str) -> dict:
         "purchase_intent":  1,
         "summary_snippet":  about[:200],
         "scrape_date":      datetime.now().strftime("%Y-%m-%d"),
-        "reserve_status":   "RESERVE",
+        "reserve_status":   "RESERVE" if activity_filtered else "RESERVE-NO-ACTIVITY-FILTER",
         "asana_task_name":  (
             f"[{cls}-{score}][{account}] {name} | {title[:30]} | {company} | {score}分"
         ),
@@ -373,10 +380,10 @@ def deduplicate(leads: list) -> list:
     return list(seen.values())
 
 
-def save_reserve(leads: list, output_dir: Path) -> tuple:
+def save_reserve(leads: list, output_dir: Path, label: str = "500") -> tuple:
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    csv_path  = output_dir / f"taiwan_reserve_500_{ts}.csv"
-    json_path = output_dir / f"taiwan_reserve_500_{ts}.json"
+    csv_path  = output_dir / f"taiwan_reserve_{label}_{ts}.csv"
+    json_path = output_dir / f"taiwan_reserve_{label}_{ts}.json"
     if leads:
         with csv_path.open("w", newline="", encoding="utf-8-sig") as f:
             w = csv.DictWriter(f, fieldnames=list(leads[0].keys()))
@@ -425,9 +432,10 @@ def print_reserve_summary(leads: list, target: int, account: str):
 
 def main():
     import argparse
+    import copy
 
     parser = argparse.ArgumentParser(
-        description="台灣 LinkedIn Sales Navigator 儲備名單 500 筆抓取"
+        description="台灣 LinkedIn Sales Navigator 儲備名單抓取（支援無活躍篩選擴大版）"
     )
     parser.add_argument(
         "--account",
@@ -442,6 +450,15 @@ def main():
         help="目標儲備筆數（default: 500）",
     )
     parser.add_argument(
+        "--no-activity-filter",
+        action="store_true",
+        help=(
+            "移除 posted_on_linkedin 限制（LinkedIn 原生只支援 30 天，"
+            "無 90 天選項）。移除後涵蓋範圍更大，但無活躍保證；"
+            "ICP 活躍度分數從固定 15 分改為依 AI 訊號估算（上限 10 分）。"
+        ),
+    )
+    parser.add_argument(
         "--skip-asana-dedup",
         action="store_true",
         help="跳過 Asana 去重（快速模式，適合純備份收集）",
@@ -454,19 +471,28 @@ def main():
         help="僅執行指定組合，例如：--combos combo_A combo_D combo_H",
     )
     args = parser.parse_args()
-    account = args.account
-    target  = args.target
-    acc_info = ACCOUNTS[account]
+    account          = args.account
+    target           = args.target
+    activity_filtered = not args.no_activity_filter
+    acc_info         = ACCOUNTS[account]
 
+    mode_label = "無活躍篩選（擴大版）" if not activity_filtered else "活躍篩選（30天）"
     log.info(
         f"🗂 台灣儲備名單任務啟動 — 帳號：{account}（{acc_info['display_name']}），"
-        f"目標：{target} 筆"
+        f"目標：{target} 筆，模式：{mode_label}"
     )
 
-    active_combos = RESERVE_COMBOS
+    # 深複製組合，避免修改全域常數
+    active_combos = copy.deepcopy(RESERVE_COMBOS)
     if args.combos:
-        active_combos = [c for c in RESERVE_COMBOS if c["code"] in args.combos]
+        active_combos = [c for c in active_combos if c["code"] in args.combos]
         log.info(f"  ⚙ 只執行指定組合：{args.combos}")
+
+    # 移除活躍篩選條件
+    if not activity_filtered:
+        for combo in active_combos:
+            combo["input"].pop("posted_on_linkedin", None)
+        log.info("  ⚠ 已移除 posted_on_linkedin 篩選（涵蓋所有 LinkedIn 用戶，含非近期活躍）")
 
     output_dir = Path(__file__).parent / "output" / "reserve"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -479,7 +505,10 @@ def main():
             log.info("⏳ 間隔 10 秒...")
             time.sleep(10)
         raw_items = run_combo(combo, client)
-        normalized = [normalize(r, combo, account) for r in raw_items if r]
+        normalized = [
+            normalize(r, combo, account, activity_filtered=activity_filtered)
+            for r in raw_items if r
+        ]
         log.info(f"  → 標準化 {len(normalized)} 筆")
         all_leads.extend(normalized)
 
@@ -514,7 +543,8 @@ def main():
     final_leads = unique[:target]
     log.info(f"✂ 截取前 {len(final_leads)} 筆作為儲備名單（按 ICP 分數排序）")
 
-    csv_path, json_path = save_reserve(final_leads, output_dir)
+    file_label = f"nofilter_{target}" if not activity_filtered else str(target)
+    csv_path, json_path = save_reserve(final_leads, output_dir, label=file_label)
     log.info(f"💾 CSV：{csv_path}")
     log.info(f"💾 JSON：{json_path}")
 
