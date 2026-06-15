@@ -117,7 +117,7 @@ BIZDEV_COMBOS = [
                 "Head of Production", "Executive Creative Director",
             ],
             "company_headcounts": ["11-50", "51-200"],
-            "functions": ["Marketing", "Media and Communication", "Design"],
+            "functions": ["Marketing", "Media and Communication", "Arts and Design"],
             "seniority_levels": ["Director", "Owner/Partner", "CXO"],
             "limit": 250,
         },
