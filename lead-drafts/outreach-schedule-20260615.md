@@ -1,6 +1,6 @@
 # S1 外展排程 — 2026-06-15 啟動
 
-**帳號:** Kid (30/day, 14:00–15:00)  
+**帳號:** Frank (25/day, 08:00–09:00)  
 **總人數:** 15 leads（含完整 3 封信序列）  
 **匯入檔案:** `s1-batch-20260613_0439-dripify-full.csv`  
 **狀態:** 🟢 可立即匯入 Dripify 並啟動
@@ -11,10 +11,10 @@
 
 | 欄位 | 設定 |
 |------|------|
-| Campaign 名稱 | S1-Kid-20260615 |
-| LinkedIn 帳號 | kid |
-| 每日上限 | 30 connections/day |
-| 連線邀請送出時間 | 14:00–15:00 |
+| Campaign 名稱 | S1-Frank-20260615 |
+| LinkedIn 帳號 | Frank (frank.kao) |
+| 每日上限 | 25 connections/day |
+| 連線邀請送出時間 | 08:00–09:00 |
 | Step 1 | Connect（使用 custom1 文案） |
 | Step 2 | Message，觸發條件：接受後 D+0 ～ D+1（使用 custom2） |
 | Step 3 | Message，觸發條件：D+7 且無回覆（使用 custom3） |
@@ -62,11 +62,11 @@ D+14              →  第三封（引入方案）— 待撰寫，下一批
 - 42 HOT AI-BizDev 名單已匯入 Asana（HOT section）
 - Combo J + Combo K 結果補入中（background job 執行中）
 - 優先撰寫前 15 名（Jane Lin、Jim Chang、Cheng-Ho Wu 等）
-- 完成後生成第二個 Dripify CSV，指派給 frank / kid 帳號
+- 完成後生成第二個 Dripify CSV，指派給 frank 帳號
 
 ### Phase 3 — 2026-06-18+：第二波發送
 - AI-BizDev HOT 前 15 名（frank 帳號，08-09 時段）
-- AI-BizDev HOT 第 16-30 名（kid 帳號補量）
+- AI-BizDev HOT 第 16-30 名（frank 帳號補量）
 
 ---
 
@@ -84,8 +84,8 @@ D+14              →  第三封（引入方案）— 待撰寫，下一批
 
 ## Dripify 操作步驟
 
-1. 登入 Kid 的 Dripify 帳號
-2. 建立新 Campaign：`S1-Kid-20260615`
+1. 登入 Frank 的 Dripify 帳號
+2. 建立新 Campaign：`S1-Frank-20260615`
 3. 匯入 CSV：`lead-drafts/s1-batch-20260613_0439-dripify-full.csv`
 4. 設定 Step 1 — Connect：
    - Message template: `{{custom1}}`
@@ -93,6 +93,6 @@ D+14              →  第三封（引入方案）— 待撰寫，下一批
    - Message template: `{{custom2}}`
 6. 設定 Step 3 — Message（D+7，無回覆）：
    - Message template: `{{custom3}}`
-7. 設定每日發送量：30/day
+7. 設定每日發送量：25/day
 8. 啟動時間：14:00–15:00
 9. 按上方優先序排列 lead 順序後啟動 Campaign
