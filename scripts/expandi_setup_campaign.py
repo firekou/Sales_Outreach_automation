@@ -21,8 +21,12 @@ import requests
 from pathlib import Path
 
 # ── Credentials (set via env vars, do NOT commit actual values) ──────────────
-API_KEY    = os.environ.get("EXPANDI_API_KEY",    "4a0ea236-d270-49ab-8856-590d0c180d1a")
-API_SECRET = os.environ.get("EXPANDI_API_SECRET", "7cfec9d1-15dc-4556-8fa2-26c075a01f35")
+API_KEY    = os.environ.get("EXPANDI_API_KEY")
+API_SECRET = os.environ.get("EXPANDI_API_SECRET")
+
+if not API_KEY or not API_SECRET:
+    print("ERROR: Set EXPANDI_API_KEY and EXPANDI_API_SECRET env vars before running.")
+    sys.exit(1)
 
 BASE_URL   = "https://api.expandi.io/api/v1"
 CSV_PATH   = Path(__file__).parent.parent / "lead-drafts" / "s1-batch-20260615-expandi.csv"
