@@ -1,0 +1,2286 @@
+﻿first_name,last_name,linkedin_url,custom_variable_1,custom_variable_2,custom_variable_3,icp_score,title,company
+Jane,Lin,https://www.linkedin.com/in/ACwAAAy3Y2EBe4vHqUVdop6RQ-07qsdJsuwn52k,"Jane，
+
+看到你在 Create Intelligens 同時扛著 CEO 與 AI Innovator 的角色——在 Martech 這個賽道上把 AI 真正落地進產品，這條路走起來其實比多數人想像的複雜得多。
+
+讓我有感的是：當 AI 工具已經滲透進公司每個業務線，董事會下一個必然要問的問題，往往不是「我們有沒有在用 AI」，而是「我們花了多少、換回了什麼」。這個問題聽起來簡單，但要真正回答清楚，背後牽涉的數據整合與成本歸因，其實是很多 AI-Native 公司正在悄悄卡住的地方。
+
+很想認識一個在這個交叉口上深度思考的人。
+
+期待連結！Frank","Jane，謝謝你的連結！
+
+最近和幾位同樣在 AI-Native 公司擔任決策者的朋友聊，發現大家都在面對同一個微妙的時刻——當稽核委員會或外部董事開始認真問起 AI 工具的使用合規與費用分攤時，手邊能拿出來的報告，往往是臨時拼湊的 Excel，而不是一份有公信力的治理文件。
+
+你在 Create Intelligens 推動 AI 落地這麼深，想必對「怎麼向董事會說清楚 AI 投資值不值」這件事也有自己的一套思路？
+
+很好奇你們現在是怎麼處理這塊的——有在做系統化的 AI 投資回報追蹤，還是還在摸索中？","Jane，補充問一個更直接的問題——
+
+如果下個季度董事會要求一份完整的 AI 工具支出報告，含各部門使用量、費用分攤、以及 ROI 試算，你現在的團隊，多久能把這份東西備齊？
+
+這個問題我最近問了不少 AI 領域的決策者，答案差異很大，很想聽聽你的版本。",95,CEO | Founder | Martech & AI Innovator,創造智能科技股份有限公司 Create Intelligens Inc.
+Jim,Ching-kai Chang,https://www.linkedin.com/in/ACwAAAP_oG8B0hGam0QSnI_7Aa-Maagoaic8tY4,"Jim，
+
+看到你在 Welly SEO 同時身兼 AI 顧問與廣告業務兩條線的負責人——這個組合其實蠻罕見的，代表你們不只是在「用 AI 工具」，而是真的把 AI 能力內化進商業模式裡在走。
+
+這讓我想到一個很多走到這個階段的公司都會碰到的時間點：當 AI 工具從實驗期變成日常營運的一部分，董事會或高層開始要問「我們到底花了多少？換回來什麼？」——這份答案，現在準備好了嗎？
+
+想連結認識一下 — Frank","Jim，謝謝你的連結！
+
+延續上次提到的觀察——以 Welly SEO 目前 AI 滲透的深度，我猜你們內部可能已經跑了不少 AI 工具或 API 串接。但有個現象在很多類似規模的公司都會浮現：各部門用量分散、費用歸屬不清，一旦稽核委員會或董事會要看 AI 投資的完整樣貌，往往要花好幾週才能拼出一份說得清楚的報告。
+
+這不是技術問題，而是「治理還沒跟上速度」的訊號。
+
+想請教你——Welly 現在有沒有一個機制，能讓你隨時拉出一份跨部門 AI 費用分攤 + ROI 的完整視圖？","Jim，再跟進一下！
+
+上週提到的 AI 治理可視化話題，最近跟幾位類似角色的朋友聊，發現大家卡關的地方其實很一致：不是不想做，而是沒有一個標準框架讓 Board-Level 的報告可以直接生出來。
+
+你們目前這塊是怎麼處理的——有嘗試建立內部機制，還是還在摸索階段？",95,Head of AI Consultant & Advertising Director,Welly SEO 偉利科技股份有限公司
+Cheng-Ho(C.H.),Wu,https://www.linkedin.com/in/ACwAAAFRrHAB9sR5SatYCTnECpLr1dP7wJ6cRNg,"Cheng-Ho，
+
+看到你在 cacaFly 主導 Cloud & AI 業務佈局——聖洋科技在數位廣告與 AI 應用的深度整合，在業界算是走得相當前面的，印象深刻。
+
+最近和幾位同樣在大型企業推動 AI 落地的主管交流，大家不約而同提到一個共同挑戰：AI 工具導入速度很快，但當董事會開始問「我們在 AI 上花了多少、回收了什麼」，或稽核委員會要求一份跨部門的 AI 使用與費用報告時——很多人才發現手邊根本沒有能直接上桌的數字。
+
+這不是技術問題，更像是治理跟上不了落地速度的結構性張力。
+
+想連結認識一下 — Frank","Cheng-Ho，謝謝你的連結！
+
+承接上次提到的觀察——在 AI 投資規模逐漸放大的階段，「董事會能看懂的 AI 報告」這件事，我覺得會愈來愈成為 AI 負責人的隱性壓力。
+
+不只是費用數字，而是：哪個部門在用什麼工具、效益怎麼量化、資安合規有沒有缺口——這些加在一起，才構成一份真正能在 Board Level 站得住腳的 AI 治理敘事。
+
+好奇你們目前在這塊的做法——是已經有一套內部框架在跑，還是還在摸索適合的呈現方式？","Cheng-Ho，想再跟進一下上次的話題。
+
+最近有機會看到幾家規模相近的企業，在準備 AI 治理報告時踩到的坑——主要都卡在「數據分散、無法橫向對齊」，導致最後呈給董事會的版本說服力不足。
+
+不知道你們現在面對跨部門 AI 使用管理，最頭痛的環節是哪一塊？",94,Head of Cloud and  AI Business,cacaFly 聖洋科技
+En,Jen,https://www.linkedin.com/in/ACwAAAFU6aIBF5sJSX7RJoD1z1LJt7tgXbxvKjQ,"Hi En,
+
+I came across your profile and noticed you're leading the AI Department at EMC — Elite Material has been making some serious moves in integrating AI across what's traditionally a deep manufacturing and materials science operation. That's a genuinely complex environment to build AI capability in.
+
+One thing I find myself thinking about a lot when I see leaders in your position: as AI adoption scales across business units, the conversation at the board level inevitably shifts from ""what are we building?"" to ""what are we actually getting back — and are we managing this responsibly?""
+
+That tension between moving fast on AI and being accountable for it at an executive level is something I think a lot of AI department heads are quietly navigating right now.
+
+Would love to connect and hear how you're thinking about it at EMC.
+
+Looking forward to connecting! Frank","Hi En,
+
+Thanks for connecting!
+
+I wanted to follow up on something I mentioned — the board-level accountability piece.
+
+For publicly listed companies like EMC, there's a growing expectation from audit committees and investors that AI investment is treated like any other capital allocation: trackable, reportable, and tied to measurable outcomes. ESG and internal control frameworks are starting to pull AI governance into scope too.
+
+In practice, that means someone — often the Head of AI — needs to be able to answer: which teams are using what tools, at what cost, and what's the return? Across departments, not just one pilot.
+
+I'm curious — when your board or audit committee asks about AI spend and ROI today, what does that reporting process actually look like for you?","Hi En,
+
+Just circling back briefly — not to push, genuinely curious.
+
+As someone building AI capability inside a listed manufacturing company, you're probably sitting at an interesting intersection: driving innovation fast while also being accountable to governance structures that weren't designed with AI in mind.
+
+I've been speaking with a few AI leads in similar positions lately, and the reporting gap — between what's actually being spent and used across the org vs. what can be presented to the board — keeps coming up.
+
+Is that something you're actively working to solve at EMC right now, or still more of a ""future problem""?",93,Head of AI Department,"EMC (Elite Material Co., Ltd.)"
+Chien-Ming,Huang,https://www.linkedin.com/in/ACwAAAOrdKsBgvxI-T7Jy9JGV1o3Fbl9MoiH3bA,"Chien-Ming,
+
+Came across your profile while researching AI leadership at Agaruda — the way your team seems to be scaling AI initiatives across the organization is genuinely impressive.
+
+One thing I've been thinking about a lot lately in conversations with Heads of AI at similar-stage companies: as AI adoption accelerates, the pressure from the board and audit committees to justify the investment is intensifying too. It's one thing to ship AI products fast — it's another to walk into a board meeting and present a clean breakdown of what's being spent, which teams are consuming what, and whether the ROI actually holds up.
+
+I suspect you're probably already navigating some version of that tension.
+
+Would love to connect and exchange notes — always good to hear how leaders at AI-native companies are thinking about this.
+
+Looking forward to connecting! Frank","Chien-Ming, thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a number of AI leads recently, and one pattern keeps coming up: the closer a company gets to enterprise scale, the more governance expectations start landing on the AI function specifically.
+
+Board-level questions like ""what's our total AI spend this quarter"" or ""can you show ROI by use case"" sound straightforward — but in practice, when tools are sprawled across departments and teams are provisioning their own API keys, pulling together that picture becomes a real operational headache.
+
+Curious — at Agaruda's current stage, is AI cost visibility and reporting something that's already on your radar, or is it still more of a ""future problem"" for now?","Chien-Ming, just wanted to resurface this briefly.
+
+With ESG and internal control standards tightening across the board, AI governance is increasingly showing up as an audit item — not just a technical one. The companies I see handling it well tend to have a clear framework in place before the board starts asking the hard questions.
+
+No pitch here — just genuinely curious: when your audit committee or leadership team asks about AI investment accountability, what does that reporting process currently look like for you?",93,Head of AI,Agaruda
+Pin,Shih Wang,https://www.linkedin.com/in/ACwAAAKNVuwBGEJCxUbGWpfH3CxBGW5OqSQ6Fo0,"Hi Pin,
+
+Your work leading Digital Transformation & AI at an EdTech company caught my attention — it's a space where AI adoption is moving fast, but the governance frameworks often struggle to keep pace with the actual deployment.
+
+One thing I've been thinking about a lot lately: as AI tooling scales across departments — whether it's content generation, adaptive learning engines, or internal productivity tools — the question of *who owns the cost, and what's the return* gets surprisingly murky, surprisingly quickly.
+
+For leaders in your seat, that's not just an operational headache. When the board starts asking about AI investment returns, or when audit committees want to see usage accountability across the org, it becomes a much more strategic problem to have on your plate.
+
+Would love to connect and hear how you're thinking about that side of the equation.
+
+期待連結！Frank","Hi Pin,
+
+Thanks for connecting!
+
+I've been speaking with quite a few AI and transformation leaders recently, and one pattern keeps coming up: the companies that move fast on AI adoption often end up with a visibility gap — lots of tools running across teams, but no clean way to report upward on what's actually being spent, which use cases are delivering value, and which aren't.
+
+For companies at your stage of maturity, that gap tends to surface at the worst possible time — usually right before a board review or an internal audit.
+
+Curious — when your leadership team asks about the ROI of your current AI initiatives, what does that reporting process look like for you today?","Hi Pin,
+
+Just following up on my last note. No pressure at all — I know the inbox gets busy.
+
+I've been thinking more about the EdTech context specifically: you're likely running AI across both the product side and internal ops, which makes cost attribution and governance even trickier to standardize.
+
+As you're building out your AI governance framework, is board-level reporting on AI spend and ROI something that's already on your roadmap — or still more of a ""we'll get to it"" item?
+
+— Frank",89,Head of Digital Transformation & AI,EdTech Company
+Joseph,C.,https://www.linkedin.com/in/ACwAAAtPkRsBCljRksyAU0n6JjBjS9Oc_74QlSk,"Joseph,
+
+Came across your profile while looking into CCILU — interesting to see how you're bridging both marketing and operations at scale. That dual ownership is rare, and it tells me you're probably the one being asked hard questions from multiple directions at once.
+
+One pattern I keep noticing with leaders in your position: as AI tools get adopted across teams, the business questions get sharper — not just ""are we using AI?"" but ""what are we spending, which teams are driving results, and can we actually prove the ROI?""
+
+Boards and audit committees are starting to ask those exact questions — and most marketing + ops leaders I talk to are realizing the answer isn't as clean as they'd like.
+
+Thought it was worth reaching out to someone navigating that from both sides.
+
+Would love to connect — Frank","Joseph,
+
+Thanks for connecting!
+
+Following up on what I mentioned — the AI spend accountability question is becoming a real pressure point for ops and marketing leaders, especially when leadership starts tying AI investment to budget reviews or ESG/governance reporting.
+
+The tricky part isn't whether AI is delivering value — it usually is. The tricky part is being able to *show* it: by department, by tool, by initiative, in a format that holds up to scrutiny.
+
+Curious — at CCILU, has the conversation around AI ROI or usage transparency started coming from above yet, or is it still more of an internal ops challenge at this stage?","Joseph,
+
+Just circling back — no pressure at all.
+
+I've been having a lot of similar conversations lately with ops and marketing leaders who are ahead of the curve on AI adoption but realize their reporting infrastructure hasn't caught up yet.
+
+When board-level or audit-level questions do come in, it tends to happen fast.
+
+Would it be useful to have a quick 20-minute conversation to compare notes on how others are approaching this? What does your calendar look like?",88,Director of Marketing & Operations,CCILU INC
+Anna,C.,https://www.linkedin.com/in/ACwAABf-x7IBJhI3hjJw-fy7vSJHR5rquvjVHcg,"Hi Anna,
+
+Your role at JCIPRNET caught my attention — bridging AI innovation with legal technology in an IP-focused environment is genuinely one of the more complex mandates I've seen anyone take on. The intersection of AI adoption and legal compliance isn't just a technical challenge; it's becoming a governance one fast.
+
+One thing I've been thinking about a lot lately: as regulators and auditors start asking harder questions about AI usage inside organizations — not just ""do you use AI"" but ""who used what, when, and for what purpose"" — the teams that will struggle most aren't the ones with too little AI, but the ones who moved fast without building the accountability layer underneath.
+
+In legal and IP contexts especially, that gap can surface at exactly the wrong moment.
+
+Would love to connect and exchange perspectives — always good to learn from someone navigating this at the intersection of law and AI.
+
+Looking forward to connecting! Frank","Hi Anna,
+
+Thanks for connecting!
+
+I wanted to follow up on something I touched on before — the accountability layer under AI usage. In legal and compliance-heavy environments, I keep hearing a version of the same challenge: when an auditor or regulator asks ""show me how your team is using AI tools,"" there's often a scramble.
+
+Not because the tools aren't being used responsibly — but because no one built the system to *document* it in a way that holds up under scrutiny. Usage logs, per-user model access, query histories — these feel like engineering problems until they're suddenly legal ones.
+
+I'm curious: at JCIPRNET, as you're scaling AI across legal workflows, is audit-readiness for AI usage something that's already on the radar — or is it still a ""we'll figure it out when asked"" situation for most firms you see?","Hi Anna,
+
+Just circling back — no pressure at all, I know the inbox gets busy.
+
+I've been putting together some thinking around what ""audit-ready AI usage"" actually looks like in practice for legal and IP organizations — what records matter, what formats regulators tend to ask for, that kind of thing.
+
+Happy to share a draft framework if it'd be useful as a reference, even just as a starting point for internal conversation.
+
+Would that be worth a quick look?",88,Head of AI & Legal Technology Innovation,JCIPRNET
+Dominic,Lee,https://www.linkedin.com/in/ACwAAAJ1o0UBrqkuD8Q2W_I_oQQV9Kx-EaqMKAk,"Dominic,
+
+Came across your profile while researching leaders in Taiwan's AI infrastructure space — your role heading Cluster Services at Taiwan AI Cloud caught my attention. You're essentially sitting at the intersection of AI delivery and enterprise accountability, which is a position not many people truly understand from both sides.
+
+One thing I've been thinking about a lot lately: as AI adoption scales inside large organizations, the conversation in the boardroom is quietly shifting. It's no longer just ""are we using AI?"" — it's starting to become ""what exactly are we spending, which teams are consuming what, and what are we actually getting back?""
+
+For companies at Taiwan AI Cloud's stage, that question is going to land on someone's desk very soon — if it hasn't already.
+
+Thought it'd be worth connecting with someone navigating that from the inside.
+
+Looking forward to connecting! Frank","Dominic, thanks for connecting.
+
+Following up on what I mentioned — I've been speaking with a number of directors and VPs at AI-native companies recently, and there's a pattern that keeps coming up: internal AI usage is scaling fast, but the visibility layer hasn't kept pace.
+
+When the audit committee or board starts asking for a consolidated view — cost by department, usage breakdown, compliance alignment — most teams realize they're piecing it together from scattered exports and manual spreadsheets.
+
+For a company like Taiwan AI Cloud, where AI isn't just a tool but core to the business, I'd imagine that reporting expectation from leadership is only going to intensify.
+
+Curious — how is your team currently handling AI cost accountability and usage reporting across different service lines?","Dominic, just circling back on this.
+
+With ESG disclosure requirements tightening and internal audit standards evolving, AI spend is increasingly showing up as a governance question — not just an IT one.
+
+Boards want ROI clarity. Compliance teams want traceable records. The gap between ""we're using AI"" and ""here's the documented business impact"" is where a lot of enterprise teams are quietly struggling.
+
+Would it be useful to have a quick conversation about how others in similar roles are approaching this — specifically around board-level AI reporting?",86,"Director,  Cluster Services Division",Taiwan AI Cloud Corporation
+Sophie,Chiang,https://www.linkedin.com/in/ACwAAAiHHAkBqxPcXqpXTU9aQXy5MeNvDzSwDpI,"Sophie，
+
+看到你在力新國際科技擔任 Director of AI Business Strategy，感覺這個角色正好卡在一個很有趣的位置——既要推進 AI 應用落地，又要對上面說清楚「這些投入到底值不值」。
+
+我最近和幾位類似職稱的朋友聊，發現大家都在面對同一個時間壓力：董事會和稽核委員會開始認真問 AI 工具的費用分攤、使用狀況、還有投資回報——但實際上各部門的 AI 使用往往是分散的，要整合出一份能上董事會的報告，根本沒有現成的框架可以直接套。
+
+不確定力新目前有沒有遇到類似的情況，但覺得你的視角應該很有參考價值。
+
+想連結認識一下 — Frank","Sophie，謝謝你接受連結！
+
+延續上次提到的方向——我最近觀察到，上市櫃企業在 AI 治理上有個很微妙的落差：AI 導入速度很快，但財務端和稽核端的可視化工具幾乎還是空白。當稽核委員會開始把「AI 費用合規」納入內控查核清單，許多 AI 主管才發現手上能交出來的只有各工具商的帳單截圖。
+
+想請教你——以你現在的角色，董事會或稽核端對 AI 使用的 Reporting 需求，你們目前是怎麼應對的？","Sophie，想再跟進一個小問題。
+
+如果今天董事會臨時要求提出一份「跨部門 AI 工具使用與 ROI 報告」，你手上有辦法在短時間內整合出來嗎？
+
+還是說這其實是你們目前正在想辦法建立的能力？",85,Director of AI Business Strategy,力新國際科技股份有限公司
+michelle,liu,https://www.linkedin.com/in/ACwAABpMt4YBXXKNLv-VL9fKqkxl7OZJ48VCfhk,"Michelle 您好，
+
+看到您在王道銀行主導 Data Intelligence 的工作，對於一家以數位優先為核心定位的純網銀來說，這個角色現在承受的壓力應該遠不只是數據本身——AI 工具的導入速度越來越快，但監管端對「AI 使用留存記錄」的關注也同步在升溫。
+
+金融業在這個交叉點上其實是很獨特的處境：既要跑得夠快，又得在稽核時說得清楚。想連結認識一下 — Frank","Michelle，
+
+最近跟幾位金融業的數據主管聊，有個問題反覆出現：當稽核單位開始問「你們的 AI 工具是誰在用、用在哪些業務流程上」，大多數團隊的第一反應是——這份記錄我們好像沒有系統性地整理過。
+
+以王道銀行目前積極布局 AI 應用的節奏，不知道您這邊在 AI 使用的治理層面，現在是怎麼應對這類潛在的合規查核需求的？","Michelle，
+
+補充跟進一下——我最近整理了一份「AI 使用稽核記錄」的格式框架，是根據金融業合規要求設計的，可以直接對應到部門層級的查核情境。
+
+如果您這邊剛好在思考怎麼建立這套記錄機制，我可以先分享給您參考——您目前最想解決的是記錄的完整性，還是如何向稽核單位呈現的方式？",84,Head of Data Intelligence Department,O-Bank 王道銀行
+Jimmy,Chou,https://www.linkedin.com/in/ACwAABCHevwBQ_R5j7c3gKlbq_RPQCL9eIv9dn4,"Jimmy,
+
+Saw your role leading AI Strategy & Digital Transformation at Trend Micro — a company that's not just adopting AI internally but literally shaping how the industry thinks about cybersecurity intelligence. That's a uniquely complex position to be in.
+
+One thing I keep hearing from leaders in similar seats at publicly listed tech companies: the internal AI rollout is moving fast, but the board-level visibility isn't keeping pace. When audit committees start asking about AI spend accountability, cost allocation across business units, or what the actual return looks like on those Copilot/ChatGPT/internal LLM investments — it gets uncomfortable fast.
+
+Not a pitch, just something I've been thinking about a lot in conversations with enterprise AI leaders lately.
+
+Would love to connect and swap notes — Frank","Jimmy, thanks for connecting!
+
+Given Trend Micro's scale and the breadth of your AI transformation mandate, I'm curious how you're currently handling the governance side of AI tool adoption internally.
+
+Specifically — when your CFO or audit committee asks for a consolidated view of AI-related costs, usage distribution across teams, or an ROI breakdown by use case, is that something your team can produce today without a lot of manual pulling?
+
+A lot of AI Strategy leaders I talk to at listed companies say that's becoming the next pressure point — not whether to adopt AI, but how to report on it in a way that satisfies finance and compliance stakeholders.
+
+How are you thinking about that layer at Trend Micro right now?","Jimmy, just circling back on this.
+
+As someone driving AI strategy at a publicly listed company like Trend Micro, you're probably already fielding pressure from multiple directions — board, finance, compliance — all wanting different cuts of the same AI investment story.
+
+I've been exploring how some enterprise teams are building a more systematic approach to AI cost visibility and governance reporting at the board level.
+
+Would it be useful to compare notes on how others in your position are structuring that — even just a 20-minute conversation?",83,Director - AI Strategy & Digital Transformation,Trend Micro
+Esta,C.,https://www.linkedin.com/in/ACwAAAHfymQBMBjXHj-5V9mVVJFT7OtHe7vYLKo,"Esta — came across your profile while researching AI leadership at Highstreet. The work you're doing as AI Solutions Director at a company that's clearly pushing AI adoption at scale caught my attention — especially in an industry where most ""AI strategies"" still live in slide decks.
+
+One thing I've been thinking about a lot lately: as AI tool usage expands across departments, the conversation at the board level inevitably shifts from ""are we using AI?"" to ""what are we actually getting from it?"" — and that's where things get complicated fast.
+
+Would love to connect and exchange notes on how AI leaders like yourself are navigating that transition.
+
+Looking forward to connecting! Frank","Esta — thanks for connecting!
+
+I've been speaking with a number of AI directors lately, and one tension keeps coming up: the team is shipping AI use cases, the tools are running, costs are accumulating — but when the board or audit committee asks for a consolidated view of AI spend, usage by department, and actual ROI per initiative, it's suddenly a manual fire drill.
+
+It's less a technology problem and more a governance visibility gap — and it tends to surface at the worst possible moment (think: board prep week or an internal audit cycle).
+
+Curious — at Highstreet's current scale of AI adoption, is board-level AI reporting something that's already structured, or still being figured out?","Esta — just following up on my last note.
+
+With AI budgets getting more scrutiny heading into annual planning cycles, I've seen more AI leaders getting pulled into conversations they weren't quite prepared for — cost allocation across BUs, compliance documentation, ROI justification per tool.
+
+No rush on my end, but I'd genuinely enjoy a 20-minute conversation to hear how you're thinking about the governance side of AI at Highstreet. Worth a quick chat?",83,AI Solutions Director,Highstreet
+Irene,Sun,https://www.linkedin.com/in/ACwAAAzvhNABuBgKTxbtMA6QN2bYRx_0UQ_WYCE,"Hi Irene,
+
+I came across your profile and noticed you're leading Business Operations at Shopix & Co — overseeing the operational backbone of what looks like a fast-scaling e-commerce outfit in the region. That's a role where you're constantly being asked to do more with less, while also keeping every stakeholder aligned on where resources are actually going.
+
+One thing I keep hearing from ops leaders at similar companies: as AI tools quietly proliferate across teams — marketing running their own subscriptions, logistics piloting automation, finance experimenting with LLMs — it becomes genuinely hard to answer the board's question: ""What are we actually spending on AI, and is it working?""
+
+Not a straightforward question when usage is fragmented and attribution is murky.
+
+Would love to connect and hear how you're thinking about this at Shopix & Co — always good to exchange notes with ops leaders navigating the same landscape.
+
+Looking forward to connecting! Frank","Hi Irene,
+
+Thanks for connecting!
+
+I've been thinking more about the ops challenges in e-commerce at your scale — especially as AI adoption accelerates across departments. One pattern I keep seeing: IT governance and internal audit teams are starting to ask harder questions about AI tool sprawl — not just cost, but control, compliance, and whether spend maps to any measurable outcome.
+
+For companies with board-level oversight and ESG/internal control standards to uphold, that's a real gap. It's one thing to know you're spending on AI. It's another to walk into a board meeting with a clean breakdown by department, a cost allocation policy, and an actual ROI narrative.
+
+Curious — at Shopix & Co, has AI spend visibility become something your finance or audit function is starting to flag yet, or is it still mostly sitting under the radar?","Hi Irene,
+
+Just circling back — wanted to ask one specific question.
+
+If your audit committee or CFO asked you tomorrow to produce a full AI tool usage report — spend by department, compliance flag, and ROI by use case — how long would it realistically take to pull that together right now?
+
+I ask because that question is coming up a lot faster than most ops teams expect. Would love to hear how you're set up for it at Shopix & Co — what's your current approach?
+
+Frank",81,Director of Business Operations,Shopix & Co Pte Ltd
+Hsiang,Wei Hu,https://www.linkedin.com/in/ACwAAA-yVkcBob1Q1j8pq2hj6gHC0g-yGN1aZ_k,"Hsiang，
+
+看到你在台灣人工智慧協會擔任技術長，負責推動整個協會的 AI 應用方向——這個位置很特別，同時要對外代表產業，對內又要讓 AI 真正落地、可被管理。
+
+最近和幾位類似角色的主管聊下來，有個共同的觀察：AI 工具在組織內部開始多點擴散之後，「誰在用什麼、花了多少、產出了什麼價值」這三個問題，反而越來越難有一個清楚的答案——尤其當董事會或稽核層級開始問 AI 投資的實際效益時，這個缺口就會很明顯。
+
+身為推動 AI 治理的協會技術負責人，你應該比很多人更早感受到這個壓力。
+
+想連結認識一下 — Frank","Hsiang，謝謝你的連結！
+
+延續上次提到的方向——現在很多企業 AI 工具已經在跑了，但當稽核委員會或董事會要求一份「AI 使用報告」時，大多數技術主管發現手邊根本拼不出來：各部門的 token 消耗、費用分攤、工具效益，都是分散的。
+
+協會在推動台灣 AI 治理標準這一塊，想必也會越來越常被問到——企業要怎麼建立一套讓董事會看得懂、稽核單位接受的 AI 使用框架？
+
+好奇你目前觀察下來，台灣企業在「AI 投資可視化」這一塊，最常卡在哪個環節？","Hsiang，想跟進一下上次的話題。
+
+最近有企業主管跟我分享，他們最頭痛的不是 AI 工具貴不貴，而是「說不清楚貴在哪、值不值得」——在 ESG 內控要求越來越嚴的環境下，這個說不清楚的成本其實很高。
+
+以協會推動 AI 治理的角度來看，你認為「Board-Level AI Reporting」在台灣有沒有可能成為一個標準化的方向？",81,Director of Technology,台灣人工智慧協會
+Atoe,Lin,https://www.linkedin.com/in/ACwAAAMxg70BoDoTMUHNh6lp5MMlSf0vsWHPxaY,"Atoe，
+
+看到你在 Creative5 神盾衛星負責產品行銷，同時橫跨衛星科技與品牌策略，這個組合蠻少見的——尤其在台灣硬體與 B2B 行銷的交叉點上，需要同時對內說服技術團隊、對外建立市場敘事，應該很不容易。
+
+最近和幾位大型企業的行銷與產品主管聊，發現一個共同現象：AI 工具在各部門快速擴散，但當董事會或 CFO 開始問「我們在 AI 上花了多少、換來什麼」的時候，往往沒有人能交出一份說得清楚的數字。這個問題在產品行銷這個角色上特別明顯——因為你既是 AI 投資的推動者，也可能是被追問 ROI 的第一個人。
+
+想連結認識一下 — Frank","Atoe，謝謝你的連結！
+
+承接上次說的——最近幾家上市公司的情況是，AI 工具預算分散在行銷、產品、IT 各部門，稽核季一到，財務和法遵團隊才發現根本無法做費用歸戶，也沒辦法出具一份符合內控標準的使用報告。
+
+董事會層級的壓力其實已經從「要不要用 AI」轉移到「怎麼證明 AI 值得投資」——這對負責產品行銷的主管來說，其實是一個很有意思的位置：你有機會主導這套敘事框架，而不只是被動等 IT 或財務來定義它。
+
+想請教你，神盾衛星現在在跨部門 AI 使用的治理上，大概走到哪個階段了？","Atoe，想跟進一個小問題——
+
+如果明天董事會要求一份 AI 工具的投資回報報告，涵蓋費用分攤、部門別使用量、以及各應用的效益估算，你們現在手邊的資料能支撐這份報告嗎？
+
+很多企業這個缺口比想像中大，我最近在和幾個類似規模的團隊討論怎麼建這套基礎，如果你有興趣交流，我們可以約 20 分鐘聊聊？",81,Director of Product Marketing,Creative5 神盾衛星
+Esther,(Hsin-Ju) Chen,https://www.linkedin.com/in/ACwAABbum5ABwmrbab_Zd2ESMI1mqWr6dmylzlU,"Esther,
+
+Came across your profile while researching Vizuro — the intersection of business operations and commercialization in the e-commerce/new retail space is genuinely complex work, especially when you're trying to keep growth velocity and operational discipline in sync.
+
+One thing I've been thinking about a lot lately, talking with ops and finance leaders at similar-stage companies: as AI tool adoption accelerates across teams, the question that keeps surfacing at the board and audit committee level is — how do you actually account for it? Not just the spend, but whether it's moving the needle.
+
+Most operators I speak with are sharp on the commercial side, but when the governance question comes up — cross-departmental AI usage, cost attribution, compliance reporting — there's usually a quiet pause.
+
+Would love to connect and exchange perspectives on how ops leaders are thinking about this.
+
+Looking forward to connecting! Frank","Esther, thanks for connecting!
+
+Following up on what I mentioned — I've been having a recurring conversation with directors at the ops/commercialization layer, and the theme is pretty consistent: AI tools are spreading fast across departments, but the visibility into *who's using what, at what cost, and delivering what outcome* is still surprisingly thin.
+
+What makes it trickier at the board level is that ESG and internal control frameworks are now starting to ask for AI governance as part of the audit narrative — not just IT's problem anymore, it sits right in the lap of business ops leadership.
+
+I'm curious — when your board or audit committee asks about AI investment returns, what does that reporting conversation look like on your end right now?","Esther, just a gentle follow-up —
+
+I've been pulling together some frameworks around how ops leaders are structuring board-ready AI reporting — cost allocation by business unit, ROI by use case, compliance trail for internal audit.
+
+Still early thinking, but I'd love a quick 20-minute exchange if there's appetite on your side.
+
+Is AI governance and board-level reporting something that's actively on your radar at Vizuro right now?",81,"Director, Business Operations & Commercialization",Vizuro
+HSIAO,WEN TOU,https://www.linkedin.com/in/ACwAABuHtOsBLkrrDVqZJz8Qm0_thOrd5MqUHAQ,"HSIAO,
+
+I came across your profile and noticed you're leading marketing at TNL Mediagene — one of the more interesting media-tech groups in the region that's clearly been leaning into AI-driven content and audience strategy.
+
+One thing I keep seeing across marketing leadership right now: as AI tools get embedded across teams — from content generation to analytics to campaign ops — the conversation is quietly shifting upward. Boards and audit committees are starting to ask harder questions: What are we actually spending on AI? Which initiatives are delivering ROI? Can we show that in a structured report?
+
+For marketing leaders especially, it's a tricky spot — you're often the biggest AI adopter in the org, but also the one most exposed when governance conversations start.
+
+Thought it'd be worth connecting with someone navigating this at your level.
+
+Looking forward to connecting! Frank","HSIAO, thanks for connecting!
+
+Following up on what I mentioned — I've been talking with a number of marketing and ops leaders at media and tech companies lately, and a pattern keeps coming up: AI tool usage has scaled fast across teams, but the internal reporting hasn't kept pace.
+
+When the CFO or board asks ""what's our AI spend this quarter, and what did we get for it"" — most teams are stitching together spreadsheets across departments, which isn't exactly board-ready.
+
+Given TNL Mediagene's scale and the kind of cross-functional AI adoption you're likely managing, I'm curious — is AI investment accountability something that's already on your leadership radar, or is it still mostly a finance/IT conversation at this stage?","HSIAO, just wanted to resurface this briefly.
+
+With ESG reporting and internal control standards tightening across listed companies in the region, AI governance is quietly becoming a board-level topic — not just an IT checkbox.
+
+Marketing tends to sit at the center of that exposure, given the volume of AI tools in play.
+
+Would it be useful to swap notes on how other marketing leaders are approaching this — especially around making AI ROI legible to the C-suite or audit committee? Happy to share what I'm seeing.",81,"Associate Director, Marketing",TNL Mediagene
+Chien-Ming,Huang,https://www.linkedin.com/in/ACwAAAiOOXsBP-aRh5sd2CcHZ4DKSTjPAyjCT7o,"Chien-Ming,
+
+Noticed you're heading AI at Agaruda — that's a role where you're likely operating at two speeds at once: shipping AI capabilities fast enough to stay competitive, while increasingly fielding questions from leadership about governance, cost accountability, and what the investment is actually returning.
+
+One thing I've been thinking about a lot lately: as AI adoption scales across business units, the visibility gap tends to widen — not because teams aren't doing good work, but because the reporting infrastructure hasn't caught up. Board-level conversations are starting to demand the same rigor around AI spend that finance applies to any capital allocation decision.
+
+You're in an interesting seat for that — both close enough to the technology to understand the nuance, and senior enough to shape how AI accountability gets framed internally.
+
+Would love to connect and exchange notes — always good to hear how leaders in your position are navigating this.
+
+Looking forward to connecting! Frank","Chien-Ming,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been speaking with a number of AI leads at larger organizations lately, and one pattern keeps coming up: the moment AI usage spreads across 3–4+ departments, it becomes genuinely difficult to answer questions like ""which teams are driving the most consumption?"", ""what's the per-project cost?"", or ""how do we demonstrate ROI on this initiative to the audit committee?""
+
+It's not a technical problem — it's a governance and reporting layer that most organizations haven't had to build before.
+
+Curious how Agaruda is thinking about this internally — is AI spend visibility something that's already on your roadmap, or is it still more of an emerging ask from leadership?","Chien-Ming,
+
+Just circling back on this — especially given how quickly board-level scrutiny around AI investment is picking up across industries.
+
+A question I've been sitting with: when your leadership or audit committee asks for a consolidated view of AI tool usage, cost allocation by team, and ROI per initiative — does a clear answer exist today, or is that still a manual exercise?
+
+Happy to share how some organizations are starting to structure this — what does your current reporting setup look like?
+
+Frank",81,Head of AI,Agaruda
+Victor,Fu,https://www.linkedin.com/in/ACwAAAG6C5wB9L1H9kQG0nq--j5nsjFXP1bHITU,"Victor,
+
+Came across your profile while looking into SAVY — impressive how you're scaling the engineering org while keeping the product sharp. Building infrastructure at that pace is no small feat.
+
+One thing I keep noticing with CTOs at growth-stage SaaS companies: as AI tooling expands across teams, the conversation eventually shifts from ""are we using AI?"" to ""can we actually show what we're getting out of it?"" — especially when the board or investors start asking.
+
+Not pitching anything — just found the challenge genuinely interesting and wanted to connect with someone navigating it firsthand.
+
+Would love to connect — Frank","Victor, thanks for connecting!
+
+Curious about something — at SAVY's current stage, how are you handling visibility into AI tool spend across engineering and product teams? I ask because a lot of CTOs I talk to are finding that what started as a few API keys has quietly grown into a sprawling set of tools with no clear owner or cost center.
+
+The trickier part seems to come when leadership wants a rollup: total spend, which teams are driving it, and whether the output actually justifies the investment. Especially if there's any audit or compliance lens involved.
+
+Is that something you're already tracking cleanly, or more of a ""we know it's coming"" situation?","Victor, just circling back on this —
+
+If the board or investors at SAVY ever ask for a breakdown of your AI investments — cost by team, utilization, ROI by use case — how confident are you that you could pull that report together quickly?
+
+I've been thinking about how CTOs can get ahead of that ask before it becomes urgent. Happy to share what frameworks others are using if that's useful — what does your current setup look like?",81,CTO,SAVY
+陳威帆,,https://www.linkedin.com/in/ACwAAAE4VOIB1bLBIJjS_pOYe8QoQgV1Q5k9IHA,"陳威帆，
+
+看到你在 BigObject 核桃運算同時掌管 AI 與 Data 產品方向，這個組合其實蠻罕見的——通常 AI 產品和數據基礎建設是拆開由不同人負責，你能整合兩塊代表公司對 AI 的押注相當深。
+
+我最近和幾位類似角色聊，發現一個共同的壓力點：當 AI 工具在各部門快速擴散，董事會和稽核端開始要問「我們到底花了多少？每塊錢換來什麼？」——但現場能拿出一份完整說法的人其實很少。這種落差在 AI-Native 公司反而更明顯，因為用量成長太快，治理框架還沒跟上。
+
+想連結認識一下 — Frank","陳威帆，謝謝接受連結！
+
+承接上次提到的觀察——在 AI-Native 公司，跨部門的 AI 工具使用往往是先跑、再管，這在早期是優勢，但當規模到一定程度，董事會層級開始要求 AI 投資的可見度與回報說明，這個「先跑」的慣性就會變成治理壓力。
+
+我好奇的是：BigObject 現在在 AI 工具的費用分攤與使用追蹤上，內部有沒有一套相對成熟的做法？還是這塊其實還在摸索中？","陳威帆，
+
+最近在整理一些 AI 治理相關的框架，特別是「如何讓 Board-Level 的 AI 報告既有數字、又能說清楚 ROI」這個方向——發現不少公司在這塊的缺口比想像中大。
+
+不知道你們在準備這類董事會報告時，目前最大的卡點是在數據收集端，還是在如何把技術指標轉譯成商業語言這層？",81,"Director of Product, AI & Data",BigObject Inc. 核桃運算
+Alan,"Chen, CCIM",https://www.linkedin.com/in/ACwAAAM6v6UBbS8lrCwCssFjbZTbBzjM0jm8AyU,"Alan,
+
+Noticed you're leading the AI Application Center at NCCU's Land Economics Alumni Association — bridging academic research with real-world AI adoption is no small task, and it's a space not many organizations are investing in intentionally.
+
+One thing I've been thinking about lately: as AI initiatives scale across departments or member organizations, the question of *how to account for what's actually being spent — and what's being gained* — becomes surprisingly hard to answer cleanly. Especially when stakeholders (boards, auditors, institutional partners) start asking for structured reporting.
+
+Looking forward to connecting and exchanging perspectives — Frank","Alan,
+
+Building on what I mentioned earlier — I've been in conversations with several AI-focused leaders recently, and a recurring theme keeps coming up:
+
+When AI tools are deployed across teams or partner organizations, usage tends to sprawl fast. Different tools, different spend centers, no unified view. That's manageable at first — but the moment a board or governance committee asks ""what's our AI ROI, and how are we controlling costs?"" — most teams realize they don't have a clean answer ready.
+
+Given your role sitting at the intersection of AI strategy and institutional relationships, I'm curious — is governance and accountability reporting something your center is actively building toward, or still more of a future consideration?","Alan,
+
+Just circling back — no pressure at all.
+
+One framing I've found useful lately: the organizations that get ahead of AI governance aren't necessarily the ones spending the most — they're the ones who can *show* stakeholders a clear picture of usage, cost allocation, and business impact before they're asked.
+
+Is that kind of board-ready visibility something you're already thinking about for the AI programs you're running — or still in early stages?",80,Director of the AI Application Center,NCCU Department of Land Economics Master's Program Alumni Association
+Nils,Liu,https://www.linkedin.com/in/ACwAAABJN6sBmXGJO_0pNMAtexWLDW0B7XVj4Rk,"Nils — came across your profile while looking into AI leadership roles in the investment space, and your work as Head of AI at AAA Capital caught my attention.
+
+Most firms in your space are moving fast on AI adoption — which is exciting, but it also tends to create a quiet mess underneath: engineers spinning up their own API keys, tools proliferating across teams, and by the time month-end rolls around, the bill is a surprise and nobody can really explain where it went.
+
+As someone sitting at the intersection of AI strategy and business outcomes, I imagine you're the one expected to have those answers — even when the visibility just isn't there yet.
+
+Would love to connect and swap notes — always interesting to hear how AI leaders in finance are thinking about this.
+
+Looking forward to connecting! Frank","Nils — thanks for connecting!
+
+Curious about something: at AAA Capital, as AI usage scales across teams, how are you currently tracking what's actually being spent on AI tools — and more importantly, tying that back to business value?
+
+I ask because a pattern I keep seeing with AI leaders at your stage is that the technical side moves fast, but the financial visibility layer tends to lag behind. You end up in a spot where you *know* AI is delivering value, but when leadership asks for specifics — cost per use case, ROI by department — it's harder to produce a clean answer than it should be.
+
+Is that a tension you're navigating right now, or have you found a system that works?","Nils — just following up on my last note.
+
+One thing I've been thinking about: for AI leaders in investment firms, the pressure to justify AI spend is only going to increase as budgets get scrutinized more closely.
+
+Having a clear, repeatable way to show *where* money is going and *what* it's returning — by team, by tool, by use case — seems like it's becoming less of a nice-to-have and more of a baseline expectation.
+
+Is building that kind of visibility something on your roadmap for this year?",78,Head of AI,"AAA Capital Investment, Inc."
+Hsiang-chou,Chen,https://www.linkedin.com/in/ACwAAAHqh5UBxmvb7W8aRYUWFwHT0qQi5kSLzow,"Hsiang-chou,
+
+Noticed you're leading AI initiatives at Taiwan Otsuka — bridging pharmaceutical operations with AI at that scale is genuinely complex work, especially when you're likely coordinating across multiple business units that each have their own tooling preferences.
+
+One thing I've been thinking about a lot lately: as AI adoption spreads across departments, the cost and usage side quietly becomes a mess before anyone notices. Engineers grab their own API keys, pilots spin up across teams, and by the time month-end rolls around, it's surprisingly hard to tell leadership exactly where the budget actually went — or which initiatives are pulling real weight.
+
+Curious whether that's a dynamic you're navigating at Otsuka, or if you've found a clean way to structure it.
+
+Would love to connect and exchange notes — Frank","Hsiang-chou,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to quite a few AI leads lately, and the pattern that keeps coming up is this: the harder part isn't getting teams to adopt AI tools, it's maintaining visibility once adoption scales. Multiple departments, multiple tools, costs distributed across projects — and when leadership asks for a usage breakdown or ROI justification, it often takes days to compile something coherent.
+
+At a company like Otsuka where AI is clearly a strategic priority, I imagine the pressure to show clear ROI per initiative is real.
+
+How are you currently handling cost accountability across your AI projects — is there a reporting structure already in place, or is that still being figured out?","Hsiang-chou,
+
+Just circling back — I know this is a busy time for anyone running AI programs.
+
+I've been helping teams build clearer SOPs around AI spend visibility — not just tracking costs, but making it easy to walk into any exec meeting with clean, defensible numbers by initiative.
+
+Would it be useful to swap notes on how other AI Directors are structuring that? Even a 20-minute exchange might surface something worth taking back to your team.",78,AI Director,"Taiwan Otsuka Pharmaceutical Co., Ltd."
+Howard,Juanlu,https://www.linkedin.com/in/ACwAAAFbcZsB7IqvhxGf0DmMIBj4e0GI1bKXyAk,"Howard,
+
+I came across your profile and noticed you're leading Data & AI Solutions at Nextlink Technology — a company that's clearly going deep on AI-native services. That's a space where the pace of adoption is fast, but the operational side often has to catch up.
+
+One thing I keep hearing from VP-level folks in similar roles: as more teams spin up their own AI workflows, the visibility into what's actually being consumed — and what it's costing — starts to get murky. Not because anyone's being careless, but because the tooling just wasn't built for that kind of oversight at scale.
+
+Always interesting to connect with people navigating that side of AI growth.
+
+Looking forward to connecting — Frank","Hey Howard,
+
+Thanks for connecting!
+
+Curious about something — at Nextlink, as your teams scale AI usage across different functions, how do you currently handle visibility into API consumption and spend? I'm thinking about scenarios like: engineers each running their own API keys, usage spiking mid-month, and then someone senior asks ""where exactly is this budget going?""
+
+It's a surprisingly common blind spot even in technically mature orgs — the AI capability is there, but the cost governance layer tends to lag behind.
+
+Is that something your team has already built a process around, or still figuring out as you go?","Howard,
+
+Following up on my last note — just wondering if the spend visibility question resonated at all.
+
+I've been thinking about it from your angle: when you're accountable for AI solutions across multiple teams, having a clear, reportable view of what each initiative actually costs (and what it's returning) seems like table stakes — but surprisingly few orgs have it systematized yet.
+
+Have you found a workflow that works for keeping that under control at Nextlink, or is it still more ad hoc than you'd like?",78,"Vice President, Data & AI Solutions",Nextlink Technology
+YT,Hsiao,https://www.linkedin.com/in/ACwAAAKsEgQBL4gkmQDxXExv7hv5Nv2rLNGYyOo,"YT 你好，
+
+看到你在凱基人壽同時扛著 Data 和 AI Architect 兩塊——這個組合在壽險業其實蠻少見的，代表你們應該是真的在把 AI 落地到業務流程裡，而不只是 POC 階段。
+
+我最近跟幾個金融業的 AI 主管聊，發現一個蠻普遍的狀況：當工程師和業務單位開始各自串 API、跑模型，初期跑得很快，但到了某個規模，費用跟用量的能見度就開始失控——月底帳單來了，要解釋給管理層聽時，才發現根本拼不出完整的圖。
+
+不確定凱基這邊是否也有類似的摩擦點，但覺得你的視角應該很有趣，想連結認識一下 — Frank","YT，謝謝接受連結！
+
+想多請教一下你們的狀況——凱基人壽在壽險業算是跑得比較前面的，你們 AI 的應用應該已經跨到不只一個部門了。
+
+我好奇的是：當多個團隊同時在用不同的 AI 工具或模型，你們現在是怎麼追蹤每條業務線的實際消耗跟效益的？是有一套內部的管控機制，還是目前還在摸索 SOP？
+
+純粹想了解金融業這塊實際怎麼運作的，你們的做法應該很值得參考。","YT，想再跟進一下上次的問題。
+
+我跟幾個類似規模的金融業 AI 主管聊下來，發現大家卡最久的往往不是技術本身——而是「怎麼讓上面看得懂這些 AI 投入到底花在哪、換回什麼」這件事。
+
+你們目前在這塊，是已經有一套能跟管理層說得清楚的方式，還是還在建立中？",78,VP | Data & AI Architect,凱基人壽 KGI LIFE
+Howard,Ye,https://www.linkedin.com/in/ACwAAADPf_YBhAW4O4FzVr_h7eM-FJI4m9HoAb0,"Howard，
+
+看到你在偉康科技擔任 CDO，同時公司在 AI 應用這塊佈局很積極——你們把資料基礎建設跟 AI 能力整合在一起的路線，在台灣科技圈算走得比較前面的。
+
+我最近跟幾位類似規模的科技公司高層聊，發現一個很有趣的共同現象：當工程團隊開始大規模跑 AI 專案，每個人手上都有自己的 API 金鑰，月底帳單一出來，其實很難清楚說出「這筆錢花在哪個專案、產生了什麼價值」。決策者層級要向上或向內部說明 AI 投資，反而是最難開口的一環。
+
+我在做的事情跟這個問題很有關係，想連結認識一下 — Frank","Howard，謝謝你接受連結！
+
+繼續上次的話題——你們偉康在推進多個 AI 應用的過程中，我很好奇一件事：當不同部門或團隊同時在跑各自的 AI 工具和模型，你們目前是怎麼掌握整體使用狀況的？
+
+我問這個，是因為很多 CDO 跟我說，技術端跑得很快、應用也開始有成效，但要在季報或內部 review 時清楚呈現「AI 預算到底花在哪、換來什麼」，反而是讓他們最頭痛的一塊——不是不想說，是手上根本沒有可以直接用的數字。
+
+你們現在有一套處理這個問題的方式嗎？","Howard，想跟進問一個更具體的問題：
+
+如果明天你的老闆或董事會問你「我們在 AI 上每個月花多少、ROI 大概是多少」，你現在手上的資料，能在 10 分鐘內整理出一份說得清楚的答案嗎？
+
+我問這個不是要刁難——只是這個問題在 CDO 圈子裡被問到的頻率越來越高，想知道你們這邊是怎麼面對的？",78,Chief Data Officer,Webcomm Technology 偉康科技
+Vincent,(Yiuming) Chen,https://www.linkedin.com/in/ACwAAAFWS_0BnHeFjDV9JKUQOYT7dPY6gk7HXpI,"Hi Vincent, I came across your work at OMD Taiwan — leading AI strategy at one of the world's top media networks is no small feat. I'm working with several innovation leaders who are navigating a shared challenge right now: their AI initiatives are gaining traction internally, but when the board room asks 'show me the numbers,' things get complicated fast. Would love to connect and exchange perspectives — no pitch, just a genuine conversation between people thinking about where enterprise AI is actually heading.","Hi Vincent, thanks for connecting! One thing I keep hearing from AI directors lately: the hardest part isn't deploying AI tools — it's answering the CFO or board when they ask, 'What exactly are we spending, who's using it, and what did we get back?' Usage is scattered across teams, costs are blended into vendor invoices, and ROI feels more like a story than a number. Curious — is that a conversation you're already having at OMD, or still on the horizon? Either way, happy to share what we're seeing others do to get ahead of it. Frank","Hi Vincent, just circling back — not to flood your inbox, but I did want to share one quick thought. The AI leaders who tend to walk into board reviews with confidence usually have three things ready: a consolidated usage report across all tools, a clear cost-allocation model by team or campaign, and a repeatable ROI framework — not a one-time slide. If any of that feels like unfinished business right now, I think we'd have a worthwhile 20-minute conversation. Happy to work around your schedule. Frank",78,AI Strategy & Innovation Director,OMD Taiwan
+ZI-PING,Z.,https://www.linkedin.com/in/ACwAACzfSMYBqp3KI8yS3LaNiNFnUTVuVIcCUZo,"Hi ZI-PING, I came across your profile and was impressed by your work as AI CTO at OroHealth — building real AI products in healthtech is no small feat. I connect with technical leaders who are shaping AI strategy at the product level. Would love to add you to my network!","Hi ZI-PING, thanks for connecting! One thing I keep hearing from AI CTOs lately: the board starts asking tough questions — 'What are we actually spending on AI? Which team is using what? What's the ROI?' And suddenly the CTO is scrambling to pull numbers from five different tools before the next meeting. Curious — is that a conversation you're already navigating at OroHealth, or is the board still in 'trust the vision' mode? Either way, would love to hear how you're thinking about it.","Hi ZI-PING, just circling back — no pressure at all. I work with AI leaders who need to show the board a clear picture: usage by team, cost allocation, and ROI in one place, without extra engineering work. If that's ever a priority at OroHealth, happy to share what we've seen work. Worth a 20-min chat? Frank",78,AI CTO & software engineer,OroHealth
+Chris,Ma,https://www.linkedin.com/in/ACwAAAYO-ecB6CY_ztHumtAIR5iJjMuVtmN5vBg,"Hey Chris,
+
+Noticed your role at CyCraft — leading SaaS business development at a cybersecurity company that's clearly scaling fast is no small task. The intersection of AI-driven threat intelligence and commercial growth puts you in a pretty unique spot.
+
+One thing I've been thinking about lately: as AI tools get embedded deeper into product and engineering workflows at companies like CyCraft, the cost side tends to quietly spiral — not because teams are careless, but because there's rarely a clean system to track what's actually being consumed and by whom. When leadership starts asking hard questions about AI spend, it can be surprisingly tough to answer with confidence.
+
+Curious if that's something you're navigating too — would love to connect and exchange perspectives.
+
+Looking forward to connecting! Frank","Hi Chris,
+
+Thanks for connecting!
+
+Following up on what I mentioned earlier — I've been talking to a lot of SaaS tech leads lately, and one pattern keeps coming up: engineering and product teams each spinning up their own API keys, using different AI tools, and by the end of the month, the consolidated bill lands on someone's desk with very little context behind the numbers.
+
+The tricky part isn't just the cost — it's that when your CFO or CEO asks ""what did we actually get from all this AI spend?"", there's no clean answer ready.
+
+I'm curious — at CyCraft's current growth stage, do you have a way to get visibility across teams on AI tool usage, or is that still more of a manual exercise?","Hi Chris,
+
+Just circling back — I know it's a busy time.
+
+I've been thinking about companies at CyCraft's stage: fast-moving, AI is already in the stack, but the internal process for tracking and justifying that spend usually lags behind by a few quarters.
+
+When budget review season comes around, how does your team currently make the case for AI-related costs — is there a reporting structure in place, or is it still pretty ad hoc?",76,Saas Business Deputy Director,CyCraft Technology
+Ace,Jou,https://www.linkedin.com/in/ACwAACuGkD0BUvaqmbL4v78Qq4T9Eh5NKrtsyPE,"Ace 你好，
+
+看到你在振禾同時扛著 CTO 的角色——在 AI SaaS 這條路上，技術決策和產品方向幾乎都壓在同一個人身上，節奏應該相當快。
+
+我最近跟不少科技公司的技術主管聊，發現一個很有趣的共同現象：團隊開始大量導入 AI 工具之後，工程師人手一組 API Key，各自串接不同模型，效率是拉起來了——但月底帳單一進來，要解釋「這些錢花在哪、哪個服務真的有貢獻」，往往說不清楚。
+
+身為 CTO，這種「花了但說不明白」的感覺，我猜你不陌生。
+
+想連結認識一下 — Frank","Ace，
+
+謝謝你接受連結！
+
+延續上次提到的觀察——AI 工具費用「說不清楚」這件事，我發現問題通常不是出在錢多錢少，而是根本沒有一個結構可以讓你快速回答：「這個月哪個部門、哪條產品線，用了多少、換來什麼。」
+
+尤其公司規模到一個階段，老闆或投資人開始問 ROI 的時候，這個缺口就會突然變得很明顯。
+
+振禾現在團隊在用 AI 工具這塊，是怎麼管理費用和使用狀況的？有沒有一套自己跑出來的 SOP？","Ace，
+
+上次問到振禾在 AI 費用管理這塊的做法，不知道有沒有機會多聊聊。
+
+我最近在研究幾家 AI SaaS 公司怎麼建立「費用可視化」的內部流程——從 Token 消耗到部門分攤，想了解不同規模的公司實際上卡在哪個環節。
+
+你們目前遇到最頭痛的部分，是追蹤不到用量，還是有數字但不知道怎麼跟業務結果連結？",76,Chief Technology Officer,振禾有限公司
+Conrad,Y.,https://www.linkedin.com/in/ACwAAABfmvABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Conrad — came across your profile while exploring AI & Data COE leaders in the tech space. Director of an AI Center of Excellence at Dynasafe is a role I don't see often — it signals the company is serious about operationalizing AI, not just experimenting with it.
+
+One thing I keep noticing across teams like yours: the faster AI adoption scales across departments, the harder it gets to maintain visibility into where resources are actually going. Engineering, product, data — everyone's spinning up their own workflows, and the usage picture gets blurry fast.
+
+Would love to connect and exchange perspectives on how AI-native orgs are thinking about this challenge.
+
+Looking forward to connecting! Frank","Conrad — thanks for connecting!
+
+Building on what I mentioned earlier: I've been talking to a lot of AI leads lately, and one pattern keeps coming up — it's not the AI strategy that's hard, it's the operational layer underneath it.
+
+Specifically, when multiple teams are running LLM-powered workflows in parallel, month-end reconciliation becomes a real headache. Finance asks where the AI budget went, and the answer is usually a patchwork of invoices with no clean breakdown by team, project, or use case.
+
+Curious — at Dynasafe, do you have a standardized way to track AI consumption across departments, or is it still more decentralized at this stage?","Conrad — just following up on my last note.
+
+I imagine with an AI COE role, part of your mandate is making AI investments legible to leadership — not just technically, but financially.
+
+Have you run into pressure yet to show ROI or cost attribution per AI initiative? Wondering how teams at your scale are building that reporting muscle — whether it's internal tooling, spreadsheets, or something else entirely.
+
+What's your current approach?",75,"Director, AI & Data COE","Dynasafe Technologies, Inc."
+陳建凱,,https://www.linkedin.com/in/ACwAAABfm3ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"陳建凱你好，
+
+看到你在 Brickcom 負責 AI Edge 產品開發，這個方向很有意思——把 AI 推到邊緣端，代表你們同時在跑產品落地和 AI 技術整合，工程資源壓力應該不小。
+
+我最近和幾個類似規模科技公司的 AI 負責人聊，發現一個蠻普遍的狀況：當團隊開始規模化用 AI 工具，工程師各自拿 API Key 在跑，月底帳單進來才發現根本不知道錢燒去哪——老闆問起來，能給的答案很有限。
+
+不確定你們這邊有沒有類似的狀況，但覺得做 AI 產品開發的人，這個問題應該滿有共鳴的。
+
+想連結認識一下 — Frank","陳建凱，謝謝你接受連結！
+
+多問一句——你們 AI Edge 這條線，現在用到的 AI 服務和 API 大概有幾個在跑？
+
+我問這個，是因為我觀察到一個有趣的臨界點：當一個團隊同時在用超過 3–4 個 AI 服務的時候，「誰在用、用多少、效果如何」這件事就很難靠人工追蹤了。偏偏這又是老闆最常問的問題。
+
+你們現在怎麼管這塊的？有沒有一套 SOP，還是比較靠各組自己回報？","陳建凱，上次你說到這塊目前還沒有一套完整的追蹤方式——
+
+我好奇，如果你現在要跟董事會或老闆說明「我們 AI 投入的錢，帶來了什麼」，你現在最難拿出手的數字是哪個？
+
+是消耗量、是部門分攤，還是直接的 ROI？",75,"Director, AI Edge Product Development",Brickcom Corporation
+Daniel,Hsieh,https://www.linkedin.com/in/ACwAAABGiAEBiX73P79f4F2yLInQEsxPFmHHmcQ,"Daniel,
+
+Came across your profile and noticed you're leading AI & Data Storage systems at Quanta Storage — a company that's clearly moving fast on integrating AI into its core infrastructure stack.
+
+One thing I've been observing across a lot of teams in similar positions: as AI adoption scales up, engineering and data teams tend to spin up their own API keys and model integrations independently. It moves fast — but by month-end, when leadership asks ""what exactly did we spend on AI this quarter and where did it go?"" — it's surprisingly hard to give a clean answer.
+
+I work with companies navigating exactly that inflection point, and thought your perspective as someone steering AI direction at a hardware-rooted but increasingly AI-driven org would be really valuable to connect with.
+
+Looking forward to connecting — Frank","Daniel, glad to be connected!
+
+Building on what I mentioned — I've been thinking a lot about how AI-forward teams like yours manage the operational side of AI scaling. The technical build-out gets the attention, but the financial visibility layer often lags behind: multiple tools, multiple teams, no single source of truth on consumption or cost-per-use-case.
+
+Curious — at Quanta Storage, as you're expanding AI initiatives, do you have a standardized way yet to track how different teams or projects are consuming AI resources? Or is it still more of a ""reconcile at month-end"" situation?
+
+Would love to hear how you're thinking about it.","Daniel, just a gentle follow-up —
+
+No pressure at all, but I wanted to revisit my earlier question. As AI usage grows across departments, the cost governance piece tends to become a real headache before anyone has a formal SOP in place.
+
+Have you felt that tension yet at Quanta — where the AI spend is growing but the visibility into *where* it's going is still catching up?
+
+Frank",75,"Director, AI & Data storage systems",Quanta Storage Inc.
+Frank,K.,https://www.linkedin.com/in/ACwAAABHoBABxCAXC1U5dGqjPKilJGWXiS7d_bw,"Frank,
+
+Noticed you're leading the AI Server Research Division at TrendForce — the team that essentially maps out where enterprise AI infrastructure is heading globally. That's a uniquely positioned role: you're analyzing AI adoption trends for the market while simultaneously running an AI-native operation internally.
+
+One thing I keep hearing from leaders in similar seats — when a research division scales its own AI tooling fast, it's easy for every analyst or engineer to spin up their own API access. The output looks great on paper, but the internal cost picture quietly becomes a black box. By the time someone asks where the budget actually went, it's a tough question to answer cleanly.
+
+Curious whether that tension shows up for your team too, or if TrendForce has already built solid guardrails around it.
+
+Would love to connect and exchange perspectives — Frank","Frank, thanks for connecting!
+
+Given TrendForce's position as a go-to source for AI infrastructure intelligence, I imagine your division is running multiple research workstreams simultaneously — each likely tapping different AI tools and models to accelerate analysis.
+
+The pattern I see in teams structured like yours: the tooling sprawl happens fast and intentionally (that's the right call for research velocity), but visibility into what each workstream is actually consuming — cost per project, cost per output — tends to lag way behind.
+
+When leadership asks ""what's our AI spend delivering?"", it's rarely a simple answer without a system behind it.
+
+Has your team started building any kind of framework to track ROI at the workstream or project level — or is that still more of an open problem?","Frank, circling back on this —
+
+I've been thinking about the research division context specifically: unlike a product team with clear deployment metrics, a research output is harder to tie back to a cost-per-insight number — which makes justifying AI tool budgets upward even trickier.
+
+Some teams I've spoken with are starting to approach this less as a finance problem and more as an operational visibility SOP — building a lightweight layer that connects usage data to project outcomes.
+
+Is cost accountability for AI tooling something on your radar for this year, or still in the ""nice to have"" category?",75,Director of the AI Server Research Division,TrendForce Corp.
+James,Sha,https://www.linkedin.com/in/ACwAAABfm5ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"James,
+
+Noticed your role as Chief AI Officer — leading AI strategy at a startup is one of the more interesting (and honestly, chaotic) seats in the industry right now. You're likely shipping fast, plugging in new models and tools every few weeks, and keeping the whole thing moving.
+
+One thing I keep hearing from folks in similar positions: as the team scales, it gets harder and harder to answer the simple question — ""where exactly is all this AI spend going?"" Engineers with their own API keys, multiple tools running in parallel, and by the time the monthly bill lands, it's tough to trace what drove it.
+
+Not a criticism at all — it's just the nature of moving fast. But I imagine at some point the board or CEO starts asking, and ""we're experimenting"" only goes so far.
+
+Would love to connect and swap notes — always interesting to hear how AI leaders at startups are thinking about this.
+
+Looking forward to connecting! Frank","Hey James,
+
+Thanks for connecting!
+
+Curious — as you scale the AI stack at your company, how are you currently tracking which tools or models are actually pulling their weight vs. just burning budget?
+
+I've been talking to a lot of AI leads at startups lately, and the pattern I keep seeing is: everyone's moving fast on the build side, but visibility into what each initiative actually costs — broken down by team or use case — tends to be an afterthought until it isn't.
+
+Some teams are starting to build lightweight SOPs around this before it becomes a fire drill. Others wait until the CFO gets involved.
+
+No agenda here — just genuinely curious how you're approaching it. Is cost visibility something your team has figured out, or still a work in progress?","Hey James,
+
+Following up in case this got buried — totally understand if timing's off.
+
+I'll keep it simple: if there's ever a moment where you're staring at an AI bill and struggling to explain it line by line to leadership, I'd love to share what some other AI-native teams are doing to get ahead of that.
+
+Worth a 20-minute chat sometime? Happy to work around your schedule.",75,Chief AI Officer,Start-Up
+Po-Lung,Chen,https://www.linkedin.com/in/ACwAAABg0y4Bq0-F4oKmH4LkBvv7OjJ_m0MIVpY,"Po-Lung 你好，
+
+看到你在 Spingence 負責 AI Adoption 與企業解決方案——這個職位組合很有意思，同時要推動內部 AI 落地，又要對外協助客戶導入，等於同時是「買方」也是「賣方」的視角。
+
+這讓我想到一個很多 AI-Native 公司正在面對的狀況：當工程師和各部門開始各自串 API、各自跑模型，整體的 AI 使用量就會快速分散——直到月底帳單出來，才發現很難跟老闆說清楚錢花在哪、哪些有在產生價值。
+
+身在你這個位置，應該對這種「推動越快、管控越難」的張力不陌生吧？
+
+想連結認識一下 — Frank","Po-Lung，謝謝你的連結！
+
+最近和幾位負責 AI Adoption 的朋友聊，發現一個蠻普遍的現象：公司初期推 AI 工具的時候，大家會先求快——工程師人手一個 API Key，各種工具先跑起來再說。但等到規模稍微大一點，老闆開始問「我們 AI 這塊到底花了多少？哪些真的有 ROI？」，往往才發現沒有一個統一的視角可以回答這個問題。
+
+你們在 Spingence 推動內部 AI 採用的過程中，有沒有遇過類似的狀況——用量和支出的透明度，是你們現在主動在管的事，還是還沒到那個優先級？","Po-Lung，再次打擾一下！
+
+上次提到的那個問題——AI 用量分散、支出難以追蹤——我後來整理了一些實務上的作法，關於如何建立跨部門 AI 費用可視化的 SOP，在不影響工程師靈活性的前提下，讓老闆也能看得清楚。
+
+不知道你們現在有沒有在思考這個方向？如果有興趣，可以找個時間交流一下彼此的觀察？",75,Director of AI Adoption and Enterprise Solutions,Spingence Technology 偲倢科技
+Francisco,Martos Triguero,https://www.linkedin.com/in/ACwAAAJMHkUBl0WjfWm5YT_t8dWzpfEpgVfPrjA,"Francisco,
+
+Came across your profile and noticed you're leading AI and ML at CreatorDB — building intelligent infrastructure for the creator economy is genuinely interesting work, and it looks like your team is moving fast on the AI-native side.
+
+One thing that caught my attention: companies at your stage, where AI is core to the product and not just a side experiment, often hit a quiet inflection point. The engineering team is deep in model experimentation, APIs are spinning up across multiple workstreams, and suddenly the usage picture gets surprisingly hard to read — even for the person running it all.
+
+Not a pitch, just something I've been thinking about a lot talking to AI leaders in similar positions.
+
+Would love to connect and swap notes — Frank","Francisco,
+
+Thanks for connecting!
+
+Following up on what I mentioned — the dynamic I see a lot with AI-native teams is that the tooling scales faster than the visibility into it. Engineers are each running their own API keys, model calls are spread across projects, and by the time the monthly bill lands, it's genuinely difficult to map spend back to specific initiatives or teams.
+
+For a Director of AI in a fast-moving company, that's an uncomfortable position to be in when leadership asks for a breakdown — not because the spend isn't justified, but because the data to justify it cleanly just isn't there yet.
+
+Curious — at CreatorDB, do you currently have a clear view of which AI workloads are driving the most cost, and how that maps to actual product value?","Francisco,
+
+Just circling back on my last message — no pressure at all.
+
+I'll keep it simple: the teams I talk to who get ahead of this problem are the ones who build some kind of usage visibility layer before it becomes a budget conversation with the CFO, rather than after.
+
+Wondering — is that something already on your radar at CreatorDB, or is it more of a 'we'll deal with it when we have to' situation right now?",75,Director of AI and Machine Learning,CreatorDB
+Jeff,Lin,https://www.linkedin.com/in/ACwAAABivv8BPcGBCBagFHFxYJjPPFnp5GX6YJo,"Jeff，
+
+看到你在捷鵬同時負責 AI 佈局與海外業務拓展，這個組合滿少見的——代表你不只是在推動內部 AI 落地，同時還要把這套能力轉化成對外的商業競爭力。
+
+這讓我想到一個很多類似角色都在悄悄面對的狀況：當公司 AI 工具開始規模化，工程師各自串 API、各部門各跑各的，月底帳單一來，要向管理層說清楚「錢花在哪、換來什麼」其實比想像中難很多。
+
+想連結認識一下 — Frank","Jeff，謝謝你接受連結！
+
+多問一句——你們目前 AI 工具的使用規模大概到什麼階段了？是幾個核心團隊在用，還是已經跨部門展開？
+
+我最近和幾個同樣在推 AI Initiatives 的朋友聊，發現大家卡關的點很像：不是技術問題，而是「工具開始多了之後，要怎麼讓老闆對這筆支出有感、有信心繼續投」——尤其要同時對內管控、對外說故事的時候，這個數字要怎麼說清楚變得很關鍵。
+
+不知道這個方向跟你現在的狀況有沒有共鳴？","Jeff，上次提到 AI 支出「如何說清楚」的問題，想多了解一下你們現在的狀況——
+
+如果管理層現在問你：「這季 AI 工具的投入，ROI 大概是多少？」你手邊有辦法快速給出一個有說服力的答案嗎？
+
+很好奇你們目前是怎麼處理這一塊的？",75,VP – AI Initiatives & Overseas Business,捷鵬國際股份有限公司 JEPUN
+Bo-Ru,Lin,https://www.linkedin.com/in/ACwAAABfm4ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Bo-Ru — came across your profile while looking into Taiwan AILabs. Leading ML at one of Taiwan's most recognized AI-native labs is no small thing — you're clearly operating at a scale where model experimentation and API usage are just part of the daily rhythm.
+
+One thing I've been hearing a lot from ML leads at similar orgs: as the team grows and more engineers spin up their own API keys across different providers, it gets harder and harder to actually answer the question ""where is all this spend going?"" — especially when leadership starts asking.
+
+Not sure if that resonates with where you are right now, but it felt worth a note.
+
+Would love to connect and swap perspectives — Frank","Bo-Ru — glad to be connected.
+
+Building on what I mentioned earlier — I've noticed that in AI-native teams, the challenge usually isn't adoption (everyone's already using the tools). It's the layer on top: when you have 10+ engineers each running their own experiments with different models and providers, the monthly bill becomes almost impossible to attribute back to specific projects or teams.
+
+And when the CFO or CEO walks in asking for a breakdown, that's usually when it gets uncomfortable.
+
+Curious — at Taiwan AILabs, do you currently have any process in place for tracking AI API costs across teams, or is that still more of an ""honor system"" situation?","Bo-Ru — just circling back on this.
+
+As ML teams scale, the cost visibility gap tends to grow faster than people expect — and by the time someone builds a proper tracking SOP, there's usually already a few months of unattributable spend sitting in the books.
+
+I've been thinking about what a lightweight governance layer for AI spend could actually look like for a team like yours.
+
+Would you be open to a 20-min chat to exchange ideas on how other ML-led orgs are approaching this?",75,Head of Machine Learning,Taiwan AILabs
+Wei-Shiang,Chen,https://www.linkedin.com/in/ACwAAABR1jIBq7GCUwKW1GqDDuoZGm7GG9WfYlo,"Wei-Shiang,
+
+Leading AI and big data initiatives inside a public hospital system is a genuinely different challenge from what most ""Head of AI"" roles face — you're balancing real clinical impact with institutional accountability that most tech companies never have to think about.
+
+One thing I've been thinking a lot about lately: as hospitals in Taiwan start deploying more AI tools across departments, the question of *governance* is quietly becoming the harder problem — not the technology itself, but being able to answer, clearly and on record, *who used what, when, and why*.
+
+I imagine that's already on your radar at Taipei City Hospital, especially with hospital accreditation cycles and evolving regulatory expectations around digital health.
+
+Would love to connect and exchange notes on how AI teams in compliance-heavy environments are approaching this.
+
+— Frank","Wei-Shiang,
+
+Thanks for connecting!
+
+I've been speaking with a few AI leads in regulated industries recently, and one question keeps coming up that I thought might resonate with you:
+
+When your hospital accreditation review asks about AI tool usage — can you actually pull a clean record of which staff used which model, for what purpose, and what was generated?
+
+Not just a policy document, but actual usage logs that hold up under scrutiny.
+
+From what I'm hearing, most teams have the tools deployed, but the *audit trail* is either scattered across vendors or simply doesn't exist in a format that satisfies evaluators.
+
+Curious — how is your team currently handling the documentation side of AI governance? Is it something you've had to build internally, or is it still a work in progress?
+
+— Frank","Wei-Shiang,
+
+Just following up on my last note — no pressure at all.
+
+I've been putting together a reference on what a defensible AI audit record actually looks like for hospital environments — the fields evaluators tend to ask for, and how to structure it across departments.
+
+Happy to share a draft if it'd be useful as a sanity check against what you're building internally.
+
+Would that be worth a quick look?
+
+— Frank",75,"Head of AI, Big Data Center",Taipei City Hospital
+Jessica,Liu,https://www.linkedin.com/in/ACwAAABVvvABJC8C7MvhH4Ybcxp3s3E3QmGJ_gA,"Hi Jessica,
+
+Came across your profile while researching AI-native companies pushing real enterprise deployments — Graphen AI's work on graph-based AI infrastructure genuinely caught my attention. Leading AI Solutions at that level means you're not just talking about AI strategy, you're actually operationalizing it across teams.
+
+One thing I keep hearing from folks in similar roles: as more teams spin up their own AI workflows, the visibility into what's actually being consumed — and what it's costing — starts to quietly become a headache. Engineers move fast, which is exactly what you want, but month-end reconciliation can get awkward when leadership starts asking questions.
+
+Would love to connect and exchange notes on how AI leaders are thinking about this side of scaling.
+
+Looking forward to connecting! Frank","Hi Jessica,
+
+Thanks for connecting!
+
+I've been having a lot of conversations lately with VP-level AI leaders at companies like Graphen — and one pattern keeps coming up: when multiple teams are running AI tools in parallel, it's rarely a capability problem. It's a visibility problem.
+
+Specifically, the moment someone in finance or the C-suite asks ""what are we actually spending on AI, and which projects are driving value?"" — most teams realize they don't have a clean answer ready. Not because they aren't thoughtful, but because the tooling to surface that picture just hasn't kept up with how fast AI adoption moves.
+
+Curious — at Graphen's current scale, how are you and your team handling that kind of cost-to-outcome accountability internally?","Hi Jessica,
+
+Just circling back on my last message — no pressure at all.
+
+I've been compiling some notes on how AI-native teams are starting to build internal SOPs around usage governance and spend accountability — particularly as headcount and API consumption scale together.
+
+Thought it might be relevant given where Graphen is heading.
+
+Would it be useful if I shared a quick framework we've been discussing with other AI leaders? Happy to keep it informal — just a starting point for a conversation.",75,Vice President of AI Solutions,Graphen AI Inc.
+Mattms,Hsu,https://www.linkedin.com/in/ACwAAABpLHABMtnxm5Lf6Sl0x1i-N6q_l4Yp1dQ,"Mattms 你好，
+
+看到你在三竹資訊擔任 AI Project Director，負責推動 AIRDC 的 AI 應用方向——在一間同時做 B2B 服務又在內部積極落地 AI 的公司，這個角色要顧的面向真的很廣。
+
+最近跟幾位類似背景的 AI 主管聊，發現大家都在卡同一個關卡：工程師各自串 API、不同專案用不同工具，季底才發現帳單爆了，但要說清楚「錢花在哪個專案、哪個團隊、換來什麼」——其實很難講得出口。
+
+你們現在管理多個 AI 專案，這塊應該也是你在意的課題吧？
+
+想連結認識一下 — Frank","Mattms，
+
+謝謝你的連結！
+
+延續上次提到的問題——我最近觀察到一個蠻普遍的現象：很多科技公司的 AI 專案在 PoC 階段都跑得很順，但一旦多個部門同時在用、同時在跑實驗，費用結構就開始變模糊。
+
+最麻煩的不是帳單貴，而是「說不清楚」——老闆問這個月 AI 投入跟產出的關係，PM 問某個功能的 API 成本佔比，這些問題要臨時拼數據，往往要花一整天。
+
+你們現在多個 AI 專案並行，有沒有一套固定的方式在追這些數字？還是每次要報告前都要重新整理一遍？","Mattms，
+
+上週傳了一則訊息，不確定有沒有收到～
+
+想到一個具體的問題想請教你：當你們不同部門的 AI 工具費用混在同一張帳單裡，你現在是怎麼拆分、分配給各個專案的？
+
+這個流程是已經有 SOP，還是目前還是靠人工整理？",75,AI Project Director of AIRDC,三竹資訊股份有限公司
+Sam,Hsieh,https://www.linkedin.com/in/ACwAAABJiAUBwvY_aomGJaJNX9bMscPEJFBQrD4,"Sam，
+
+看到你在保誠人壽同時掌管 Technology 與 AI 兩塊，這個組合其實很少見——代表你不只要推動 AI 落地，還要對技術資源的整體配置負責。
+
+我最近和幾位金融業的 CTO/CAO 聊，發現一個很普遍的狀況：當公司開始規模化使用 AI，各部門工程師人手一個 API Key，用量分散、月底帳單出來才驚覺超標，老闆問「AI 到底花在哪、帶來什麼」，很難有一個清楚的答案。
+
+保誠這樣的規模，加上你同時背負技術與 AI 雙重治理，這個問題大概只會越來越明顯。
+
+想連結認識一下 — Frank","Sam，謝謝你接受連結！
+
+想多了解一下你們目前的狀況——保誠在 AI 工具的使用上，感覺應該已經跨越了「試點」階段，進入比較大規模的部署。
+
+這個階段有一個挑戰很多公司都在摸索：怎麼在不拖慢工程師速度的前提下，讓管理層對 AI 支出有足夠的能見度？尤其金融業還有合規的壓力，說不清楚「誰在用、用在哪、花了多少」，風險不小。
+
+你們現在有一套管理 AI 工具費用的 SOP 嗎，還是目前還在靠各團隊自己回報？","Sam，上次提到 AI 工具費用管理的話題——
+
+我後來整理了一份我們觀察到的「金融業 AI 成本失控三個常見原因」，算是給正在規劃治理框架的 AI 主管參考用的。
+
+如果你現在正好在思考這塊，我可以直接分享給你——你們目前最頭痛的是哪個環節？",75,Chief Technology & AI Officer,"Prudential Life Assurance Co., Ltd. 保誠人壽"
+Jason,Chen,https://www.linkedin.com/in/ACwAAAB_oiMB4mCbq8-5q2wFVTCrxFW1PNXWM4w,"Jason,
+
+Noticed your role spans both Technology and AI Products at DR.WU — that's a rare combo that usually means you're not just shipping AI features, but also the person accountable when the CFO asks why the cloud bill jumped 40% last quarter.
+
+Building AI-driven skincare products is genuinely exciting work. But I imagine the behind-the-scenes reality is a growing stack of API keys, multiple teams experimenting in parallel, and usage that's hard to reconcile until the invoice arrives.
+
+Just wanted to connect with someone navigating that exact intersection — AI product leadership with real cost accountability.
+
+Hope to connect! Frank","Jason,
+
+Thanks for connecting!
+
+One thing I keep hearing from Directors in similar roles: the hardest part isn't building with AI — it's explaining to leadership where the spend actually went.
+
+Engineers ship fast, each team spins up their own integrations, and by month-end the token usage across products is a black box. Attributing cost to a specific feature or team becomes a manual archaeology project.
+
+I've been thinking a lot about what a clean cost-accountability workflow looks like for AI product teams — especially when you're scaling multiple AI applications simultaneously.
+
+Curious — at DR.WU, do you have a system in place for tracking AI usage by product or team, or is that still something you're figuring out as you scale?","Jason,
+
+Following up on my last message — no pressure at all.
+
+I've been talking to a few AI product leaders lately, and the pattern is surprisingly consistent: visibility into AI spend becomes critical right around the stage where you have 3+ active AI applications running across teams.
+
+Given DR.WU is clearly pushing hard on AI product development, I'd imagine you're either already feeling that friction — or about to.
+
+Would it be useful to swap notes on how other teams are building cost governance into their AI stack?",75,Director of Technology & AI Products,DR.WU Clinical Skincare
+Sean,Chang,https://www.linkedin.com/in/ACwAAABfm6ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Sean,
+
+Noticed you're the Chief AI Officer at YCM Global Mold Authority — bridging industrial manufacturing with an AI-native leadership structure is a genuinely rare combination, and it caught my attention.
+
+One thing I keep seeing at companies scaling AI across multiple teams: the moment you have more than a handful of engineers running their own API keys, visibility into what's actually being spent — and where — starts slipping fast. Month-end surprises become the norm, and when leadership asks ""what are we getting from all this AI spend?"", it gets uncomfortable quickly.
+
+Given the scope of what you're likely orchestrating across departments, I imagine that tension isn't entirely foreign to you.
+
+Would love to connect and exchange notes — always interesting to hear how AI leaders at the intersection of manufacturing and tech are thinking about this.
+
+Looking forward to connecting! Frank","Hey Sean,
+
+Glad to be connected — thanks for accepting.
+
+I've been talking to a lot of AI leads lately, and one pattern keeps coming up: as AI adoption spreads across teams, each department ends up running its own tools, its own API keys, its own workflows. It moves fast — which is great — but it also means no single person has a clean picture of total consumption or cost attribution.
+
+When the CFO or CEO asks ""show me the ROI on our AI investment,"" most AI Officers are piecing together spreadsheets from three different sources and hoping the numbers hold up.
+
+Curious — at YCM, as you're scaling AI across functions, how are you currently handling visibility into usage and spend across teams?","Sean,
+
+Just circling back on my last message — no pressure at all if the timing's off.
+
+I'll keep it simple: the companies I see navigate this best usually have one thing in common — a clear internal SOP for tracking AI spend and usage before it becomes a governance headache.
+
+Given you're building the AI function from the top down at YCM, you're probably in the best position to set that standard early.
+
+Have you started thinking about what that oversight layer looks like for your team?",75,Chief AI Officer,YCM Global Mold Authority
+Dominic,Cope,https://www.linkedin.com/in/ACwAAABVhvABg3q3Cg9j3m3U5mAtW7v3h8J_1HQ,"Hey Dominic,
+
+Came across your profile while looking into CreatorDB — really interesting how you're building product in the creator intelligence space. The intersection of data and AI tooling at your scale is exactly the kind of environment where product leaders are getting pulled in a dozen directions at once.
+
+One thing I keep hearing from Sr. Directors at AI-native companies: as the team scales up AI usage across functions, the cost side starts getting messy fast — engineers spinning up their own API keys, different teams running experiments in parallel, and by the time the monthly bill lands, it's genuinely hard to tell leadership *where* it all went or whether it moved the needle.
+
+Not saying that's your world — but it's a pattern worth thinking about before it compounds.
+
+Would love to connect and swap notes on how product leaders are navigating this.
+
+— Frank","Hey Dominic, glad to be connected!
+
+Following up on what I mentioned — the API cost visibility problem tends to sneak up on product teams right around the time AI adoption really accelerates. You're moving fast, teams are experimenting, and suddenly finance is asking for a breakdown by team or use case… and nobody has a clean answer.
+
+The companies I've seen handle this well usually get ahead of it by establishing some kind of internal visibility layer before it becomes a budget conversation with the C-suite.
+
+Curious — at CreatorDB, is AI spend something that's already being tracked at a team level, or is it still mostly living in one big line item?","Hey Dominic, just circling back on this one.
+
+I know it's easy for this kind of thing to get deprioritized when roadmap pressure is real — but a few product leaders I've spoken with said the moment it clicked for them was when they had to justify AI ROI to the board without clean data to back it up.
+
+Have you run into that conversation yet at CreatorDB — or is it something you're trying to get ahead of proactively?",75,Sr. Director of Product Management,CreatorDB
+larrick,chen,https://www.linkedin.com/in/ACwAAABMGO4BAXAFaWBsD0qFSa6tDNQcFXqBNdQ,"Larrick,
+
+Came across your profile while researching AI engineering leaders — the work NetBase Quid is doing around AI-powered consumer intelligence is genuinely interesting, especially as the space gets more complex to manage at scale.
+
+One thing I keep hearing from engineering directors in AI-native companies: as teams move fast and spin up more models and API integrations, visibility into where resources are actually going starts to blur — and that gap tends to surface at the worst possible moment.
+
+Would love to connect and exchange notes on how you're thinking about that side of scaling AI engineering.
+
+Looking forward to connecting! Frank","Hey Larrick,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been talking to a lot of AI engineering leads lately, and a pattern keeps coming up: engineers each have their own API keys, usage is scattered across teams, and by the time the monthly bill lands, it's hard to trace what drove the spike.
+
+It's not a lack of investment in AI — it's that the tooling to *see* where it's all going just hasn't kept pace with how fast teams are actually shipping.
+
+Curious — at NetBase Quid's scale, is that kind of cross-team AI spend visibility something your team actively tracks, or is it still more ad hoc?","Larrick,
+
+Just following up — no pressure at all.
+
+I'm putting together a short informal brief on how AI engineering teams are building spend accountability into their workflows without slowing down development velocity.
+
+Given your role at NetBase Quid, your perspective would be really valuable — even just a 15-min conversation.
+
+Would that be worth a quick chat?",75,Director - AI Engineering,NetBase Quid®
+Alex,Hsu,https://www.linkedin.com/in/ACwAAA8fPz4BKwTo9EkS-O4a_qCTsfxAc5PTWFg,"Hey Alex,
+
+Noticed you're running both the CEO and Chief Data Scientist roles at TAO Info — that's a rare combination that usually means you're deeply hands-on with the AI stack while simultaneously owning the business outcomes.
+
+One thing I've been thinking about a lot lately: as AI SaaS teams scale their usage across engineering and data functions, the cost visibility side tends to lag way behind the capability side. Engineers move fast, spin up integrations, each with their own API keys — and by the time month-end rolls around, piecing together where the budget actually went becomes its own project.
+
+Curious whether that's a tension you're navigating at TAO Info, or if you've already built a clean system around it.
+
+Either way, would love to connect and exchange notes — always interesting to hear how data-led founders are thinking about this.
+
+Looking forward to connecting! Frank","Hey Alex,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a number of AI SaaS founders lately, and one pattern keeps coming up: the engineering team is moving fast (which is great), but token consumption across different tools and teams becomes a bit of a black box. When leadership asks ""what are we actually spending on AI, and what's it driving?"" — it's surprisingly hard to answer with confidence.
+
+I imagine at TAO Info, with you bridging both the technical and executive lens, you probably feel that tension from both sides.
+
+How are you currently thinking about tracking AI usage costs across your team — is it something you've systematized, or still more ad hoc?","Hey Alex,
+
+Just circling back — wanted to ask one more concrete thing:
+
+When your board or investors ask about AI spend efficiency, what does that conversation look like today? Is there a clear breakdown by team, use case, or ROI — or is it still more of a ""trust us, it's working"" situation?
+
+No right or wrong answer — genuinely curious how founders at your stage are handling that accountability piece.
+
+Frank",75,CEO & Chief Data Scientist,TAO Info
+Albert,Cano,https://www.linkedin.com/in/ACwAAAV6-A8BiHpUijOCL4PvWXjv9CRRzV5GUws,"Hey Albert, I came across Unicorn Tutor AI and was genuinely impressed by what you're building in the EdTech space. As a fellow operator working at the intersection of AI and business growth, I'd love to connect and exchange notes. No pitch — just curious minds. Hope to have you in my network!","Thanks for connecting, Albert! Quick question — as you scale Unicorn Tutor AI, are your board members starting to ask harder questions like: 'We're spending on AI tools... but where's the ROI?' I've been talking to a lot of AI-native founders lately, and the ones who struggle most aren't short on vision — they're short on a clean way to show usage data, cost allocation, and return in one place. Curious: is that a conversation you're already having internally, or still on the horizon?","Hey Albert, just circling back — I know board prep season gets hectic. The founders I work with often tell me the hardest part isn't the AI strategy itself, it's translating token spend and usage into language the board actually trusts. If that resonates, I'd love to share how others are solving it. Worth a 20-min chat? — Frank",75,CEO & Co-Founder,Unicorn Tutor AI
+Vincent,Huang,https://www.linkedin.com/in/ACwAAABfm7ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Hey Vincent,
+
+Noticed your role at Foresight Ventures sits right at the intersection of AI and ecosystem growth — not just adopting AI tools, but actually building the marketing infrastructure around them. That's a pretty unique seat to be in.
+
+One thing I keep thinking about when I talk to folks in similar roles: when AI-generated content is running at scale across campaigns and portfolio companies, the volume question shifts fast from ""can we produce more?"" to ""do we actually know what all of this is costing us per initiative?"" Especially around big push periods — a three-day campaign sprint can quietly burn through a month's worth of AI budget before anyone flags it.
+
+Curious if that tension has come up in your world yet.
+
+Would love to connect and exchange notes — Frank","Hey Vincent,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been thinking more about the AI cost visibility problem specifically in marketing-heavy contexts. When you're running multiple content pushes across channels or supporting portfolio companies doing the same, the tricky part isn't just the spend itself — it's that no one can cleanly attribute how much AI cost went into a specific campaign, a content type, or even a single activation.
+
+So when someone asks ""what's the ROI on our AI-assisted content program?"" — the honest answer is usually a rough estimate at best.
+
+Is that a conversation that's already happening inside Foresight, or is it still mostly flying under the radar?","Hey Vincent,
+
+One last thought — I've been chatting with a few AI marketing leads lately and the pattern is pretty consistent: the teams that scaled AI content fastest are now the ones most unsure what each campaign actually cost them in tokens and compute.
+
+Some are starting to build lightweight tracking just to answer basic questions like ""how much did this product launch cost us in AI, per asset?""
+
+Is that something you're actively trying to solve, or still in the ""nice to have"" phase for now?",74,AI Marketing & Ecosystem Lead,Foresight Ventures
+Pei,Ying Wu,https://www.linkedin.com/in/ACwAADWyPsQBitCRrVUKkfd5Od8wJv-btO9TKsk,"Hey Pei,
+
+I've been following RHINOSHIELD for a while — really impressed by how you've built a globally recognized brand from Taiwan, especially the way your seasonal campaigns hold strong visual consistency across markets.
+
+One thing I've been thinking about a lot lately when looking at brands running AI-heavy content operations at your scale: during big campaign pushes — 11.11, Black Friday, product launches — the volume of AI-generated copy, visuals, and localization can spike dramatically. And most marketing teams I talk to have no clear picture of what that actually costs per campaign, per market, or per piece of content.
+
+It's not a tools problem. It's a visibility problem — and it quietly makes ROI conversations really hard to defend internally.
+
+Thought it was worth connecting with someone thinking about this at the intersection of global marketing and AI.
+
+Would love to connect — Frank","Hi Pei,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been speaking with a lot of marketing directors recently, and one pattern keeps coming up: during high-intensity campaign periods, AI content costs can triple or quadruple almost invisibly. Three days into a big push and you've burned through what you budgeted for the month.
+
+The harder question is: once the campaign wraps, can you actually calculate what the AI spend was per campaign, per SKU, or per market? Most teams are working with rough estimates at best.
+
+Curious — at RHINOSHIELD, how are you currently thinking about tracking the real cost of AI content generation across your campaign calendar?","Hey Pei,
+
+Just circling back — no pressure at all.
+
+I've been putting together some thinking on how marketing teams can build a cleaner framework for attributing AI costs to specific campaigns and content outputs, rather than treating it as a flat overhead.
+
+Would love to hear how your team is approaching this, especially given the volume RHINOSHIELD runs across different regions.
+
+Is this something that's come up in your planning conversations recently?",73,Taiwan marketing director,RHINOSHIELD
+Stan,Yu (Hsien Wen),https://www.linkedin.com/in/ACwAAB69ok4BeWeDddPs9NyRa4KNjVH2yg2wnUw,"Stan,
+
+Came across your profile while looking into Cardumen Capital's Asia Pacific portfolio — really interesting how you're bridging early-stage SaaS bets across the region, especially with the current wave of AI-native startups coming out of Southeast Asia and Taiwan.
+
+One thing I keep noticing across the portfolio companies I talk to: as engineering teams scale and AI tooling becomes table stakes, the cost side gets surprisingly messy — fast. Every dev has their own API key, every team is experimenting with different models, and by the time the monthly bill lands, nobody quite knows where it all went. Finance asks, engineering shrugs.
+
+It's less of a technical problem and more of a visibility problem — and it quietly becomes a governance headache right around Series A, when investors start asking sharper questions about unit economics.
+
+Thought it'd be worth connecting — always good to exchange notes with someone thinking about this space from the venture angle.
+
+Looking forward to connecting! Frank","Stan, thanks for connecting!
+
+Curious what you're seeing across your Asia Pacific portfolio — as more of your SaaS companies start embedding AI into their core product or internal workflows, are you noticing founders struggle to articulate AI-related costs in a structured way?
+
+I ask because from what I hear on the ground, the gap isn't usually adoption — teams are moving fast — it's that there's no real SOP for tracking what's being spent, by whom, and whether it's actually moving the needle. That ambiguity tends to surface at the worst time: during a fundraise or a board review.
+
+Wondering if that's a pattern you're flagging to portcos proactively, or if it tends to come up reactively?
+
+Would love to hear your take — Frank","Stan, just circling back on this —
+
+I've been thinking about what a lightweight governance layer for AI spend could look like at the portco level — something that gives founders a clear view before the chaos compounds.
+
+Not sure if this is already on your radar as a value-add you offer to portfolio teams, or if it's still a gap.
+
+Would it make sense to grab 20 minutes to swap notes? Curious whether what we're seeing aligns with what you're hearing from founders in the region — Frank",73,"Venture Partner, Head of Asia Pacific",Cardumen Capital
+Theresa,Huang,https://www.linkedin.com/in/ACwAAC9FAqkB8DdHzfn4Pvd8TTFrTFJLM6bV3x0,"Theresa,
+
+Came across SparkAmplify and was genuinely impressed — the way your team positions influencer-led content amplification for brands is sharp, and it's clear you're running campaigns at serious scale.
+
+One thing I've been thinking about a lot lately in the marketing space: as AI content generation becomes a core part of campaign execution — especially during high-volume pushes — the cost side gets surprisingly opaque, surprisingly fast. Three days of heavy AI-assisted production during a big activation can quietly consume what should be a full month's budget, and most teams only notice after the fact.
+
+Not pitching anything — just found your work interesting and thought there might be a good conversation here around how marketing leaders are thinking about this.
+
+Would love to connect — Frank","Hey Theresa,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a lot of marketing directors lately, and one pattern keeps coming up: during high-intensity campaign periods, AI content costs spike fast, but when someone asks ""how much did AI actually cost for *this* campaign?"" — most teams genuinely can't answer that question with any precision.
+
+It's not a tooling problem, it's more of a visibility problem. And without that visibility, calculating the real ROI of any AI-assisted campaign becomes more of a guess than a metric.
+
+Curious — when SparkAmplify wraps a big content push, is there a way your team currently tracks what the AI spend actually looked like per campaign or per client?","Theresa,
+
+Just circling back on this — I know it's a busy time.
+
+I've been thinking about the campaign cost visibility angle specifically for agencies like SparkAmplify, where you're likely managing AI usage across multiple clients or verticals at once. The challenge isn't just internal — it's also about being able to show clients what AI contributed and what it actually cost to deliver.
+
+If that's something your team is actively figuring out, I'd love to compare notes. How are you currently thinking about AI cost accountability across your campaigns?",73,Marketing Director,"SparkAmplify, Inc."
+Jerry,Lao,https://www.linkedin.com/in/ACwAACdZu7sBLx0ZZ6qFW_8yhyehmR-Vkm7i-yw,"Hey Jerry,
+
+Came across your profile while looking into marketing leaders at ELGENS — the scale of content operations you're running across campaigns is pretty impressive.
+
+One thing I've been thinking about a lot lately, especially talking to marketing directors running AI-assisted content at this level: during big promotional pushes, AI generation volume can spike so fast that three days of a campaign can quietly burn through what was supposed to be a full month's budget — and most teams only notice after the fact.
+
+The harder question isn't even the overspend itself — it's that when the campaign wraps, can you actually tell how much AI cost went into each activation? Or does it all just blur into a general ""tools"" line?
+
+Not pitching anything — just found the challenge genuinely interesting and figured you'd probably have strong opinions on it.
+
+Would love to connect and trade notes — Frank","Hey Jerry,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been hearing a pretty consistent pattern from marketing teams running high-frequency AI content: the per-campaign cost visibility problem is almost universal. Everyone knows they're spending, but almost no one can break it down by campaign, by content type, or by team when someone asks.
+
+Which makes ROI conversations with leadership... interesting. Hard to defend budget for AI tools when you can't show what each activation actually cost versus what it returned.
+
+Curious — at ELGENS, when a big campaign wraps, do you have a way to look back and see the actual AI cost breakdown per activity? Or is that still a bit of a black box?","Hey Jerry,
+
+Just circling back on this — no pressure at all if the timing's off.
+
+I've been pulling together some thinking on how marketing teams can get clearer on per-campaign AI costs without overhauling their whole workflow. Happy to share if it's relevant to what you're dealing with.
+
+Quick question though — when it comes to justifying AI tool budgets internally, is the bigger challenge tracking the spend itself, or actually tying it back to content performance and ROI?",73,Marketing Director,ELGENS
+Jennifer,Yujung Cheng,https://www.linkedin.com/in/ACwAAAKcKj4BAu6VmNBMHcJbV74SDUYJ-Ub5aAM,"Jennifer,
+
+Came across your profile while looking into what Carota is building on the intelligent cloud side — the way your team is positioning AI-native solutions for enterprise clients is pretty compelling.
+
+One thing I keep thinking about from a marketing ops perspective: as AI content generation becomes central to campaign execution, the cost structure gets… interesting. During a big product launch or seasonal push, content volumes can spike 10x in days — and most teams I talk to are flying blind on what that actually costs per campaign, per asset, or per channel.
+
+Not a budget problem per se — more of a visibility problem. When you can't see where AI spend is going in real time, it's hard to justify it upward or optimize it downward.
+
+Curious whether that's something that shows up in your world too.
+
+Would love to connect and swap notes — Frank","Jennifer, thanks for connecting!
+
+Building on what I mentioned before — I've been talking to a lot of marketing leaders lately, and one pattern keeps coming up: the teams doing the most with AI content (which sounds like it might include yours) are also the ones who find it hardest to calculate actual ROI per campaign.
+
+Like — you know AI is saving time. But can you tell your CFO exactly how much it cost to produce last quarter's campaign assets, broken down by initiative?
+
+Most can't. And when AI budgets are starting to hit six figures annually, that gap gets harder to ignore.
+
+I'm curious — at Carota, is AI content spend something that lives in a formal budget line yet, or is it still kind of scattered across tools and team subscriptions?","Jennifer, just circling back on this —
+
+With Q3 campaign season ramping up for most teams, I imagine AI content volumes are about to climb again.
+
+I've been exploring a way to calculate exactly what each campaign costs in AI — not just licensing fees, but actual per-output cost tied to business outcomes.
+
+Would that kind of breakdown even be useful for how you report marketing performance right now — or is it not a metric anyone's asking for yet?",73,Marketing Director,Carota｜Intelligent Cloud Solutions
+Hsin,CHEN,https://www.linkedin.com/in/ACwAACZs5HMBLiKHI0YA4amp_csFLHpEZrbKOsY,"Hsin 你好，
+
+看到你在中原創意行銷擔任 CIO，負責整體 IT 架構與資源決策，覺得你的視角很有意思——創意行銷公司同時走技術驅動路線，IT 要同時支援業務創新又要顧成本控管，其實是雙重壓力。
+
+最近跟幾位類似規模公司的 IT 主管聊，發現大家都在面對同一個頭痛點：各部門、各工程師各自串 API、用 AI 工具，月底帳單出來才發現超標，但要細問「錢花在哪個專案、哪個團隊」，往往答不太上來——老闆追問的時候特別尷尬。
+
+不確定中原這邊有沒有類似的狀況，但覺得這個議題值得跟你交流一下。
+
+想連結認識一下 — Frank","Hsin 你好，
+
+謝謝你接受連結！
+
+延續上次提到的那個場景——工程師人手一組 API Key，各自跑各自的 AI 專案，這其實不是管理鬆散的問題，而是現在 AI 工具導入速度太快，IT 根本還沒有一套 SOP 能跟上。
+
+我觀察到很多 CIO 現在最大的困境不是「要不要用 AI」，而是「怎麼讓上面看到 AI 投入是值得的」——如果用量不透明、ROI 說不清楚，預算申請和續約都會很被動。
+
+好奇你們現在是怎麼追蹤各部門的 AI 工具使用狀況的？有建立什麼機制嗎？","Hsin，
+
+上次你提到的狀況我一直在想——其實「讓老闆看懂 AI 花費」這件事，本身就是一個值得投資的基礎建設，不只是財務問題，也是 IT 在組織內建立話語權的機會。
+
+如果今天每個月底你能直接拉出一份報告：哪個部門用了多少、跑了什麼應用、換算成業務產出是多少——你覺得這對你跟管理層的溝通會有什麼不同？",73,Chief Information Officer,中原創意行銷有限公司
+Ella,Hung,https://www.linkedin.com/in/ACwAADPU_XwB18WcBHo0ZHAhoj5DZOLyDgv5GU8,"Ella 你好！
+
+看到你在宏致集團帶領數位行銷的工作，宏致橫跨電子元件到消費性產品的多元業務，行銷端要同時支撐不同產品線的內容產出，壓力應該不小。
+
+最近跟幾位同樣在大型集團做行銷的朋友聊，大家都在說一件事：AI 內容工具用量一旦跑起來，特別是大促或新品上市期，三天就能把月預算燒掉——但事後要算「這波活動的 AI 成本到底花了多少」，幾乎沒人算得清楚。
+
+不確定宏致這邊的狀況如何，但這個現象在你們這種業務多元的集團裡應該更明顯，因為每條產品線都在跑各自的 AI 工具。
+
+想連結認識一下 — Frank","Ella，謝謝接受連結！
+
+延續上次提到的觀察——大促期 AI 成本爆量其實只是表象，更頭痛的是：事後沒辦法跟老闆或各 BU 說清楚，「這筆 AI 預算，到底換來什麼」。
+
+以宏致這種多產品線的架構，行銷費用本來就要對應到各部門或各品牌，AI 工具的成本如果混在一起，ROI 的計算幾乎是憑感覺。
+
+想請教你們現在是怎麼處理這塊的——有沒有在追每個活動或每條產品線的 AI 使用成本，還是目前還沒有這個機制？","Ella，上次你提到 AI 成本這塊，想多問一個問題：
+
+如果現在有人要你算出「上季度某一個主力活動，從內容發想到素材產出，實際花了多少 AI 成本」——你有辦法在一天內給出數字嗎？
+
+很多行銷主管都說這數字「算得出來，但要撈很久」，我最近在研究這個問題有沒有更直接的解法，想聽聽你的實際經驗。",73,Director of Digital Marketing,ACES Group 宏致集團
+amleto,lu,https://www.linkedin.com/in/ACwAACeLJ_wBTfFRoHL6RiJk3QGfp53o7-U9c9w,"Amleto 你好，
+
+看到你在金色三麥擔任 CIO，負責整體資訊架構與技術方向——餐飲品牌能把 IT 治理做到這個層級，其實蠻少見的，讓我對你們的數位化路徑很好奇。
+
+最近和幾位科技與餐飲業 CIO 聊，發現一個共同的頭痛點：隨著各部門開始自己接 AI 工具、工程師人手一組 API Key，月底帳單一出來，要解釋「錢花去哪」變得意外地困難——不是技術問題，而是可視化跟內控還沒跟上節奏。
+
+想連結認識一下 — Frank","Amleto，謝謝你的連結！
+
+上次提到「AI 費用說不清楚」這件事，後來和幾位 CIO 繼續聊，發現問題核心通常不是花太多，而是缺一套說得出口的邏輯——哪個部門用、用在哪個場景、產出了什麼價值。
+
+老闆問你 ROI，你得能講一個完整的故事，不是只甩一張帳單出來。
+
+想請教你，金色三麥目前各部門的 AI 使用狀況，CIO 這端有辦法即時掌握嗎？還是月底才看得到？","Amleto，想到你之前分享的情況，補充問一個小問題：
+
+如果明天老闆問你「我們在 AI 工具上的投資，哪個部門用得最值？」——你現在有辦法在 10 分鐘內給出答案嗎？
+
+很多 CIO 告訴我，這個問題才是他們真正想解決的。你這邊目前是怎麼處理的？",73,CIO,金色三麥
+Regina,Lee,https://www.linkedin.com/in/ACwAAA2QzIUBmu9SIP6_sMSz5egA74yEVj51vgs,"Regina,
+
+Came across your profile while looking into Turing Space — the way your team blends AI-driven content production with performance marketing is genuinely interesting to follow.
+
+One thing I've been thinking about a lot lately: as marketing teams scale up AI content generation for big campaigns, the cost curve can get pretty wild pretty fast. A single high-volume push — think a major product launch or seasonal sale — can quietly burn through what looks like a monthly budget in just a few days. And the tricky part isn't just the spend itself, it's that most teams can't trace which campaign, which asset, or which workflow actually drove that spike.
+
+It's the kind of blind spot that only shows up *after* the invoice arrives.
+
+Would love to connect and swap notes — always great to learn from someone navigating AI at scale on the marketing side.
+
+Looking forward to connecting! Frank","Hey Regina,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to quite a few marketing leads lately, and one pattern keeps coming up: teams are confidently scaling AI content production, but when someone asks ""what did our AI actually cost per campaign?"" or ""what's the ROI on that content push?"", the room goes quiet.
+
+It's not a strategy problem. It's a visibility problem. The output is measurable, but the cost side of the equation is still basically a black box for most teams.
+
+Curious — at Turing Space, when you run a big content-heavy campaign, do you currently have a way to tie AI usage costs back to individual projects or campaigns? Or is it more of a lump-sum line item at the end of the month?","Regina,
+
+Just circling back — no pressure at all if the timing isn't right.
+
+I did want to ask one more thing: when you're evaluating whether an AI-assisted campaign actually *worked* from a cost-efficiency standpoint, what does that calculation look like for your team right now?
+
+I ask because I think how different teams are solving — or not yet solving — that piece is one of the more interesting operational gaps in marketing right now.
+
+Worth a quick chat sometime?",73,Head of Marketing,Turing Space
+Monica,Hsueh,https://www.linkedin.com/in/ACwAAAAOqRUB9D1gVlOqrWgk2fa8aF9Tx8TwLFw,"Monica,
+
+I came across your profile while researching marketing leaders in the 3D tech space — Speed 3D's positioning around fast-turnaround industrial applications is genuinely interesting, and I can imagine the content velocity your team needs to keep up with that pace globally.
+
+One thing I've been thinking about a lot lately in conversations with marketing directors at similar-scale companies: as AI content generation becomes table-stakes for campaigns, the cost side of it stays almost completely invisible. You know the output is flying — but whether a single campaign or product launch actually burned $200 or $20,000 in AI spend? Most teams genuinely can't tell.
+
+During peak periods especially, it's the kind of thing that can quietly wreck a quarterly budget before anyone notices.
+
+Not pitching anything — just found your work interesting and thought this tension might resonate with someone running global marketing at this scale.
+
+Would love to connect and exchange notes — Frank","Monica, thanks for connecting!
+
+Following up on what I mentioned — I've been speaking with a few Global Marketing Directors lately, and there's a pattern that keeps coming up: during high-output periods (big launches, seasonal pushes), AI content costs can spike 5–10x within days. The frustrating part isn't the spend itself — it's that there's no clean way to tie it back to a specific campaign or deliverable afterward.
+
+So when leadership asks ""what did that product launch actually cost us in AI?"" — the honest answer is usually a shrug.
+
+Curious: at Speed 3D, when you're running a global campaign push, do you have any visibility into how AI content costs are tracking against that campaign's budget — or is that still kind of a black box on your end?","Monica, just circling back on this —
+
+I know it's a busy question to sit with, but I've been thinking: for a company like Speed 3D that's clearly scaling content output across markets, the gap between ""we use AI heavily"" and ""we know exactly what ROI each AI-assisted campaign delivered"" is where a lot of budget justification quietly falls apart.
+
+If you ever wanted to map out what that cost-to-output picture actually looks like for one of your recent campaigns — even roughly — would that be a useful conversation to have?",73,Global Marketing Director,Speed 3D Inc.
+Anita,Hsu,https://www.linkedin.com/in/ACwAAB25qHUBNzOE8uglpx5edKrDh_INcXjIsv0,"Anita 你好！
+
+看到你在全支付 PXPay Plus 負責行銷，覺得你們在電支場景裡做的內容佈局很有意思——金融支付要跑內容行銷本來就比純電商多一層合規壓力，還要同時顧大促節點的曝光節奏，執行複雜度其實遠超外界想像。
+
+最近跟幾位電商和金融行銷主管聊，大家不約而同提到一個現象：AI工具導入之後內容產出速度確實快了，但每逢大促衝量期，成本控制反而變成黑盒子——到底哪個活動、哪個團隊在燒錢，事後根本拆不清楚。
+
+你們這類橫跨支付場景的行銷團隊，感覺這個問題會更明顯，很好奇你們現在怎麼面對的。
+
+想連結認識一下 — Frank","Anita，謝謝接受連結！
+
+最近在觀察幾個有在跑大促的行銷團隊，發現一個很微妙的時間差問題：
+
+AI生成內容的成本，往往在活動結束之後才「現形」——但那時候預算已經超了，也沒辦法回頭拆算是哪一條產品線或哪個渠道真正燒掉的。
+
+以雙11或年節這種短衝期來說，三天就能把一個月的AI工具預算用完，但每一篇文案、每一組廣告素材對應的實際AI成本，你們現在有辦法即時看到嗎？
+
+還是說目前是月底對帳時才知道燒了多少？","Anita，想跟進一下上次提到的問題——
+
+如果大促期間的AI內容成本，可以即時對應到每個活動、每個渠道，甚至算出每篇文案的實際投報，這個數字對你們現在的預算決策會有多大幫助？
+
+你們目前評估AI工具ROI，主要是用什麼方式在算的呢？",73,Head of Marketing,全支付 PXPay Plus
+Fabien,Petitgrand,https://www.linkedin.com/in/ACwAAAANXUwB8ibljBY66965qRQNNVEfMemqELQ,"Hey Fabien,
+
+Came across your profile while looking into ubiik — the work you're doing around IoT connectivity and smart metering infrastructure is genuinely interesting, especially how you're scaling that across different market verticals.
+
+As a CTO leading a technically dense product, I'd imagine your engineering teams are running a growing mix of AI tools and APIs to keep up with development velocity — and that mix tends to get messy fast.
+
+One thing I keep hearing from CTOs at similar-stage companies: it's not really a budget problem, it's a visibility problem. When every engineer has their own API key and their own stack of tools, the month-end bill shows up and no one can cleanly explain where it went — not to finance, not to the board.
+
+Just wanted to connect with someone building in this space — always good to exchange notes with people thinking seriously about scaling tech orgs.
+
+Would love to connect — Frank","Hey Fabien,
+
+Thanks for connecting!
+
+Following up on what I mentioned before — I've been talking to a lot of engineering leaders lately, and the pattern is remarkably consistent: as AI tooling adoption grows across teams, the cost structure becomes almost impossible to attribute. It's not one big spend — it's dozens of small ones that quietly compound.
+
+The tricky part isn't cutting spend. It's knowing *which* spend is actually generating value and which is just noise — so when leadership asks, you have a real answer, not an estimate.
+
+Curious how you're currently thinking about that at ubiik — is AI cost visibility something that's already on your radar, or still in the ""we'll deal with it later"" bucket?","Hey Fabien,
+
+Just circling back in case this got buried.
+
+One question that keeps coming up in my conversations with CTOs at growing tech companies: at what point does ""let teams move fast with AI tools"" start to conflict with ""we need financial accountability over that spend""?
+
+I'm curious — at ubiik's current stage, do you have a process in place for tracking AI-related costs across teams, or is that still largely decentralized?",73,Chief Technology Officer,ubiik inc.
+Amos,Yang,https://www.linkedin.com/in/ACwAAAn3PsQBEfCJ5RcyGPmEPkIU7RG0eq9siKs,"Amos,
+
+Came across your profile while researching IT leadership at Long John Group — impressive scope managing HQ-level IT across what looks like a pretty distributed organization.
+
+One thing I've been thinking about lately when talking to IT heads at companies your size: as AI tools quietly spread across departments — engineering, product, ops — the cost footprint grows faster than most people expect. Every team running their own setup, their own API keys, their own usage patterns. By the time finance asks ""what are we actually spending on AI?"" it's already a scramble to piece together an answer.
+
+Not sure if that dynamic feels familiar at Long John Group, but it's been a recurring theme in a lot of conversations I've had with IT directors recently.
+
+Would love to connect and swap notes — Frank","Amos, thanks for connecting!
+
+Following up on what I mentioned earlier — the ""AI spend accountability"" problem seems small at first, but I've seen it quietly become a boardroom question: ""We're investing in AI tools across teams… what's the actual return?""
+
+The tricky part isn't the spend itself — it's that usage is fragmented. Engineering has their stack, marketing has theirs, ops has theirs. No single view of what's being consumed, by whom, for what purpose. When the CFO or CEO asks, the IT lead ends up doing forensic accounting instead of strategic planning.
+
+Curious — at Long John Group, do you currently have a centralized way to track AI tool usage and costs across departments, or is it still mostly decentralized at the team level?","Amos, just circling back on this — no pressure at all.
+
+I've been chatting with a few IT directors lately who are starting to build out a more structured approach to AI cost governance before it becomes a reactive fire drill. Some are further along, some are just starting to think about it.
+
+Given your HQ-level visibility at Long John Group, I imagine you're in a unique position to shape how that framework gets defined across the organization.
+
+Would it be useful to compare notes on how others are approaching this — even just a 20-minute casual chat?",73,"Senior Director, IT Head Headquarters",Long John Group
+Allen,Huang,https://www.linkedin.com/in/ACwAAAVHhiEBr-ie7t0_swmbyYmC4MUjX9v9jJU,"Allen，
+
+看到你在全國電子擔任 CIO，負責統籌整體 IT 策略與架構——在這個每個部門都在快速導入 AI 工具的時間點，你們扛的壓力應該比外人想像的大很多。
+
+我最近跟幾位科技業 IT 主管聊，發現大家都在面對類似的狀況：工程師各自申請 API Key、各部門用自己習慣的工具，月底帳單一進來，老闆問「這筆 AI 費用花在哪？」——很多人其實答不太上來。不是沒做事，是根本沒有一個統一的視角可以看清楚。
+
+你們全國電子在數位轉型這條路走得算早，想必這類跨部門工具管理的議題你也不陌生。
+
+想連結認識一下 — Frank","Allen，謝謝你的連結！
+
+延續上次提到的話題——我發現很多 CIO 在推動 AI 工具落地的時候，最頭痛的不是「要不要用」，而是「怎麼跟老闆說清楚這筆錢值不值得花」。
+
+尤其當工具分散在各部門、每個專案的使用量各自為政，要對上彙報的時候，往往只能靠人工整理帳單，既費時又容易有漏洞——這中間其實存在很大的管理空白。
+
+好奇你們目前是怎麼應對這塊的？有沒有比較系統化的做法，還是還在摸索 SOP？","Allen，想跟進一下上次的話題。
+
+我最近在整理一些科技公司在 AI 工具費用管控上的實務做法——從怎麼分部門追蹤用量、到怎麼算出每個應用的實際效益，有些蠻有參考價值的。
+
+如果你們這邊剛好也在建立這方面的 SOP，或許可以找個時間交流一下？你目前最想先解決的，是費用透明度，還是怎麼跟業務單位說明 ROI 這塊？",73,Chief Information Officer,全國電子股份有限公司
+Kevin,Tsai,https://www.linkedin.com/in/ACwAABjG2N0Bg0GT5rShDDySGKHbyLBx_sJDgRo,"Hey Kevin,
+
+Noticed you're heading IT at GaleMed — a med-tech company that's clearly been scaling its digital infrastructure over the past few years. That's a role where you're constantly balancing innovation speed with operational control.
+
+One thing I've been thinking about a lot lately: as engineering teams grow and start spinning up more AI-powered workflows, the tooling sprawl that follows is almost invisible — until it isn't. Different teams, different tools, different usage patterns, and suddenly the monthly bill shows up and nobody has a clean answer for where it all went.
+
+I work with IT leaders navigating exactly that kind of inflection point — where the AI adoption has already happened, but the governance layer hasn't caught up yet.
+
+Would love to connect and exchange notes — always interesting to hear how IT directors at product-driven companies are thinking about this.
+
+Looking forward to connecting! Frank","Hey Kevin,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been talking to a lot of IT leads lately, and there's a pattern that keeps coming up: engineers each have their own API keys, teams are experimenting freely (which is great), but when leadership asks ""what are we actually spending on AI and what are we getting back?"" — it gets surprisingly hard to answer cleanly.
+
+It's less a technical problem and more a visibility problem. The usage is real, the value is real, but the paper trail isn't.
+
+Curious — at GaleMed, is AI spend something that's already being tracked centrally, or is it still pretty distributed across teams right now?","Hey Kevin,
+
+Just circling back — no pressure at all.
+
+I've been putting together some notes on how IT teams at scaling tech companies are starting to build lightweight governance around AI tool usage — not to slow things down, but just to have a defensible answer when finance or the CEO asks.
+
+Would it be useful if I shared a quick framework? Happy to pass it along — zero strings attached.
+
+And genuinely curious: what does your current process look like when you need to report on AI-related costs internally?",73,IT Director,GaleMed Corporation
+Jim,Ching-kai Chang,https://www.linkedin.com/in/ACwAAAP_oG8B0hGam0QSnI_7Aa-Maagoaic8tY4,"Jim，
+
+看到你在 Welly SEO 同時扛著 AI 顧問與廣告業務兩個角色，這組合蠻少見的——代表你既要幫客戶規劃 AI 落地策略，又要對廣告成效負責，兩端都得跑。
+
+這讓我想到一個在代理商圈子裡越來越常聽到的狀況：當公司內部開始大量導入 AI 工具，不同專案、不同團隊各自在用，帳單月底出來，要細說哪一塊花了多少、帶來什麼價值，其實挺難交代的。
+
+身為同樣在這個生態裡摸索的人，想多認識幾位真的在前線操作 AI 業務的朋友。
+
+想連結認識一下 — Frank","Jim，謝謝接受連結！
+
+承上次提到的——你們同時在幫客戶做 AI 顧問、又在內部跑廣告業務，這種雙線並行的模式，我好奇你們怎麼處理 AI 工具的費用這塊？
+
+我最近接觸幾家規模相近的科技公司，普遍遇到的情況是：工程師或顧問人手一組 API Key，各自在跑，到月底帳單一來，才發現超標了——但要說清楚哪個專案用了多少、值不值得繼續投，其實根本沒有數據可以拿出來。
+
+你們現在有在追這塊嗎？還是也是靠月底帳單「驚嚇」一下就過了？","Jim，再打擾一下——
+
+上次提到 AI 工具費用的事，我後來想到另一個角度：你們幫客戶做 AI 導入顧問，應該也常被問「這些 AI 投入到底有沒有回來？」
+
+如果連內部自己都說不清楚每筆 Token 花在哪、帶來什麼，要幫客戶建立一套說法就更難了。
+
+你們目前有沒有一套方法，可以把 AI 的投入和業務成效串起來說故事？",73,Head of AI Consultant & Advertising Director,Welly SEO 偉利科技股份有限公司
+Hsiang,Lee,https://www.linkedin.com/in/ACwAABGd4m8BClEw0EEPGi8W6zWk43t4YLtkPEo,"Hey Hsiang,
+
+Came across Hububble and was genuinely curious about what you're building — overseeing both Operations and Technology at the same time is a rare combination, and it tells me you're probably the person who has to make sure the engineering side doesn't quietly blow up the ops budget.
+
+That dynamic is something I've been thinking a lot about lately — especially as more dev teams start spinning up their own AI workflows. Everyone moves fast, which is great, but the cost picture gets blurry really quickly when each engineer is running their own setup.
+
+Would love to connect and exchange notes — always interesting to hear how founders in your position are navigating that balance.
+
+Looking forward to connecting! Frank","Hey Hsiang,
+
+Thanks for connecting!
+
+One thing I keep hearing from ops-minded founders at tech companies is a version of the same story: the engineering team is productive, AI tools are clearly being used — but when leadership asks ""how much are we actually spending on this, and where?"" nobody has a clean answer.
+
+It's not a people problem, it's a visibility problem. When API keys are distributed and usage is spread across tools and teams, the spending just doesn't surface until the bill does.
+
+Curious — at Hububble's current stage, do you have a way to track AI-related costs by team or project, or is that still more of a ""check the invoice at end of month"" situation?","Hey Hsiang,
+
+Just circling back on my last message — no pressure at all.
+
+I've been talking to a few ops leads recently who said the tipping point for them was realizing they couldn't confidently answer a simple question: ""What's our AI spend actually buying us?""
+
+Not a cost-cutting question — more of a ROI clarity question.
+
+Is that something that's come up for you at Hububble yet, or still a bit early stage to matter?",73,Co-Founder & Head of Operations and Technology,Hububble
+Abraham,Chien,https://www.linkedin.com/in/ACwAAAeU680BbTBSdOQrhdHD1CvPgFMx2SF-OTM,"Hey Abraham,
+
+Noticed you're leading product at KKTV — streaming platforms at your scale tend to have engineering teams moving fast, which usually means a growing stack of AI tools being spun up across different squads.
+
+One thing I've been seeing a lot in product-led tech companies: by the time someone asks ""how much are we actually spending on AI this quarter?"" — the answer is scattered across five Slack threads and three different credit cards.
+
+Not a pitch, just found your work interesting and wanted to connect with someone thinking about this space.
+
+Hope to connect — Frank","Abraham, thanks for connecting!
+
+Quick thought I've been sitting on — at companies like KKTV where product and engineering move quickly, AI tool adoption tends to outpace any kind of spending visibility. Engineers each spin up their own API keys, different teams default to different models, and month-end reconciliation becomes a fire drill.
+
+The harder problem isn't the overspend itself — it's that no one can clearly answer which AI initiatives are actually delivering value versus just burning budget quietly in the background.
+
+Curious: at KKTV, does your team currently have a structured way to track what's being spent on AI across different product lines — or is it still pretty ad hoc?","Abraham, just circling back on my last message.
+
+I've been talking to a few product directors recently and the recurring theme is: AI cost visibility becomes a real governance headache right around the stage KKTV seems to be at — enough tooling to matter, not yet enough process to manage it cleanly.
+
+Would it be useful to swap notes on how other teams are starting to build oversight workflows around this? Happy to share what I'm seeing.",73,Product Director,"KKTV Co., Ltd"
+Albert,Chen,https://www.linkedin.com/in/ACwAABQ3JmMBzOHXDEy4Yw-1LFbzgq0Zk9Exx3k,"Hey Albert,
+
+Came across your profile while researching product leadership at T-Global — leading new product business at a tech company that's clearly scaling fast is no small feat.
+
+One thing I've been noticing across similar orgs: as teams adopt more AI tools to accelerate product development, the usage tends to sprawl fast — engineers spinning up their own API keys, different departments running separate subscriptions, and by the time finance asks where the AI budget went, no one has a clean answer.
+
+Not pointing fingers — it's just a really common inflection point for product-led tech companies at T-Global's stage.
+
+Would love to connect and hear how you're thinking about this side of scaling AI internally.
+
+Looking forward to connecting! Frank","Hi Albert,
+
+Thanks for connecting!
+
+Curious — as T-Global expands its AI tooling across product and engineering, how are you currently tracking what's actually being spent and by which teams?
+
+I ask because a lot of Directors I talk to in similar roles hit the same wall: the engineering side moves fast (rightfully so), but when leadership wants a breakdown of AI spend vs. output, there's no clean report to pull. It becomes a reactive conversation instead of a strategic one.
+
+Are you running into anything like that, or have you already built a process around it?","Hey Albert,
+
+Just following up on my last note.
+
+One thing I've seen work well for product-focused tech companies is having a lightweight visibility layer across all AI tool usage — so when the CFO or CEO asks ""what are we actually getting from our AI investment?"", there's a real answer ready.
+
+Is that kind of cost-to-output clarity something that's on your radar for this year, or is it still more of a ""we'll figure it out later"" situation?",73,Director of New Product Business,"T-Global Technology Co., Ltd."
+Rachel,S.,https://www.linkedin.com/in/ACwAADVXPYEBT3bo_g82e7PQXBB8t7Zp1Dbaaqc,"Hi Rachel,
+
+Came across your profile while looking into iKala's cloud product direction — really interesting to see how you're building at the intersection of AI infrastructure and SaaS in the APAC market.
+
+One thing that caught my attention: as companies like iKala scale AI-powered products across multiple teams, there's often a quiet but growing tension behind the scenes — engineering, product, and data teams each spinning up their own API keys and LLM experiments, with costs accumulating in ways that are hard to track until the monthly bill lands and someone in leadership starts asking questions.
+
+I've been thinking a lot about how Cloud Product leaders specifically end up being the ones caught in the middle — responsible for the architecture decisions, but not always handed the visibility tools to explain where AI spend is actually going.
+
+Would love to connect and exchange thoughts — always good to hear how product folks at AI-native companies are navigating this.
+
+Looking forward to connecting! Frank","Hi Rachel,
+
+Thanks for connecting!
+
+Following up on what I mentioned earlier — I've been talking to a lot of cloud and product leaders lately, and one pattern keeps coming up: when AI tooling is distributed across teams, the usage data gets fragmented. Engineering knows their API spend, data science has their own setup, product experiments are somewhere else — and when leadership asks for a consolidated view of AI ROI, it's genuinely hard to pull together a clean answer fast.
+
+Curious whether this resonates with what you're seeing at iKala — is AI cost visibility something that's come up as a pain point as your product org scales, or have you found a workflow that actually handles it well?","Hi Rachel,
+
+Just circling back briefly — no pressure at all if the timing isn't right.
+
+I did want to ask one specific thing: when your team evaluates the ROI of different AI integrations across the product, is there currently a structured way to tie token consumption back to specific features or business outcomes — or is it still mostly gut feel and ballpark estimates?
+
+Would genuinely love to hear how you're thinking about it.",73,"Associate Director, Cloud Product",iKala
+David,Kuo,https://www.linkedin.com/in/ACwAABdDP94BRGDkEF9U_szkrb8-AWNp8n7Iwjw,"Hey David,
+
+Came across your profile while researching operations leaders in the biotech space — directing plant operations at Amaran Biotech looks like a role where you're constantly balancing efficiency, compliance, and cost visibility across a lot of moving parts.
+
+One thing I've been thinking about a lot lately: as biotech companies scale their AI adoption across departments — QA, R&D, supply chain — the operational overhead of tracking what's actually being spent on these tools tends to quietly spiral. Engineers and analysts each running their own workflows, and by the time the monthly bill lands, piecing together where it all went is a real headache.
+
+Curious whether that's a dynamic you're starting to bump into at Amaran as AI usage grows across teams.
+
+Either way, always great to connect with operations folks who are thinking seriously about how to scale efficiently — looking forward to it!
+
+— Frank","Hey David,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been speaking with a lot of ops and tech leaders lately, and a pattern keeps coming up: as teams start adopting more AI tools, individual contributors end up with their own API keys, their own usage habits, and there's no central view of what's being consumed or why.
+
+Month-end rolls around, the bill is higher than expected, and when leadership asks for a breakdown by team or use case — it's surprisingly hard to answer with confidence.
+
+For a plant operations director, I'd imagine having that kind of cost accountability across departments isn't just nice-to-have — it's becoming a compliance and budgeting expectation.
+
+Is that something you're actively trying to get ahead of at Amaran, or still more of a watch-and-see situation right now?
+
+— Frank","Hey David,
+
+Just wanted to resurface this briefly — curious if the AI spend visibility question resonates with where Amaran is headed.
+
+A few ops leaders I've spoken with recently said the real wake-up call wasn't the cost itself, but realizing they had no repeatable process to audit or justify AI-related spend when finance or the board asked.
+
+Have you had to put anything in place yet to track that, or is it still largely informal across teams?
+
+— Frank",73,"Plant Operations, Director",Amaran Biotech
+Puchit,Hongsawat,https://www.linkedin.com/in/ACwAABlCuvkB3c5yYkustWBEH6I-aOkS7CKNbns,"Puchit,
+
+Came across your profile while looking into Jowua's expansion story — the way you've been scaling partnerships across markets while simultaneously driving global growth is genuinely impressive. Leading both partnership development and international growth at the same time is a rare combination, and it signals that Jowua is moving fast.
+
+One thing that caught my attention: companies growing at that pace across regions tend to lean heavily on AI-generated content — product copy, campaign assets, localization at scale. And the faster you grow, the harder it becomes to track where the AI spend is actually going.
+
+During major campaign pushes, content generation volume can spike dramatically — and three days of heavy AI usage can quietly burn through what was supposed to be a monthly budget. The tricky part isn't just the cost spike itself, it's that most teams can't tell you *which campaign* or *which market* caused it until the bill arrives.
+
+Thinking about this from a growth ops perspective — just thought it was worth a quick note.
+
+Would love to connect — Frank","Hey Puchit,
+
+Thanks for connecting!
+
+Following up on the thought I shared earlier — I've been talking to quite a few growth and partnership leaders recently, and one pattern keeps coming up: AI content costs are manageable when volume is steady, but the moment a big campaign kicks off across multiple markets, spend multiplies fast and visibility drops just as quickly.
+
+The frustrating part? After the campaign wraps, it's almost impossible to calculate the *actual* AI cost per campaign, per region, or per content type. That makes it really hard to justify budget, optimize spend, or even know if a particular market push was truly worth it from a cost-efficiency standpoint.
+
+Curious — when Jowua runs a major global campaign, how does your team currently track what the AI content generation actually cost per initiative?","Hey Puchit,
+
+Just circling back on this one.
+
+I know campaign season can get hectic — which is exactly when this kind of cost visibility becomes most valuable (and most painful when it's missing).
+
+A lot of growth teams I speak with realize the ROI calculation gap only *after* a big push — when the numbers don't quite add up and no one can explain where the AI budget went.
+
+If Jowua is running AI-assisted content at scale across regions, would it be useful to have a way to see the cost breakdown per campaign in real time — not just in the monthly invoice?
+
+— Frank",73,Head of Partnership & Global Growth,Jowua
+Jack.S,Chen,https://www.linkedin.com/in/ACwAAAOW9q8BF8FPtQJbhS-p0yT2qRRnzJJtx6Q,"Hey Jack.S,
+
+Came across your profile while looking into engineering leaders at jjplus — leading application engineering at a tech company moving fast on AI adoption is no small feat.
+
+One thing I've been hearing a lot from folks in similar roles lately: as more engineers spin up their own API keys and start shipping AI-powered features, the usage footprint quietly spreads across teams — and by the time finance asks what's driving the cloud/AI bill, it's already a bit of a puzzle to piece together.
+
+Not sure if that resonates with where jjplus is right now, but felt worth a connection with someone thinking through these same challenges.
+
+Would love to connect — Frank","Hey Jack.S,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been talking to a lot of engineering directors lately who are in a similar spot: their teams are shipping great AI features, but when leadership asks ""how much are we actually spending on AI, and where?"" — the honest answer is usually ""let me get back to you on that.""
+
+It's less a budgeting problem and more a visibility problem. When every squad has their own API keys and workflows, there's no single source of truth until the bill lands.
+
+Curious — at jjplus, do you have a clear picture of how AI usage breaks down across your engineering teams, or is that still something you're trying to get a handle on?","Hey Jack.S,
+
+Just circling back on my last message — no pressure at all.
+
+I'm genuinely curious: for a team like yours at jjplus, when AI spend starts scaling across multiple engineers and projects, what does your current process look like for tracking that and reporting it upward?
+
+Do you have something in place, or is it still more of a ""we'll figure it out when it becomes a real problem"" situation?",73,Director of Application Engineering,jjplus
+Victoria,Hsu,https://www.linkedin.com/in/ACwAABZ8N68BUsewAoFM4DYjrXihDP_KubajubE,"Victoria,
+
+Came across your profile and noticed you're shaping the next generation of marketers and product thinkers at PIDC — covering everything from campaign strategy to sales fundamentals. That's a wide lens, and I imagine your students are leaning hard into AI tools right now to accelerate their work.
+
+One thing I've been thinking about a lot in the marketing/content space: when AI-generated content kicks into high gear — big campaigns, product launches, rapid iteration cycles — the cost side gets murky fast. Teams rarely know how much a single campaign actually consumed in AI spend until the bill arrives. And by then, the next cycle has already started.
+
+Given how much you think about marketing ROI and product development, I'd love to connect and exchange perspectives on where this is heading.
+
+Looking forward to connecting! Frank","Victoria,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a lot of marketing practitioners lately, and one pattern keeps coming up: during high-output periods (think flash sales, product drops, content blitzes), AI usage spikes fast. Three days of intensive content generation can quietly burn through what was budgeted for the whole month.
+
+The tricky part? Most teams can't tell you afterward what any single campaign *actually* cost in AI spend — let alone whether the output justified it.
+
+I'm curious: in your experience teaching marketing and product development, do your students (or practitioners you work with) ever wrestle with how to actually measure the ROI of AI-assisted content? Or is it still mostly treated as a flat ""tool cost""?","Victoria,
+
+Just circling back on this — no pressure at all.
+
+I keep coming back to a simple question that seems harder to answer than it should be: if a campaign used AI to generate 200 pieces of content, and it drove X in revenue, how do you actually calculate the AI cost *per result*?
+
+Most teams I talk to either guess, or skip the math entirely.
+
+Is that something you've seen come up in the marketing or product development conversations you're having — or does it just not hit the radar yet?",73,Adjunct Instructor (Marketing/Sales/Product Development),PIDC
+Josh,Yu,https://www.linkedin.com/in/ACwAAC2CNYQB8s-otd6EUIOmrYplTVFJAmp-Y7M,"Josh,
+
+Came across your profile while looking into e-commerce leadership at CBES Group — the scale of operations you're managing across the group is impressive, and it's clear AI-driven content is likely a big part of how you're moving fast across campaigns.
+
+One thing I've been thinking about a lot lately with directors in your space: during major sale events or big promotional pushes, AI content generation can go from a productivity win to a budget black hole almost overnight — and most teams don't realize how much was actually spent until the invoice lands.
+
+Not a pitch, just a pattern I keep seeing with e-commerce orgs scaling AI content. Curious if it resonates with your world at all.
+
+Would love to connect and exchange notes — Frank","Hey Josh,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been talking to a lot of e-commerce leaders recently, and one question keeps coming up: during a major campaign (think 11.11, Black Friday, or a flash sale blitz), when the content team is spinning up AI-generated copy across dozens of SKUs and ad variations... does anyone actually know what that costs per campaign, per product line, or per channel?
+
+Most teams I speak with can see the output. But the cost attribution? That part tends to be a black box.
+
+I'm curious — at CBES, when a big promo wraps up, how do you currently think about calculating the actual ROI of the AI content investment that went into it?","Hey Josh,
+
+Just circling back on my last message — no pressure at all.
+
+I keep coming back to this idea: if you can't see what each campaign actually cost in AI spend, it's really hard to know which ones were worth scaling and which ones burned budget quietly.
+
+For someone managing e-commerce at the group level, I imagine that visibility gap could add up quickly across teams.
+
+Is that something you're actively trying to solve right now — or more of a 'nice to have someday' for CBES?",73,Director of E-Commerce,CBES Group
+Carl,Wegner,https://www.linkedin.com/in/ACwAAAAIxrgBruBCGKD_DIAGXfidlO8fFP09_q0,"Carl,
+
+I came across your profile while researching AmCham Taiwan's initiatives — really impressive how you've been bridging U.S. and Taiwan business communities, especially as more member companies are accelerating their AI adoption this year.
+
+One thing I've been thinking about a lot lately: as teams across industries start stacking AI tools — different departments, different use cases — the operational side tends to get messy fast. Engineers spin up their own API keys, marketing runs their own subscriptions, and by the time leadership asks ""what are we actually spending on AI?"" nobody has a clean answer.
+
+I work with a lot of tech-adjacent organizations navigating exactly this kind of growing pain. Curious whether this is something you're hearing from AmCham's member companies too.
+
+Would love to connect and exchange perspectives — Frank","Carl, thanks for connecting!
+
+Following up on what I mentioned — I've been noticing a pattern across SMB and mid-market tech companies here in Taiwan: the AI tool sprawl problem is real, but the part that catches leadership off guard is usually the billing side.
+
+When every engineer has their own API key and every team is running different tools, month-end reconciliation becomes a fire drill. And when the CFO or CEO asks for a breakdown of AI spend by team or project, most ops leads genuinely can't answer quickly.
+
+I imagine some of AmCham's member companies — especially those scaling their tech teams — might be bumping into this. Is that something that's come up in your conversations with members lately?","Carl, just circling back briefly —
+
+We've been helping a few teams build out cleaner processes around AI cost accountability — essentially getting to a point where any stakeholder can pull up spend by team, tool, or project without waiting on finance to run a report.
+
+Given the range of companies in AmCham's network, I'm curious: do you find members are more focused right now on AI adoption speed, or starting to ask harder questions about governance and cost control?
+
+Either way, happy to share what we're seeing on the ground — Frank",73,President,AmCham Taiwan
+KAO,KE-WEI,https://www.linkedin.com/in/ACwAABIh13oBZbmlnIeN--SXcS48H45ZbMEIWZ0,"Hey KAO — came across your profile while looking into iCHEF. Really interesting to see how you're scaling both sales and operations at the same time — that's a balancing act most companies split across two separate leaders.
+
+One thing that caught my attention: iCHEF seems to be pushing deeper into AI-powered features for restaurant operators, which means your internal teams are probably running a growing stack of AI tools across product, engineering, and ops.
+
+At that stage of growth, I've seen a pattern come up a lot — not a iCHEF-specific thing, just something common in scaling tech companies. Engineers start spinning up their own API keys, each team picks their own tools, and by the time month-end hits, no one has a clean answer when leadership asks ""so how much are we actually spending on AI?""
+
+Not sure if that resonates with where iCHEF is right now — but thought it was worth a note.
+
+Would love to connect and swap observations — Frank","KAO, thanks for connecting!
+
+Following up on what I mentioned — the visibility gap around AI spend tends to hit Sales & Ops leaders hardest, because you're often the one expected to justify ROI across tools you didn't directly choose.
+
+The companies I've talked to that handle this well usually have one thing in common: they build some kind of internal accountability layer before the bill gets too big to explain. Not necessarily complicated — but deliberate.
+
+Curious how iCHEF currently handles this — is AI spend tracked centrally, or is it more distributed across teams right now?","Hey KAO — just a quick follow-up.
+
+No pressure at all if the timing isn't right. But I wanted to ask one thing directly: when leadership at iCHEF asks about AI tool costs, is there a clear process today for pulling that answer together — or is it still a bit of a scramble?
+
+Either way, genuinely happy to share what I've seen work. Worth a quick chat?",73,Sales and Operations Director,"iCHEF Co., Ltd."
+Phil,Chen,https://www.linkedin.com/in/ACwAABwjmn0Bv9BSaQtFThb8nClRjYzFhc98fxM,"Phil，
+
+看到新北國王近年在數位化與球隊營運上下了不少功夫——從球員數據分析到球迷互動體驗，感覺整個組織都在積極導入 AI 工具。
+
+身為 CEO 親自推動這塊，應該很清楚：工具導入速度快是好事，但各部門各跑各的、月底帳單一來，要說清楚「錢花在哪、帶來什麼」其實還挺難的。
+
+這個問題在很多快速擁抱 AI 的組織裡都在悶燒，只是大家還沒開始認真講。
+
+想連結認識一下 — Frank","Phil，謝謝接受連結！
+
+最近和幾個積極導入 AI 工具的組織聊，發現一個很常見的狀況：
+
+工程師或各部門同事各自拿著 API Key 在跑，速度快、彈性高——但月底帳單一來，要回答「這筆錢到底花在哪個專案、產生了什麼價值」，幾乎沒有人能即時答得出來。
+
+老闆或董事會要問 ROI，通常只能靠印象或事後拼湊，很難有說服力的數字。
+
+新北國王這樣同時跑多個 AI 應用的組織，有沒有碰過類似的情況？","Phil，
+
+上次提到各部門 AI 工具使用透明度的問題——其實很多組織卡關的點不是「要不要管」，而是「怎麼管才不會拖慢團隊節奏」。
+
+如果能在不改變現有工作流程的前提下，讓每筆 AI 支出自動對應到部門、專案、甚至具體成效，你覺得對你們現在的決策方式會有幫助嗎？",73,Chief Executive Officer,New Taipei Kings 新北國王職業籃球隊
+Ray,Ho,https://www.linkedin.com/in/ACwAABhRTIQB-vAuLvAkM6TiJbhum4E6QhYcWlA,"Hey Ray,
+
+Noticed you're leading product development at foodomo — building out a food-tech product stack while keeping cross-functional teams aligned is no small feat.
+
+One thing I've been thinking about lately: as product teams scale AI usage across engineering, design, and ops, the cost side tends to get messy fast — different teams running their own tools, API keys scattered around, and by the time the monthly bill arrives, no one can cleanly explain where the spend actually went.
+
+Imagine your CEO asks tomorrow: ""What did we spend on AI this month, and what did we get from it?"" — curious how that conversation would go at foodomo right now.
+
+Would love to connect and swap notes — Frank","Hey Ray,
+
+Thanks for connecting!
+
+Following up on the thought I shared — I've been talking to a lot of product leaders at tech companies around your stage, and the pattern keeps showing up: engineering has their API keys, product is running its own AI tools, maybe ops has a few more — and nobody has a clean view of total usage or cost until the bill surprises everyone at month-end.
+
+The harder part isn't the overspend itself — it's when leadership asks for justification and there's no structured data to back it up.
+
+Curious — at foodomo, is there currently any process in place for tracking AI tool usage across teams, or is it still pretty decentralized?
+
+— Frank","Hey Ray,
+
+Just circling back on this — no pressure at all.
+
+I've been thinking about the accountability gap that comes up when AI spend scales faster than the visibility around it. Some teams I've spoken with are starting to build lightweight SOPs just to stay ahead of it before it becomes a finance or compliance headache.
+
+Wondering — is managing AI tool costs something that's landed on your radar yet, or is it still sitting in someone else's backlog at foodomo?
+
+— Frank",73,Director of Product Development,foodomo
+Allen,Sun,https://www.linkedin.com/in/ACwAAF_O2fsB4R3kgcPzFxWJ0w9WLJVw4GDEAeU,"Allen，
+
+看到你在 ASRock 主導 AI 業務方向，華擎在硬體底子這麼深厚的情況下還在積極推 AI 落地，這個切入點其實蠻有意思的。
+
+最近跟幾位類似規模科技公司的 AI 負責人聊，大家都在處理一個共同的尷尬：工程師各自串 API、各自跑實驗，月底帳單一來才發現燒了多少，但要跟老闆說清楚「這些錢花到哪」，卻很難講出一個完整的故事。
+
+不確定 ASRock AI 團隊這邊有沒有遇到類似的情況——但你們同時在做硬體又在跑 AI 應用，工具鏈應該比一般公司更複雜一點。
+
+想連結認識一下 — Frank","Allen，謝謝你的連結！
+
+跟你多分享一個觀察：很多科技公司在 AI 落地初期，工程師人手一組 API Key 其實是必然的——這讓團隊動得快，但帶來的副作用是：用量分散在各個角落，沒有一個人說得清楚整體的消耗結構。
+
+到了要向管理層報告 AI 投入成效的時候，往往只能拿帳單數字，卻無法對應到具體哪個專案、哪個部門真正產生了價值——這個說不清楚的空白，對負責人來說其實是個隱性風險。
+
+你們 ASRock AI 團隊目前在管理 AI 工具費用這一塊，有沒有跑出一套比較順手的方式？","Allen，想跟進問一個小問題：
+
+如果你的老闆現在問你「我們這季在 AI 上花了多少、哪些有效、哪些可以砍」——你手邊的資料能支撐你在十分鐘內回答清楚嗎？
+
+這個問題我最近問了不少 AI 負責人，答案通常很有趣。好奇你這邊是什麼狀況？",73,Head of ASRock AI,華擎科技 ASRock Inc.
+Neil,C.,https://www.linkedin.com/in/ACwAAC6FOsUBMBz9_CuIB1Gi3b4P7xgJHGTWvzk,"Hey Neil — came across your profile while looking into product leaders at BigData. Impressive range from Director of Product to Principal PM — that kind of dual-role visibility usually means you're sitting right at the intersection of what gets built and what it actually costs to run.
+
+One thing that caught my attention: at a data-heavy company like BigData, I'd imagine your teams are running a pretty wide stack of AI tools across different functions — each team spinning up their own workflows, their own API keys, their own usage patterns.
+
+That's usually where things get interesting (and a bit messy) from a product ownership standpoint — especially when leadership starts asking questions about where the AI budget is actually going.
+
+Would love to connect and hear how you're thinking about this space — always good to exchange notes with PMs who are navigating the AI tooling layer.
+
+Looking forward to connecting! Frank","Hey Neil — appreciate the connect!
+
+Curious about something based on your role at BigData: when your engineering or data teams are each running their own AI tools and API integrations, how does your team currently get visibility into the actual consumption and cost breakdown across those workloads?
+
+I ask because it's a pattern I keep hearing from product leaders at similar-stage tech companies — usage is scattered, the bill lands at the end of the month, and by then it's really hard to trace what drove the spike or which team or product surface was responsible.
+
+Is that something you've had to build internal tooling around, or is it still more of a ""we figure it out after the fact"" situation?
+
+Frank","Hey Neil — just following up on my last note.
+
+One thing I've been thinking about: as AI usage scales across product and engineering teams, the challenge often shifts from ""are we using AI"" to ""can we actually govern how we're using it"" — budget accountability, team-level attribution, knowing when to pull the brakes.
+
+Curious whether that governance layer is something on your product radar at BigData, or if it's still landing more on the finance/ops side?
+
+Frank",73,Director of Product / Principle Product Manager,BigData
+Jeffrey,"Chiang, MBA",https://www.linkedin.com/in/ACwAAAU6VrYBj9v-57Ui-Cm3M5ht2U28m3dGe3I,"Jeffrey,
+
+Saw your work leading product development at Dell EMC — managing cross-functional teams at that scale is no small thing, especially when engineering squads are spinning up new AI-powered features faster than anyone can track.
+
+One thing I've been thinking about a lot lately: as more devs get direct access to AI APIs and LLM tooling, the usage patterns tend to sprawl in ways that catch leadership off guard — not because anyone's being careless, but because there's just no clean visibility layer between ""engineer writes code"" and ""finance asks where the budget went.""
+
+Curious whether that tension shows up in your world too.
+
+Would love to connect and exchange notes — Frank","Jeffrey, thanks for connecting!
+
+Following up on what I mentioned — at companies where multiple teams are building with AI in parallel, I keep hearing the same story: each squad is shipping fast, but when leadership asks for a breakdown of AI-related spend by product line or initiative, no one has a clean answer ready.
+
+It's not a people problem — it's a visibility architecture problem. Most orgs just haven't built the reporting layer that keeps pace with how fast AI tooling gets adopted.
+
+I'm curious — at Dell EMC, when someone asks ""what's our AI API spend per product team this quarter,"" how does that conversation usually go?","Jeffrey, just wanted to resurface this briefly —
+
+A few PMs and product directors I've spoken with recently said the tipping point was when they realized they couldn't produce a per-team or per-initiative AI cost report without manually piecing it together.
+
+Once that became a recurring ask from leadership, it shifted from a nice-to-have to a real ops gap.
+
+Does that dynamic sound familiar in your current setup?",73,Director of Product Development Management,Dell EMC
+Daphne,Kang,https://www.linkedin.com/in/ACwAAAFMUDUBWMsMsvTuiL5yfYVd4F2AYrM33Q4,"Daphne，
+
+看到你在 cacaFly 聖洋科技擔任 Director，cacaFly 一直是台灣數位廣告代操領域的指標性公司，近年也持續在 MarTech 工具整合上投入不少資源——你們服務的客戶廣度讓我印象深刻。
+
+有個觀察想跟你分享：像 cacaFly 這樣多業務線、多團隊並行的科技公司，通常都走到了一個微妙的節點——各部門開始自行採用 AI 工具加速作業，工程師人手一組 API Key，效率確實提升了，但月底帳單一來，很難說清楚每一筆花費對應到哪個專案、哪個 ROI。
+
+這不是預算管控不嚴，而是 AI 工具本來就沒被設計成「容易被管理」的樣子。
+
+想連結認識一下 — Frank","Daphne，謝謝你的連結！
+
+延續上次說的——我最近跟幾位在 MarTech / 科技服務公司的 Director 聊，發現一個共同現象：AI 工具的導入速度，往往比內部管理 SOP 的建立快很多。
+
+結果就是：老闆問「我們 AI 這塊到底花了多少？效益在哪？」，負責人要花好幾天從不同系統東拼西湊才能給個說得過去的答案——而且下個月還是一樣的狀況。
+
+你們 cacaFly 內部目前有一套固定的方式在追蹤這塊嗎？還是也是遇到需要報告時才臨時整理？","Daphne，
+
+上次提到 AI 工具費用追蹤的問題，不知道你這週有沒有剛好碰到類似狀況？
+
+我在想，如果有一種方式可以讓你隨時用一個畫面就看清楚——哪個部門、哪個專案、花了多少、產生了什麼效益——你覺得對你們內部跟 stakeholder 溝通的方式，會有什麼改變？",73,Director,cacaFly 聖洋科技
+Kevin,Leung,https://www.linkedin.com/in/ACwAAAjEt1EBkKrziekMrTro65olzfDI2-UTcV0,"Hey Kevin,
+
+Noticed your work leading product at Dell Technologies — managing product direction at that scale, especially across business units with increasingly AI-embedded workflows, is no small thing.
+
+One thing I've been thinking a lot about lately: as more teams independently spin up AI tools and API integrations, the visibility gap at the leadership level tends to grow quietly — until month-end when the bill lands and the questions start.
+
+Seems like something product directors are bumping into more and more, even at orgs as structured as Dell.
+
+Would love to connect and swap notes — Frank","Hey Kevin,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a lot of product and engineering leaders recently, and a pattern keeps coming up: engineers each have their own API keys, different teams are running their own AI tools, and by the time leadership asks ""where's the budget actually going?"" — nobody has a clean answer.
+
+It's less a spending problem and more a visibility problem. The usage is happening; it's just scattered across tools, teams, and invoices with no single source of truth.
+
+Curious — at Dell, with the scale of product and engineering teams you're working across, is that kind of cross-team AI spend visibility something that's already being tracked centrally, or is it still more ad hoc?","Hey Kevin,
+
+Just circling back — no pressure at all.
+
+I know this probably isn't top of mind every day, but I did want to ask: when your leadership team asks about AI tool ROI or cost accountability across product and engineering, do you currently have a clear process to answer that — or is it still something you're figuring out as you go?
+
+Always curious how leaders at your level are approaching it.",73,Director of Product Management,Dell Technologies
+Edmund,W.,https://www.linkedin.com/in/ACwAACruzGkBUQZAGsFkkIajMRZDU8UEgkIQXgA,"Hi Edmund, I came across your profile and noticed you're leading technology at Cape EMS Berhad — impressive work in the EMS space. I'm reaching out because I've been having some interesting conversations with CTOs lately about how AI tool adoption is evolving inside enterprise environments, especially when it comes to justifying spend upward. Would love to connect and exchange perspectives. — Frank","Hi Edmund, thanks for connecting! One thing I keep hearing from CTOs right now: the board starts asking tough questions once AI tools are embedded across teams — 'What are we actually spending? Which teams are using what? And what's the return?' Most find that the usage data is scattered and the cost visibility simply isn't there when that conversation happens. Curious — is that a dynamic you're navigating at Cape EMS as well? — Frank","Hi Edmund, just circling back on my last note. We've been helping CTOs pull together consolidated AI usage reports, cost allocation by department, and ROI modelling — so the next board conversation feels prepared rather than reactive. If that's relevant to where you are right now, happy to share a quick walkthrough. No pressure either way. — Frank",73,Chief Technology Officer,Cape EMS Berhad
+Shih-Keng,Huang,https://www.linkedin.com/in/ACwAABwSzbUBWqGkP0VOtrQO-SaF2KpYcvnalzE,"Hi Shih-Keng, I came across your profile and noticed you lead product development at Topkey Corporation — impressive scope of responsibility. I work with engineering-heavy teams on a challenge that tends to quietly snowball: when every engineer has their own API key, month-end AI costs become a black box that's hard to explain upward. Would love to connect and swap notes on how product leaders are handling this.","Hi Shih-Keng, thanks for connecting! Quick thought — one pattern I keep hearing from product heads: the finance team sends over the cloud bill, and suddenly someone has to reverse-engineer which team, which feature, or which experiment caused the spike. By then it's too late to course-correct. Curious whether that kind of visibility gap is something you've run into at Topkey, or if you've already cracked it. Happy to share what's been working for others if useful.","Hi Shih-Keng, just circling back briefly. If AI API spend is still a moving target on your end — hard to attribute, harder to forecast — that's exactly the problem we help product teams solve before the next budget review. No pressure at all, but if a 20-minute chat sounds worthwhile, I'd be glad to make time. Either way, hope Q3 is off to a strong start for the team at Topkey. Frank",73,Head of Product Development Division,Topkey Corporation
+En,Jen,https://www.linkedin.com/in/ACwAAAuy6DsBxnJ5c9K5OOcWJ-OBaCxK9w9KRbA,"Hi En, I came across your profile and was impressed by the work you're leading in AI at EMC. Heading an AI department at a materials science company is no small feat — the technical complexity alone is challenging enough, let alone justifying every investment decision to leadership. I work with AI leads who are navigating exactly that tension between moving fast on AI adoption and being able to clearly articulate the value back to the board. Would love to connect and exchange notes — no pitch, just a genuine conversation between people in the AI space. Hope to connect, Frank","Hi En, thanks for connecting! One thing I keep hearing from AI department heads lately: the board starts asking tougher questions as AI budgets grow — things like 'what did we actually spend, and what did we get back?' It's one thing to know your AI initiatives are working. It's another to walk into a board meeting with clean usage reports, cost allocation by team, and a defensible ROI model ready to go. Curious — is that kind of reporting infrastructure something your team has figured out, or is it still a work in progress? Always interesting to hear how different orgs are handling it. Frank","Hi En, just circling back on my last message. I know board reporting season can hit fast — especially when AI spend is under the microscope. If it'd be useful, I'm happy to share how some AI leads are structuring their usage and ROI visibility without it becoming a full-time job. No obligation at all — just thought it might be a helpful reference. Worth a quick chat? Frank",73,Head of AI Department,"EMC (Elite Material Co., Ltd.)"
+Graffine,Wu,https://www.linkedin.com/in/ACwAAA68wVcBP80JM7kt3nNydUwheDADy3bjCvc,"Hi Graffine, I came across your profile and was impressed by your work leading both Engineering and Product at AsiaYo — that dual ownership is rare and honestly pretty exciting to see. I work with a lot of engineering leaders who are scaling their AI and API usage across teams, and I keep hearing the same story: month-end invoices show up and nobody can quite explain where the spend went. Would love to connect and swap notes — no pitch, just curious how teams at your scale are thinking about this.","Hi Graffine, thanks for connecting! Quick question — when your engineers are each running their own API keys for LLM or third-party services, how does your team currently get visibility into who is using what, and how much? I ask because most engineering leads I talk to say the first sign of trouble is a Slack message from Finance, not a dashboard. Curious if that resonates with how things look at AsiaYo right now.","Hi Graffine, just circling back — if API cost visibility is something on your radar, I have a few examples of how other engineering teams solved the 'mystery bill' problem without adding process overhead. Happy to share a quick breakdown if useful. Either way, would love to hear how AsiaYo is thinking about AI infrastructure as you scale. Frank",73,Head of Engineering and Product,AsiaYo
+Samuel,Krushnisky,https://www.linkedin.com/in/ACwAAAEvqb0Bew36xFccKx0wOyfGUGuKtvp2_cQ,"Samuel — came across your profile while researching marketing leaders in the e-commerce SaaS space. BQool's positioning around repricing and seller intelligence is sharp, and I imagine your team is running a pretty content-heavy operation to support that — product-led growth, campaign pushes, probably a fair amount of AI-assisted copy and automation across the funnel.
+
+One thing I've been thinking a lot about lately: as marketing teams scale their AI content output, the cost side tends to become invisible until it suddenly isn't. A big promo push or a product launch sprint can quietly burn through more AI budget in 72 hours than most teams plan for in a month — and very few people have visibility into which campaign or channel actually drove that spike.
+
+Not a pitch — just something I've been observing across teams doing similar work, and your background made me think you'd probably have a real take on it.
+
+Would love to connect — Frank","Samuel — thanks for connecting!
+
+Following up on the thought I shared earlier: for marketing teams running frequent campaign cycles like BQool likely does around seller seasons or feature launches, the AI cost conversation gets tricky fast. It's not just the total spend — it's that nobody can tell you which campaign consumed what, or whether the AI-generated assets for a given push actually returned anything worth the cost.
+
+Most teams I talk to are either guessing, or they've stopped asking the question altogether because it feels unanswerable.
+
+Curious — when your team wraps a big campaign, do you have any way to trace back what the AI content work actually cost per initiative, or is that still a black box?","Samuel — just a quick follow-up.
+
+I've been thinking about the per-campaign AI cost question — and honestly, the harder version of it is: even if you knew the cost, could you tie it to a revenue outcome well enough to defend the budget next quarter?
+
+That calculation seems to be where most marketing teams get stuck right now.
+
+Is that a conversation happening at BQool, or is AI spend still getting bundled into general tooling costs without much scrutiny?",71,Director of Marketing,BQool
+Eric,Hsieh,https://www.linkedin.com/in/ACwAAA7Ci90B-OrAT1xzqk2iSJG5P_tlFqfKbjE,"Hey Eric,
+
+I came across your profile and noticed you're leading marketing at Otsuka Pharmaceutical — a brand that clearly invests heavily in content and digital campaigns across multiple markets.
+
+One thing I've been thinking about a lot lately when it comes to pharma marketing teams: the moment you scale up AI-assisted content production — campaign launches, product education, multi-market localization — the cost side becomes almost invisible. You're generating at volume, but the actual spend per campaign or per asset? It's nearly impossible to track in real time.
+
+Most marketing leaders I speak with only find out how much a big push *really* cost after the fact — and by then, the budget's already gone.
+
+Curious whether that's a conversation happening on your end too.
+
+Would love to connect and exchange thoughts — Frank","Hey Eric,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a few marketing directors lately, and there's a pattern that keeps coming up: during high-output periods (think major campaign pushes or multi-market rollouts), AI content costs can spike 3–4x without anyone noticing until the monthly bill lands.
+
+The tricky part isn't the spend itself — it's that there's no easy way to attribute costs back to a specific campaign, channel, or even a single content piece. So ROI calculations end up being rough estimates at best.
+
+For a team running the kind of breadth Otsuka does across markets, I imagine budget visibility across different content initiatives could get complicated fast.
+
+Is that something your team currently has a handle on, or is it more of a 'we reconcile it at the end of the month' situation?","Hey Eric,
+
+Just circling back — wanted to ask one specific question:
+
+If your team ran a major AI-assisted content push tomorrow, could you tell — in real time — exactly how much AI spend was attributed to that campaign versus everything else running in parallel?
+
+Most teams I talk to can't, and it creates real headaches when trying to justify budget or scale what's working.
+
+Would it be useful to swap notes on how other marketing teams are approaching this?",71,Marketing Director,OTSUKA PHARMACEUTICAL COMPANY LIMITED
+Jimmy,Lo,https://www.linkedin.com/in/ACwAAA25tDUBf2VQl6UPcO21T-rjbXqfrYnrrNI,"Hey Jimmy,
+
+Came across your profile while researching marketing leaders in the sustainability/recommerce space — the work RECCESSARY is doing to normalize secondhand fashion in Asia is genuinely interesting, especially how content-heavy the positioning seems to be across campaigns.
+
+One thing I've been thinking about a lot lately talking to marketing directors: during big sale seasons or campaign pushes, AI-generated content volume can spike dramatically — and three days of heavy usage can quietly burn through what was supposed to be a month's budget. Most teams only notice after the fact.
+
+Not pitching anything — just found your background relevant to a challenge I keep seeing in this space and wanted to connect with someone thinking at that level.
+
+Would love to connect — Frank","Hey Jimmy,
+
+Thanks for connecting!
+
+Building on what I mentioned — I've been curious about how marketing teams like yours actually track AI cost efficiency across different campaign types. Like, when you run a major promotion and the content output ramps up significantly, do you have visibility into what each campaign actually *cost* in AI usage — not just time or headcount, but the actual compute spend per asset or per channel?
+
+I ask because most teams I speak with can tell me their total AI tool subscription cost, but can't easily separate what a product launch cost versus an evergreen content push. The ROI math gets pretty murky.
+
+Is that something your team has figured out a system for, or is it still a bit of a black box?","Hey Jimmy,
+
+Just following up on my last note — no worries if the timing isn't right.
+
+One quick thought: with major campaigns, the scariest part isn't always the big spend — it's not knowing the *unit economics* until it's too late to adjust. Like, what did it actually cost in AI to produce one high-performing product description versus one that flopped?
+
+Curious — when you're reviewing campaign performance at RECCESSARY, does AI cost per output ever come up in the conversation, or is it still mostly invisible in the numbers?",71,"Head of Marketing, Director",RECCESSARY
+Claire,Cheng,https://www.linkedin.com/in/ACwAABXmYyYBgEpLVe_Wl3wgB7P63hnSWZrOYDs,"Hi Claire,
+
+I came across your profile while looking into Furbo's marketing team — really impressive how Tomofun has built such a strong global community around pet parents, especially the way Furbo campaigns tap into emotional storytelling to drive both engagement and conversion.
+
+One thing I've been thinking about a lot lately, specifically for global marketing directors running AI-assisted content at scale: during peak campaigns (holiday season, product launches, flash sales), AI content generation can quietly consume a month's budget in just a few days — and most teams only notice after the fact.
+
+The harder question isn't the spend itself — it's whether you can trace which campaign, which content type, or which market actually drove that cost. Without that visibility, ROI conversations get really uncomfortable really fast.
+
+Thought it was worth connecting with someone navigating this at Furbo's scale.
+
+Would love to connect — Frank","Hi Claire,
+
+Thanks for connecting!
+
+I wanted to follow up on something I mentioned — the AI cost visibility challenge during big campaigns.
+
+For teams running multilingual content at global scale (which I imagine Furbo does across US, Japan, and other markets), the volume spikes during promotions can be significant. But here's the part most marketing leaders tell me catches them off guard: even when they know AI costs went up, they can't break it down by campaign, region, or content type afterward.
+
+So the budget conversation with finance becomes ""we spent X on AI tools this quarter"" — with no story behind it.
+
+Curious — when Furbo runs a big seasonal push, do you have a way to see what each campaign's AI content actually cost you?","Hi Claire,
+
+Just circling back briefly — I know Q4 planning season is probably already in motion for a global team like yours.
+
+One thing a few marketing directors have found useful recently: having a simple way to calculate the actual AI cost per campaign or per content piece, so they can walk into budget reviews with a real ROI number — not just ""we used AI and results were good.""
+
+Would that kind of per-campaign cost breakdown be useful for how you report on Furbo's marketing investments?",71,Senior Global Marketing Director,Tomofun | Furbo Pet Camera
+Chi,Sun,https://www.linkedin.com/in/ACwAAAw33RkBNB7bGYCjRI2zV_bUIh6c8OFwMJU,"Hi Chi,
+
+Came across your profile and noticed you're heading Product at IDEKU — looks like you're operating at that interesting intersection where product decisions increasingly depend on how fast your team can leverage AI tools across different workflows.
+
+One thing I've been thinking about a lot lately: as product teams scale their AI usage, the spend often grows faster than the visibility into where it's actually going. Engineering has their API keys, product has their tools, and by the time the monthly bill lands, it's hard to piece together the full picture — let alone justify it upward.
+
+Curious whether that's a dynamic you're navigating at IDEKU too.
+
+Would love to connect and exchange notes — Frank","Hi Chi,
+
+Thanks for connecting!
+
+Following up on what I mentioned — I've been talking to a lot of product and engineering leaders lately, and one pattern keeps coming up: AI tool adoption moves fast inside teams, but the operational layer (who's using what, how much, and whether it's actually delivering value) tends to lag way behind.
+
+The tricky part isn't just the cost — it's that when leadership asks ""what are we actually getting from all this AI spend?"", there's rarely a clean answer ready.
+
+I'd imagine at your stage, with product teams actively building AI into the roadmap, that accountability question probably comes up more and more.
+
+How are you currently thinking about keeping visibility across your team's AI usage — is there a process in place, or is it still pretty ad hoc?","Hi Chi,
+
+Just wanted to circle back quickly — no pressure at all.
+
+I've been speaking with a few product leaders recently who are starting to put more formal structure around AI cost ownership and ROI tracking, especially as usage scales across departments.
+
+Given your role at IDEKU, I'd genuinely be curious to hear how you're approaching it — whether you've found a workflow that works, or if it's still something being figured out on the fly.
+
+Worth a quick 20-minute chat to compare notes?",71,Head of Product Management,IDEKU
+Sam,Lin,https://www.linkedin.com/in/ACwAABW-UYgBcVn8QnusR75BAvI3kW3VeCzrVfM,"Hey Sam,
+
+Came across your profile and noticed you're leading both Product and Application Engineering at Savitech — that's a pretty unique combo where you're likely bridging customer-facing requirements with the actual engineering execution underneath.
+
+One thing that caught my attention: as teams like yours scale AI-assisted workflows across product and engineering, the usage patterns across different squads tend to diverge fast — and not always in visible ways.
+
+I work with a lot of tech leaders navigating that exact tension right now. Would love to connect and swap notes.
+
+Looking forward to connecting! Frank","Hey Sam,
+
+Thanks for connecting!
+
+Curious — at Savitech, with engineers and product folks both likely leaning on AI tools in their own workflows, do you find it's getting harder to keep track of who's using what, and what it's actually costing across teams?
+
+I've been talking to a lot of Directors in similar setups lately, and the pattern I keep hearing is: everyone has their own API keys, usage is siloed, and when leadership asks ""what are we actually spending on AI?"" — it's suddenly a very uncomfortable question.
+
+Not sure if that resonates with your situation at all, but would love to hear how you're thinking about it — especially from a product + engineering lens.
+
+What does that look like on your end?","Hey Sam,
+
+Just circling back — no pressure at all.
+
+I've been thinking about the product + engineering dynamic you're navigating. When AI tool usage is distributed across both sides, I imagine the challenge isn't just cost — it's also accountability. Who owns the spend? How do you justify it upward?
+
+Have you found a way to get visibility into that, or is it still kind of a blind spot for now?",71,Director - Product & Application Engineering,Savitech Corp.
+許志強,,https://www.linkedin.com/in/ACwAACXTqY8BochlYpxo8JXwYJOquifNro9vviw,"許志強你好，
+
+看到你在 STM 負責行銷方向，STM 在工業設備這個相對傳統的產業裡，能持續推動數位行銷佈局，我覺得這件事本身就不容易——尤其當行銷團隊開始大量導入 AI 工具來加速內容產出的時候，背後其實藏著一個很多 Marketing Director 還沒來得及正視的問題：
+
+大促或活動衝刺期間，AI 內容生成量一旦爆量，三天就有機會把整個月的 AI 工具預算燒完——但事後要回頭算「這場活動的 AI 成本到底花了多少」，現在大多數團隊根本算不出一個清楚的數字。
+
+這個觀察不知道跟你們現在的狀況有沒有共鳴？想連結認識一下 — Frank","許志強，謝謝接受連結！
+
+延續上次提到的觀察——行銷團隊在活動密集期最常遇到的其實不是「要不要用 AI」，而是「用了之後，ROI 怎麼說得清楚」。
+
+每一篇文案、每一波廣告素材背後，AI 工具消耗的成本如果沒有對應到具體的轉換或業務產出，預算檢討的時候就很難有說服力——不管是跟 CFO 報告，還是跟自己的團隊覆盤。
+
+想請教你們現在評估行銷端 AI 工具投入的時候，有在用什麼方式來計算每個活動的實際 AI 成本嗎？","許志強，再次打擾一下！
+
+上週跟幾個行銷主管聊，發現大家對 AI 工具的共同卡點都很像——不是用量不夠，而是「花出去的成本跟帶回來的結果，從來沒有辦法對在一起看」。
+
+如果你們有在思考這塊，我最近剛好在研究一些計算方式，想說或許可以交流一下——你現在最想搞清楚的是哪個環節？",71,Marketing Director,STM - Sin Sheng Terminal and Machine Inc.
+Kathryn,Yen,https://www.linkedin.com/in/ACwAAC3fmaQBhPw1DinYwO5hWNpMDA8Kj379N5k,"Kathryn 你好！
+
+看到你在金普頓大安負責 Marketing & Communication，金普頓在台北精品酒店市場的品牌定位一直很有識別度——尤其在社群內容和活動體驗的層次感，在同業裡算是少見的細緻。
+
+最近和幾位飯店行銷主管聊，發現一個共同現象：節慶檔期或大型促銷一開跑，AI 內容生成的需求會在短時間內急速放大——文案、多語版本、社群貼文一起跑，但事後要回答「這波活動 AI 成本花了多少」，幾乎沒有人算得出來。
+
+不是不想管，而是根本沒有顆粒度細到那個層級的追蹤方式。
+
+你們這邊是否也有類似的感受？想連結認識一下 — Frank","Kathryn，謝謝接受連結！
+
+上次提到行銷旺季 AI 成本難追蹤的問題，後來多想了一層：其實更麻煩的不只是「花了多少」，而是——當不同活動、不同語言版本、不同渠道都在同時跑 AI 生成，你要怎麼回答老闆「這次母親節專案的 AI 投入，換來的業績貢獻是多少？」
+
+ ROI 如果算不出來，預算申請就只能靠感覺，下一季要擴大 AI 應用也少了底氣。
+
+想請教你：目前你們在評估行銷 AI 工具的投入產出時，有沒有一套自己在用的方法，還是這塊其實還沒有很系統化？","Kathryn，想快速跟進一下～
+
+其實有些行銷團隊現在開始嘗試用「每篇內容的 AI 成本」作為基準，去反推不同活動類型的效益比——聽起來很細，但一旦有這個數字，預算分配和向上報告都會清晰很多。
+
+不確定這個切入角度對你目前的情境有沒有參考價值？如果有興趣，可以找個時間交流看看。",71,Director of Marketing & Communication,Kimpton Da An Hotel 金普頓大安酒店
+Joe,Chen,https://www.linkedin.com/in/ACwAACkjTN4BSltXXZ2Wam-6yDChnngiWZqmXgc,"Joe，
+
+看到你在 onefifteen 初衣食午擔任 Regional Senior Director of Operations，同時橫跨餐飲與零售場景的營運管理——這個組合其實蠻少見的，代表你同時要對齊很多不同節奏的團隊。
+
+最近和幾位類似角色的夥伴聊，發現一個很普遍的現象：各部門開始陸續導入 AI 工具之後，工具費用就變得很分散，月底要跟老闆解釋「錢花去哪」的時候，往往只能說個大概，沒辦法拆到部門或專案層級。
+
+猜想你在跨部門協調這塊應該也有自己的觀察，想連結認識一下 — Frank","Joe，謝謝接受連結！
+
+想延續上次提到的話題——當公司同時跑餐飲、零售兩條線，不同部門的 AI 工具使用節奏往往差很多：可能工程或資訊側已經在跑 API，業務或門市端又在用另一套 SaaS，各自產生費用但沒有統一口徑。
+
+最麻煩的點通常不是「花了多少錢」，而是每次要對齊預算或做決策的時候，根本拼不出一張完整的圖——哪個部門在用、用在哪個場景、實際帶來什麼產出。
+
+好奇你們現在是怎麼處理這個問題的？有沒有跑出一套還算順手的 SOP？","Joe，
+
+上次你分享的情況我一直在想——如果各部門 AI 工具的費用和使用量能有一個統一的儀表板，讓你隨時可以拆到部門、專案甚至單一應用的層級，你覺得對你們現在的彙報流程幫助最大的會是哪一塊？",71,"Senior Director of Operations, Regional",onefifteen 初衣食午
+Huan,Yun Su,https://www.linkedin.com/in/ACwAABKs-x0B4PTp9kaZqPGs16bOyXPhgGBNRVc,"Hey Huan,
+
+I noticed MicroAd Taiwan has been pushing deeper into programmatic and AI-driven campaign solutions — the scale of client campaigns you're orchestrating across the region is genuinely impressive.
+
+One thing I keep thinking about when I look at teams like yours: during big promotional pushes (think 11.11, year-end sales blitzes), AI content generation can go from a productivity win to a budget black hole almost overnight. Three days of high-volume AI output can quietly burn through what was meant to be a month's worth of spend — and most marketing directors I talk to admit they can't tell you, after the fact, exactly how much AI cost was attributed to which campaign or client.
+
+It's not a tool problem. It's a visibility problem that nobody's really solved cleanly for marketing orgs yet.
+
+Wanted to connect with someone thinking at that level — Frank","Hey Huan,
+
+Thanks for connecting!
+
+Following on from what I mentioned — I'm curious how MicroAd handles AI cost accountability across different client campaigns right now. Like, if a client asks ""how much did AI content generation actually contribute to this campaign's cost structure"" — is that a number your team can produce confidently, or is it still more of an estimate?
+
+I ask because the gap between ""we use AI a lot"" and ""we know exactly what each AI touchpoint costs per campaign"" is where I see a lot of marketing ops quietly absorbing budget they can't explain upward.
+
+Is that a conversation that comes up internally for you?","Hey Huan,
+
+Just circling back — I've been thinking about the ROI calculation side specifically for content-heavy marketing teams.
+
+When you're running multiple concurrent campaigns with AI-assisted copy, creatives, and targeting logic, do you have a way to calculate the actual cost-per-output or cost-per-conversion that includes AI spend? Or does that still get lumped into a general ""tools"" line?
+
+Curious how you're approaching that — especially heading into bigger campaign seasons.",71,Digital Marketing Director,"MicroAd Taiwan, Ltd."
+Nelson,Duann,https://www.linkedin.com/in/ACwAAAARe4UBO1Vel3WXYXV_TkVran2usoCMbCo,"Nelson,
+
+Noticed your work leading the Edge and Automotive Storage BU at Silicon Motion — scaling storage solutions across automotive and edge compute is no small feat, especially when the underlying tech stack keeps evolving so fast.
+
+One thing I've been thinking about a lot lately: as engineering teams at hardware-adjacent tech companies start layering in more AI tooling — code assistants, design automation, documentation — the operational complexity tends to quietly stack up before leadership even notices.
+
+Not a pitch, just genuinely find this space interesting from an ops and cost-structure angle. Would love to connect and exchange perspectives.
+
+— Frank","Nelson, thanks for connecting!
+
+Building on what I mentioned — I've been talking to a lot of engineering-heavy orgs lately, and there's a pattern that keeps coming up: individual engineers start spinning up their own API keys for AI tools (totally reasonable, moves fast), but by the time month-end hits, the finance team is flagging budget overruns and leadership can't easily trace which team or project drove the spend.
+
+For a BU your size, where multiple workstreams are running in parallel, I imagine cost attribution across teams could get messy pretty quickly.
+
+Curious — at Silicon Motion, do you currently have a structured way to track how AI tooling costs break down across your engineering groups, or is it still more ad hoc?","Nelson, just circling back on my last note.
+
+A few teams I've spoken with said the real wake-up moment wasn't the bill itself — it was realizing they had no clean way to show leadership *which project* or *which team* justified the spend, especially when someone started asking about ROI.
+
+Given your role overseeing a whole BU, I'd imagine visibility across teams matters a lot when you're making the case upward.
+
+Have you run into that kind of accountability gap yet, or have you found a system that works?",71,"Senior Vice President, Edge and Automotive Storage BU",Silicon Motion Technology Corp.
+Sophie,Chou,https://www.linkedin.com/in/ACwAADnqqD0BsCL3mcOeXUmOB3aI0pENbBKFDm8,"Sophie,
+
+Came across your profile while researching brand marketing leaders at Felli Group — the way your team consistently shows up across channels with a unified brand voice is genuinely impressive, especially given the content velocity that kind of presence demands.
+
+One thing I've been thinking about a lot lately in conversations with brand teams at similar scale: when AI-assisted content production kicks into high gear — big campaign launches, seasonal pushes — the output ramps up fast. But there's a quiet cost side to that equation that rarely gets tracked in real time.
+
+Three days into a major activation, and a monthly content AI budget can quietly disappear. Most teams only notice after the fact, and by then, attribution back to a specific campaign or channel is nearly impossible.
+
+Not a pitch — genuinely just find this tension fascinating from an ops + brand strategy angle and wanted to connect with someone navigating it at scale.
+
+Would love to connect — Frank","Hey Sophie,
+
+Thanks for connecting!
+
+Building on what I mentioned before — I've been in a few conversations recently with brand directors who are scaling AI content production significantly, and one pattern keeps coming up:
+
+Everyone knows AI saves time. Fewer people can actually say what each campaign *cost* in AI spend — broken down by activation, asset type, or channel.
+
+When leadership asks ""what was the ROI on that Q4 push"" — the creative output is measurable, but the AI cost input is usually a blurry number buried in a SaaS invoice.
+
+Curious how Felli Group thinks about this — is AI content cost something that gets tracked at the campaign level, or is it still more of a blended overhead line?","Sophie,
+
+Just following up on my last message — no pressure at all if the timing isn't right.
+
+I did want to leave one thought: as AI content volume scales into major brand moments, the teams that will have the clearest case for *increasing* AI investment are the ones who can show per-campaign cost vs. output value — not just total spend.
+
+Would it be useful to have a simple way to calculate what each activation is actually costing in AI, broken down by initiative?
+
+Happy to share what I've seen work — what does your current process look like for tracking that?",71,Director of Brand Marketing,Felli Group
+Morris.,Chou,https://www.linkedin.com/in/ACwAABEnSGIBGf5B5iNCN3eFPf1nHz1xgJyeEUQ,"Morris，
+
+看到你在安心食品服務同時負責社群媒體與電商開發，這個組合其實滿罕見的——既要顧內容節奏，又要直接對業績負責，兩邊的壓力都在身上。
+
+最近觀察到一件事：很多電商團隊在大促前後 AI 工具使用量會瞬間暴增，商品描述、廣告文案、社群貼文同步產出——但活動結束後，沒什麼人能說清楚這波 AI 投入到底帶來多少實際回報，或者哪個環節其實燒了不必要的成本。
+
+這個問題在食品電商這種品項多、節慶促銷密集的產業，感覺會特別明顯。
+
+想連結認識一下 — Frank","Morris，謝謝接受連結！
+
+延續上次提到的觀察——我跟幾個電商內容團隊聊過，他們普遍有一個困境：大促期間 AI 生成量一旦爆量，三天就能把原本規劃的月預算燒掉，但事後要跟主管報告「這次活動 AI 成本花了多少、換來多少業績」，卻完全拿不出數字。
+
+每篇文案的 AI 成本、每個活動的實際投入，現在你們有辦法追蹤嗎？還是都是事後憑感覺估算？","Morris，想跟進一下上次的問題 😊
+
+如果今天要計算安心食品某一次大促的 AI 內容成本，你們現在有什麼方式能算出來——還是這塊目前還是黑盒子？
+
+我在研究幾個不同的計算方式，好奇實際負責電商內容的人怎麼看這件事？",71,Chief Consultant/Social Media & E-Commerce Development,安心食品服務股份有限公司
+Russell,Lin,https://www.linkedin.com/in/ACwAABNvn3QBaYKzr0im47DmndIgG1BAWLzPHKc,"Russell，
+
+看到你在來毅數位擔任 Head of Product Management，產品線涵蓋數位轉型相關服務——在這個節點帶產品團隊，挑戰其實蠻獨特的。
+
+最近和幾位科技公司的 PM Head 聊，發現大家都在處理同一件事：團隊導入 AI 工具的速度很快，但當管理層問「我們到底把錢花在哪些 AI 應用上、哪個部門用最多」，往往很難給出一個清楚的答案——不是沒在用，而是根本沒有一個地方能看全貌。
+
+不確定來毅目前的狀況是否類似，但這個「用了很多、卻說不清楚」的落差，我覺得對 Product 這個角色來說壓力尤其大。
+
+想連結認識一下 — Frank","Russell，謝謝你接受連結！
+
+上次提到「用了很多 AI 工具、卻說不清楚花在哪」這件事，後來又想了一下——其實問題不只是帳單超標，而是工程師人手一組 API Key、各部門各跑各的，月底帳單進來的時候，沒有人能第一時間告訴老闆：「這筆錢換來什麼、哪個應用最值、哪個可以砍。」
+
+這對 Product Head 來說其實蠻兩難——你不是財務，但你又是最了解每個 AI 應用業務價值的人。
+
+想請教你：來毅目前在 AI 工具的費用這塊，有沒有比較固定的追蹤方式，還是還在摸索階段？","Russell，想跟進一下上次的問題。
+
+如果現在有個方式，可以讓你每個月在開會前五分鐘就拉出一張圖——哪個部門用了多少、哪個 AI 應用 ROI 最高、哪些在燒錢但沒產出——你覺得這對你跟管理層的對話，會有什麼不同？
+
+純粹好奇你怎麼看這件事。",71,Head of Product Management,來毅數位科技股份有限公司
+Chien,Ho,https://www.linkedin.com/in/ACwAAC1UpLcB-GuULO1CFswSHGxhkcBI5N1EwlY,"Hi Chien,
+
+Noticed you're overseeing both Operations and BD at Asia Pacific International Property — that's a rare combo that usually means you're the person bridging strategic growth with making sure the back-end doesn't fall apart.
+
+As more property firms lean into AI tools to speed up research, client comms, and market analysis, I've been thinking about how ops leaders in this space quietly absorb a new layer of complexity — multiple teams, multiple tools, and costs that are hard to explain when leadership asks where the budget actually went.
+
+Not pitching anything — just found your profile genuinely relevant to some conversations I've been having in the industry.
+
+Would love to connect — Frank","Hi Chien,
+
+Thanks for connecting!
+
+One thing I keep hearing from ops leads at firms your size: AI tool adoption happens fast — different teams pick up different tools, engineers or analysts each run their own setups — and then month-end hits and no one has a clean answer for where the spend actually went or what it produced.
+
+It's less a technology problem and more a visibility problem. The tools are working, but the reporting layer never caught up.
+
+Curious — at Asia Pacific International Property, is AI tool usage something that's already centrally tracked, or is it still more decentralized across teams?","Hi Chien,
+
+Just circling back on my last message — no pressure at all.
+
+I'm compiling some insights on how ops teams in real estate and property sectors are starting to build governance around AI spend — especially as usage scales beyond just one or two tools.
+
+Would it be useful to swap notes? Even a 15-minute chat could be interesting — what does your current process look like for tracking AI-related costs across teams?",71,Director of Operations & Business Development,Asia Pacific International Property
+Karen,Ho,https://www.linkedin.com/in/ACwAACmqOywBZJaoFUrR4njGonwxNzd48tKtLEk,"Hi Karen,
+
+Came across your profile while looking into how marketing leaders at tech media companies are navigating AI-driven content operations — and your role at Adbert caught my attention.
+
+Running marketing at a tech media outfit means you're likely scaling content output with AI tools pretty aggressively. The upside is obvious — volume, speed, iteration. But I've been talking to a lot of Associate Directors in similar seats lately, and one theme keeps coming up: when campaign season hits and AI content generation spikes, budgets get consumed faster than anyone anticipated — and there's no clean way to trace which campaign actually drove that spike.
+
+Not a pitch — just found the operational tension genuinely interesting from a marketing ops standpoint.
+
+Would love to connect and exchange notes — Frank","Hey Karen,
+
+Thanks for connecting!
+
+Following up on the thought I shared earlier — I've been digging into how marketing teams handle AI cost accountability, especially around high-output periods like product launches or seasonal pushes.
+
+Here's the thing that keeps coming up: when you're running multiple campaigns simultaneously and each one is generating AI-written copy, ad variations, social posts — the monthly AI tool bill rolls in, but attributing that spend back to a specific campaign or content type is almost impossible with current tooling.
+
+So the ROI conversation becomes a bit of a guessing game. ""Did this campaign's AI content pay off?"" — most teams can't answer that with actual numbers.
+
+Curious how your team currently handles it — is there any process in place to track AI spend per campaign, or is it still mostly consolidated billing?","Hey Karen,
+
+Just circling back on this — no pressure at all.
+
+One thing I've been thinking about: during a big promotional push, AI content generation can quietly burn through a monthly budget in under three days — but the invoice only shows up later, with no campaign-level breakdown.
+
+For a marketing leader trying to justify AI investment to stakeholders, that's a tough spot to be in.
+
+I'd love to share a quick framework we've been refining around AI cost-per-campaign calculations — would that be useful to you right now?",71,Associate Director of Marketing,"Adbert tech media co., Ltd."
+Christine,Wang,https://www.linkedin.com/in/ACwAAABfm9ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Christine — came across your profile while looking into what eCloudvalley is building on the AI agent side. The scope of what your team is shipping is pretty impressive — running multiple agent workflows across different business units is no small thing.
+
+One thing I've been thinking about a lot lately when talking to folks in similar roles: as AI agent usage scales across teams, the cost visibility piece tends to get messy fast. Engineers spinning up their own API keys, different tools running in parallel, and by the time the monthly bill lands — it's hard to trace exactly what drove it.
+
+Not a pitch, just something I've been hearing consistently from people managing AI infrastructure at this stage of growth. Curious if it's a dynamic you're navigating too.
+
+Would love to connect — Frank","Christine — thanks for connecting!
+
+Following up on what I mentioned before — the cost visibility challenge in multi-agent environments. I've been speaking with a few AI leads recently, and one pattern keeps coming up: when different departments or squads are running their own agent stacks, there's often no single source of truth for what's being spent, or which use cases are actually delivering ROI versus just burning tokens.
+
+The tricky part is that by the time leadership starts asking questions, the data to answer them confidently usually doesn't exist yet.
+
+I'm curious — at eCloudvalley, do you currently have a way to track AI usage and cost by team or project? Or is that still something being figured out as you scale?","Christine — just circling back on this one.
+
+I know it's a busy space to be in right now. But I'm genuinely curious: when your team gets asked to justify AI spending — whether internally or to stakeholders — what does that process look like today? Is there a reporting structure in place, or is it still mostly manual?
+
+No agenda here, just trying to understand how teams at your stage are handling it.",71,Head of AI Agent,eCloudvalley Digital Technology
+Hsiang,Wei Hu,https://www.linkedin.com/in/ACwAAABfm8ABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Hsiang，
+
+看到你在台灣人工智慧協會擔任 Director of Technology，協會本身又深度推動 AI 應用落地，想必你們內部也在積極使用各種 AI 工具跑實驗或支援會員計畫。
+
+這讓我想到一個觀察：像協會這種組織，技術團隊往往同時評估、串接好幾套 AI 工具，但每支工具的 API 用量、成本歸屬卻很難一眼看清楚——月底帳單出來，要解釋「錢花在哪個專案、哪個應用」其實挺頭痛的。
+
+在 AI 採用速度這麼快的環境下，技術負責人承受的不只是技術決策壓力，還有「說得清楚花費邏輯」的壓力。
+
+想連結認識一下 — Frank","Hsiang，謝謝你的連結！
+
+補充一個觀察想聽你的看法：在推動 AI 工具導入的組織裡，工程師或各專案組通常會各自申請 API Key、各跑各的，短期很靈活——但到了要向管理層或贊助單位報告「這個月 AI 預算用在哪、帶來什麼」的時候，往往才發現根本沒有一個統一的數字可以拿出來說。
+
+台灣人工智慧協會在推動會員 AI 應用這塊，你們內部有沒有一套方法在追蹤這件事？還是目前還在摸索階段？","Hsiang，想跟進一下上次的話題。
+
+我最近和幾個技術主管聊，發現大家開始重視「AI 工具用了多少、省了多少、值不值」這件事——不只是工程面的問題，而是要能對外說得清楚的那種可視化。
+
+你們協會在這個方向有沒有什麼正在討論或規劃的做法？很想聽你的思路。",71,Director of Technology,台灣人工智慧協會
+Fuyuan,Cheng,https://www.linkedin.com/in/ACwAAASbF8EB43QM_XyuynzBMbQwOafkH0y7Ces,"Fuyuan,
+
+Came across FANSEE and was genuinely impressed by how you're building at the intersection of AI and creative production — it's a space that moves fast and demands a lot of tooling decisions all at once.
+
+One thing I keep noticing with founders running AI-native creative operations: the actual cost of producing work — Claude for copy, Midjourney for visuals, maybe a few other tools layered in — tends to live in scattered invoices and gut instinct rather than anywhere that maps cleanly to a project or a client.
+
+When it's time to quote a new job or report margin to stakeholders, that ambiguity gets expensive in ways that don't show up immediately.
+
+Not pitching anything — just found the operational angle genuinely interesting and wanted to connect with someone thinking through it at the CEO level.
+
+Would love to connect — Frank","Hey Fuyuan,
+
+Thanks for connecting!
+
+Following up on something I mentioned — I've been talking to a number of AI-native creative teams lately, and one pattern keeps coming up: when a project uses three or four AI tools, the cost of that project is basically invisible until the invoice arrives. By then, it's too late to adjust pricing or protect margin.
+
+The founders who seem to have the most control are the ones who've found a way to see AI spend at the project level in real time — not just total monthly bills.
+
+Curious — when you're scoping a new project at FANSEE, how are you currently estimating the AI cost side of things?
+
+Frank","Hey Fuyuan,
+
+Just circling back — no pressure at all.
+
+I've been putting together a quick walkthrough of how some creative teams are consolidating multi-tool AI costs into a single view, tied to projects and clients rather than just vendor invoices.
+
+Thought it might be relevant given how FANSEE operates.
+
+Would it be useful to see how that works in practice — even just as a reference point for how you're thinking about it?
+
+Frank",71,Chief Executive Officer,FANSEE
+Joao,Filipe Santos (司徒峰),https://www.linkedin.com/in/ACwAAABfnABq3m3Xm3U5m3h3J_1HQg3q3Cg9j,"Joao，
+
+看到你在 PicCollage 負責 AI for Creators 這條產品線——在消費者創作工具裡深度整合 AI，這個方向現在其實非常難落地，因為你要同時顧使用者體驗、模型效果，還有背後持續在跑的推論成本。
+
+我自己在觀察幾間成長型 SaaS 的時候發現一個有趣的共同點：當 AI 功能從一個實驗性 feature 變成核心產品路徑之後，工程師和 PM 手上的 API 用量就開始快速碎片化——各自串接、各自測試，月底帳單出來才發現沒有人說得清楚錢花在哪個功能上。PicCollage 在 AI 這條路走得這麼深，應該對這個感受不陌生。
+
+想連結認識一下 — Frank","Joao，謝謝接受！
+
+延續上次提到的觀察——我最近和幾位 AI Product Lead 聊，發現大家都卡在同一個問題：不是 AI 功能做不好，而是當產品線開始多模型並行、不同 feature 分別打 API 的時候，「這個月 AI 到底燒了多少、燒在哪」這個問題開始很難回答。
+
+更麻煩的是，老闆問的不是技術問題，他問的是：我們投進去的這些成本，對應到哪個功能的 retention 或轉換？這中間有很大的資訊斷層。
+
+你們目前在 PicCollage 內部，有沒有一套方式在追這塊？","Joao，
+
+想跟進一下上次的話題——
+
+我在想，像 PicCollage 這種 AI 功能已經是核心體驗的產品，當跨部門都在用不同工具和 API 的時候，要建立一套讓你能在月中就看到用量走向、而不是月底才被帳單嚇到的機制，你們現在是靠工程自建還是有其他方式在處理？",70,Senior Product Lead - AI for Creators,PicCollage
