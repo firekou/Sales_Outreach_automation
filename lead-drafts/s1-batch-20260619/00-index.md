@@ -21,12 +21,19 @@
 | 01 | Ella Hung | Director of Digital Marketing | ACES Group 宏致集團 | 83 | D 組織決策者 | 讓 AI 轉型對董事會說得出 ROI |
 | 02 | YuYu Chen | Head of IT | Koo Foundation 和信治癌中心 | 80 | D（強 B 風險趨避） | 醫療場域 AI 風險把關＋可稽核 |
 | 03 | James Wu | Director of Technology & Innovation | InterContinental Kaohsiung | 80 | B 效率優化者 | 飯店多部門 AI 用法一致、可追蹤 |
-| 04 | Monica Hsueh | Global Marketing Director | Speed 3D Inc. | 85 | C 影響力建構者 | 領先 AI 實踐→可展示資產 |
-| 05 | Amanda Ye | Director, Global Marketing | ARBOR Technology | 80 | D 組織決策者 | 跨國行銷 AI 一致化、可衡量 |
+| 04 | Yvonne C. | Chief Marketing Officer | hububble | 80 | C 影響力建構者 | MarTech 觀點產出與傳播放大 |
+| 05 | Vanessa Chou | Director of Strategic Planning | MAKALOT 聚陽實業 | 80 | D 組織決策者 | 集團 AI 投資決策框架＋ROI |
 
 **類型分布：** D ×3、B ×1、C ×1。本批為 Director 級、Frank 人設適配。
-**缺口（誠實標註）：** HOT 池中無清楚的 Type A（身份建構者／明顯職涯轉型）訊號，故本批未含 A 型；
-下批可從 WARM 池（56 筆）補上轉型背景者以平衡話術組合。
+**Type A 缺口：** HOT 池無清楚 Type A 訊號，已在同日 WARM 補批
+（`../s1-batch-20260619-warm/`）補上 2 筆 Type A，完整覆蓋 A/B/C/D。
+
+### ⚠ 去重攔截紀錄（Director 判斷）
+初稿原含 **Monica Hsueh（Speed 3D，85）** 與 **Amanda Ye（ARBOR，80）**，
+經 `dedup_local_check.py` 比對發現兩人已在 **0613／0615 批次**接觸過
+（出現在 `s1-batch-20260615-expandi.csv` 等），依「去重優先、避免重複觸及」原則**剔除**，
+改換未接觸的 **Yvonne C.（hububble，C 型）** 與 **Vanessa Chou（聚陽，D 型）**。
+→ 體現 Skill 的「人在迴路＋去重」：高分 ≠ 可發，必須過去重關。
 
 ---
 

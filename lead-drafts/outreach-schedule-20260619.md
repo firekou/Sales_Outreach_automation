@@ -2,8 +2,11 @@
 
 **帳號：** Frank（frank.kao）｜25/day｜08:00–09:00 台灣時間
 **工具：** Expandi — Sales Navigator Campaign
-**總人數：** 5 leads（HOT 精選，含完整三封信序列）
-**匯入檔：** `s1-batch-20260619/s1-batch-20260619-expandi.csv`
+**總人數：** 10 leads（HOT 批 5 + WARM 補批 5，含完整三封信序列）
+**匯入檔：**
+- `s1-batch-20260619/s1-batch-20260619-expandi.csv`（HOT 5）
+- `s1-batch-20260619-warm/s1-batch-20260619-warm-expandi.csv`（WARM 補批 5，補 Type A）
+**去重：** 已過 `dedup_local_check.py`（10 筆全新，HOT 批已剔除 2 筆重複者並替換）
 **狀態：** 🟡 待人工審核核准後可匯入啟動（pending_review）
 
 ---
@@ -12,10 +15,10 @@
 
 | 欄位 | 設定 |
 |------|------|
-| Campaign 名稱 | S1-Frank-20260619 |
+| Campaign 名稱 | S1-Frank-20260619（HOT）／ S1-Frank-20260619-WARM（補批） |
 | Campaign 類型 | **Sales Navigator Campaign** |
 | LinkedIn 帳號 | Frank（frank.kao） |
-| 每日 Connection 上限 | 25/day（本批僅 5 筆，遠低於上限，安全） |
+| 每日 Connection 上限 | 25/day（本日共 10 筆，遠低於上限，安全） |
 | 發送時段 | 08:00–09:00 |
 | 安全模式 | 開啟（Smart Limits） |
 | 操作間隔 | 隨機 3–15 秒（用預設，勿改短） |
