@@ -114,7 +114,7 @@ gate_result: PASS
 
 **D3 First Message｜王建志（治理者）**
 
-> Hi 建志，
+> Hi 建志，我是 Frank，AI Token King 的創辦人。
 >
 > 看到沛星在 90 天內開出 AI 流程自動化、LLM 整合、AI 應用開發三個工程師職缺，這個節奏代表你們已經從 PoC 走向多線並行——
 >
@@ -130,11 +130,11 @@ gate_result: PASS
 
 **D3 First Message｜陳怡君（技術人員）**
 
-> Hi 怡君，
+> Hi 怡君，我是 Frank，AI Token King 這個工具的建立者。
 >
 > 你們同時跑 OpenAI 和 Azure OpenAI endpoint，加上 Make.com 的 webhook，應該有碰過這個：同一個禮拜跑了好幾個流程，結果月底要回報哪個 call 花了多少，只能回去翻 log。
 >
-> 我們做了一個工具專門處理這種事——跨模型的 token 用量自動歸因，key 輪換管理，設用量上限。不用寫任何額外 code，接上去就能看到每個流程的消耗。
+> 我們做了 AI Token King 來處理這種事——跨模型的 token 用量自動歸因，key 輪換管理，設用量上限。不用寫任何額外 code，接上去就能看到每個流程的消耗。
 >
 > 有興趣的話可以免費試用，自己玩——不需要找你主管簽字。
 
@@ -352,7 +352,7 @@ middle_step:
 
 **D3 First Message｜黃琮暉（建造者）**
 
-> Hi 琮暉，
+> Hi 琮暉，我是 Frank，AI Token King 的創辦人。
 >
 > 看到 momo 的自動化部門在同時推進 RPA 流程和 ChatGPT API 整合，客服回覆、商品描述、退換貨審核三條業務線同時在跑——
 >
@@ -499,7 +499,7 @@ gate_result: PASS
 
 **D3 First Message（95 字）**
 
-> Hi 明峰，
+> Hi 明峰，我是 Frank，AI Token King 的創辦人。
 >
 > 看到博客來近期在三個業務方向同時部署 AI：推薦用 OpenAI Embedding、書評摘要用 GPT-4o 和 Claude 雙模型、客服 RAG 用 Azure OpenAI——
 >
@@ -535,7 +535,7 @@ gate_result: PASS
 
 **D3 First Message（97 字）**
 
-> Hi 宇軒，
+> Hi 宇軒，我是 Frank，AI Token King 的創辦人。
 >
 > 博客來 AI Platform 現在同時撐著三條業務線：推薦系統的 Embedding、書評摘要的多模型輪換、客服 RAG——
 >
@@ -571,7 +571,7 @@ gate_result: PASS
 
 **D3 First Message（90 字）**
 
-> Hi 雅婷，
+> Hi 雅婷，我是 Frank，AI Token King 這個工具的建立者。
 >
 > 看到博客來的內容生成在同時跑 GPT-4o 和 Claude——兩個模型做書評摘要，再加上推薦系統的 Embedding，你每次換 prompt 版本或切模型的時候，token 消耗的變化你是怎麼追的？
 >
