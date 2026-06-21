@@ -37,6 +37,7 @@ AI Token King — LinkedIn 自動化陌生開發系統
 
 | Agent | 用途 |
 |-------|------|
+| `Outreach-Sensei` | 世界頂級 Outreach 大師顧問：理論拆解 + Skill Roadmap + 精細化設計指導 |
 | `AirTalk-S1-BizDev` | 深度 Lead 分析 + 三封信序列生成 |
 | `ALI-Auditor` | 七層稽核 + 週報 + 回覆真實性評分 |
 | `Kid-Sales` | 業務執行、客戶維護、收款 |
