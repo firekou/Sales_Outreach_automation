@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Cheng-Ho(C.H.) Wu",
+    "title": "VP of Technology",
+    "company": "cacaFly 聖洋科技",
+    "icp_score": 67,
+    "linkedin_url": "https://www.linkedin.com/in/ACwAABNq1-oBby-kKwPYItDpteJj6NPkuTouzwU",
+    "template_used": "Template-D（數位轉型主管）",
+    "connection_request": "C.H. 您好！看到您帶 cacaFly 在 GCP/AWS 上落地 GenAI、還拿到 Google Cloud Partner All-Stars，真的很佩服。我在研究台灣企業 AI 工具費用管控的議題，很想跟您交流，能加個連結嗎？",
+    "value_touch": "C.H. 您好，感謝接受連結！\n\n觀察到 cacaFly 同時整合多個 LLM 供應商（GCP Vertex、Azure OpenAI）服務企業客戶，在不同模型間的 Token 用量與費用管控上，應該是個不小的挑戰。\n\nAI Token King 專門解決這個問題——讓企業用一個後台統一管理 Claude、GPT-4o、Gemini 等多個 API 的用量、預算和帳單，月底不會突然超標，也方便向客戶 breakdown 費用。\n\n您現在是如何管理多模型的 Token 預算的？有沒有遇過月底帳單超出預期的情況？",
+    "asana_task_name": "[WARM-67] Cheng-Ho(C.H.) Wu | VP of Technology | cacaFly 聖洋科技 | 67分"
+  },
+  {
+    "name": "Frank Su",
+    "title": "AI Technical Consultant",
+    "company": "Intumit - Digital Transformation with AI",
+    "icp_score": 66,
+    "linkedin_url": "https://www.linkedin.com/in/ACwAAByp4BIBiF0heRMZy4qVYppO2UFLZX8tzR8",
+    "template_used": "Template-A（CTO/技術主管）",
+    "connection_request": "Frank 您好！看到您在 Intumit 用 Azure OpenAI、GCP Vertex 和 Claude 做企業 RAG 系統，還有自己的 RAG Evaluation Framework，真的很專業。我也在研究多供應商 LLM 的費用管控問題，想跟您聊聊，能加個連結嗎？",
+    "value_touch": "Frank 您好，感謝接受連結！\n\n看到您的 RAG 系統同時使用 Azure OpenAI、Gemini 和 Claude 三個供應商。作為 AI 顧問，幫企業客戶部署時，多個 LLM API 的費用追蹤和預算管控，應該是個常見的痛點。\n\nAI Token King 可以讓顧問和企業客戶用同一個後台管理所有 LLM 的 Token 用量與費用——支援 Claude、GPT-4o、Gemini 等主流模型，還能按部門或專案分開計算，方便向客戶說明 AI 投資的具體費用。\n\n您在幫客戶選型和部署時，費用透明化這個環節是怎麼處理的？",
+    "asana_task_name": "[WARM-66] Frank Su | AI Technical Consultant | Intumit | 66分"
+  },
+  {
+    "name": "Yi-Chang Chen",
+    "title": "Senior Technology Manager",
+    "company": "MediaTek Research 聯發創新基地",
+    "icp_score": 61,
+    "linkedin_url": "https://www.linkedin.com/in/ACwAAByBda4BdDkGVV5rnin4yQkXWqSOp6gU6mY",
+    "template_used": "Template-A（CTO/技術主管）",
+    "connection_request": "Yi-Chang 您好！看到您主導 Breeze LLM 系列、TASTE Spoken LM，還有 ACL 2025 的論文，真的是台灣 LLM 領域的先驅。我在研究企業使用多個 LLM 的成本管控議題，很想跟您交流，能加個連結嗎？",
+    "value_touch": "Yi-Chang 您好，感謝接受連結！\n\nMediaTek Research 開發 Breeze 系列 Traditional Chinese LLM，同時在研究中也需要評估對比多個模型（如 GPT-4、Claude、Gemini 等）。在研究環境中，多模型的 API 用量和費用往往難以追蹤，預算很快就會超標。\n\nAI Token King 提供一個統一的 API 管理後台，讓研究團隊可以設定各模型的月度 Token 預算、即時查看用量、並在快超標時收到警示——避免研究計劃中途因費用超支而被迫中斷。\n\n研究團隊在管理多模型 API 費用這塊，目前有什麼工具或流程嗎？",
+    "asana_task_name": "[WARM-61] Yi-Chang Chen | Senior Technology Manager | MediaTek Research | 61分"
+  }
+]

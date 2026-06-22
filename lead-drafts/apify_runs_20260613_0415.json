@@ -1,0 +1,34 @@
+[
+  {
+    "combo": "combo_A_IT決策者",
+    "run_id": "mSm0PzcJCAdvAXTIn",
+    "dataset_id": "apKkvcMqARUqjvdQa",
+    "request_ids": [
+      "4e1a72ff41e23cbc4b6b733c4f4adf99"
+    ]
+  },
+  {
+    "combo": "combo_B_行銷總監",
+    "run_id": "zlysilCV449GyUN7B",
+    "dataset_id": "BCY9ZMsXaFW548XdH",
+    "request_ids": [
+      "9eaa6b95faed16ad89ff17be612cacdd"
+    ]
+  },
+  {
+    "combo": "combo_D_CTO_VP",
+    "run_id": "55Tw6KmcWnH0XhlBb",
+    "dataset_id": "JI0p3IYeY1jXc08f2",
+    "request_ids": [
+      "cbe2f3efe4c0cfad18a536e01314eda7"
+    ]
+  },
+  {
+    "combo": "combo_G_AI_Lead",
+    "run_id": "eZDpsJ5bgy7mM8VLg",
+    "dataset_id": "SoGAz0YHxfneiP203",
+    "request_ids": [
+      "727d4942d8251c78dee494c8f8ffbef0"
+    ]
+  }
+]
