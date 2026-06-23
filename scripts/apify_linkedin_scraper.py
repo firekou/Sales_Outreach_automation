@@ -39,7 +39,16 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger(__name__)
 
 ACTOR_ID = "bestscrapers/sales-navigator-scraper-by-filters"
-TAIWAN_GEO = 104187078
+# LinkedIn Sales Navigator geo IDs — verify against https://www.linkedin.com/help/sales-navigator
+LATAM_GEOS = [
+    103323778,  # Mexico
+    100446943,  # Argentina
+    100877388,  # Colombia
+    104621616,  # Chile
+    102927786,  # Peru
+    105646813,  # Spain
+    106057199,  # Brazil (secondary)
+]
 
 # ── 多帳號設定 ─────────────────────────────────────────────
 ACCOUNTS = {
@@ -83,87 +92,105 @@ ACCOUNTS = {
         "daily_limit": 20,
         "send_window": "11:00–12:00",
     },
+    "antonio": {
+        "display_name": "Antonio",
+        "title": "Marketing & Business Development, AI Token King",
+        "style_hint": "Warm and analytical, cross-cultural bridge between Asian tech and LATAM market. Speaks as a peer, not a vendor.",
+        "icp_focus": ["Founder", "Co-Founder", "Freelancer", "Content Creator", "Marketing Manager", "Growth Manager", "Self-employed", "Entrepreneur", "CEO", "Agency Owner"],
+        "daily_limit": 20,
+        "send_window": "09:00–10:00",
+    },
 }
-DEFAULT_ACCOUNT = "kid"
+DEFAULT_ACCOUNT = "antonio"
 
-# ── 6 個搜尋組合 ──────────────────────────────────────────
+# ── Workshop: inject participant account if workshop_config.py exists ──
+_WORKSHOP_KEY    = None
+_WORKSHOP_COMBOS = None
+try:
+    from workshop_config import MY_ACCOUNT_KEY as _WS_KEY, MY_ACCOUNT as _WS_ACCT, MY_SEARCH_COMBOS as _WS_COMBOS
+    ACCOUNTS[_WS_KEY]  = _WS_ACCT
+    _WORKSHOP_KEY      = _WS_KEY
+    _WORKSHOP_COMBOS   = _WS_COMBOS
+except ImportError:
+    pass
+
 SEARCH_COMBOS = [
     {
-        "name": "組合A：科技公司IT決策者",
+        "name": "Combo A: Startup Founders & Co-Founders",
         "code": "combo_A", "priority": "P1",
         "input": {
-            "geo_codes": [TAIWAN_GEO],
-            "title_keywords": ["IT Manager", "IT Director", "Head of IT", "CIO", "Chief Information Officer", "資訊主管", "IT長"],
-            "company_headcounts": ["11-50", "51-200"],
-            "functions": ["Information Technology"],
-            "seniority_levels": ["Director", "Experienced Manager", "CXO"],
+            "geo_codes": LATAM_GEOS,
+            "title_keywords": ["Founder", "Co-Founder", "CEO", "CTO", "Startup", "Entrepreneur", "Managing Director"],
+            "company_headcounts": ["1-10", "11-50"],
+            "functions": ["Entrepreneurship", "Business Development", "Information Technology"],
+            "seniority_levels": ["Owner/Partner", "CXO"],
             "posted_on_linkedin": "true",
             "limit": 80,
         },
     },
     {
-        "name": "組合B：行銷代理商高層",
-        "code": "combo_B", "priority": "P2",
+        "name": "Combo B: Marketing & Content Professionals",
+        "code": "combo_B", "priority": "P1",
         "input": {
-            "geo_codes": [TAIWAN_GEO],
-            "title_keywords": ["Marketing Director", "Head of Marketing", "Creative Director", "Head of Content", "Digital Marketing Manager", "Agency Owner", "行銷總監"],
-            "company_headcounts": ["11-50", "51-200"],
+            "geo_codes": LATAM_GEOS,
+            "title_keywords": ["Marketing Manager", "Content Creator", "Social Media Manager", "Digital Marketing", "Growth Manager", "Brand Manager", "Content Strategist", "Community Manager"],
+            "company_headcounts": ["1-10", "11-50", "51-200"],
             "functions": ["Marketing"],
-            "seniority_levels": ["Director", "Owner/Partner", "CXO"],
-            "posted_on_linkedin": "true",
-            "limit": 60,
-        },
-    },
-    {
-        "name": "組合C：數位轉型顧問/服務商",
-        "code": "combo_C", "priority": "P3",
-        "input": {
-            "geo_codes": [TAIWAN_GEO],
-            "title_keywords": ["Digital Transformation", "AI Consultant", "Innovation Manager", "CDO", "Head of Digital", "數位轉型"],
-            "company_headcounts": ["11-50", "51-200"],
-            "functions": ["Consulting", "Information Technology"],
-            "seniority_levels": ["Director", "CXO", "Experienced Manager"],
-            "posted_on_linkedin": "true",
-            "limit": 60,
-        },
-    },
-    {
-        "name": "組合D：SaaS/軟體新創 CTO/VP",
-        "code": "combo_D", "priority": "P1",
-        "input": {
-            "geo_codes": [TAIWAN_GEO],
-            "title_keywords": ["CTO", "Chief Technology Officer", "VP Engineering", "VP of Engineering", "Head of Engineering", "VP Product", "Co-Founder", "技術長"],
-            "company_headcounts": ["11-50", "51-200"],
-            "functions": ["Engineering", "Information Technology"],
-            "seniority_levels": ["CXO", "Vice President", "Owner/Partner"],
+            "seniority_levels": ["Experienced Manager", "Director", "Owner/Partner", "Entry Level", "Senior"],
             "posted_on_linkedin": "true",
             "limit": 80,
         },
     },
     {
-        "name": "組合E：電商/新零售 Operations",
-        "code": "combo_E", "priority": "P4",
+        "name": "Combo C: Freelancers & Self-Employed",
+        "code": "combo_C", "priority": "P2",
         "input": {
-            "geo_codes": [TAIWAN_GEO],
-            "title_keywords": ["Head of Operations", "Operations Director", "Head of Growth", "Growth Manager", "E-commerce Director", "Head of Technology"],
-            "company_headcounts": ["11-50", "51-200"],
-            "functions": ["Operations", "Business Development"],
-            "seniority_levels": ["Director", "Experienced Manager", "CXO"],
+            "geo_codes": LATAM_GEOS,
+            "title_keywords": ["Freelance", "Freelancer", "Independent", "Self-employed", "Consultant", "Independiente", "Freelancer", "Consultor"],
+            "company_headcounts": ["1-10"],
+            "functions": ["Marketing", "Arts and Design", "Media and Communication", "Consulting"],
+            "seniority_levels": ["Owner/Partner", "Senior", "Entry Level"],
+            "posted_on_linkedin": "true",
+            "limit": 60,
+        },
+    },
+    {
+        "name": "Combo D: Small Agency & Creative Studio Owners",
+        "code": "combo_D", "priority": "P2",
+        "input": {
+            "geo_codes": LATAM_GEOS,
+            "title_keywords": ["Agency Owner", "Studio Owner", "Creative Director", "Head of Creative", "Design Director", "Production Manager", "Head of Content"],
+            "company_headcounts": ["1-10", "11-50"],
+            "functions": ["Marketing", "Arts and Design", "Media and Communication"],
+            "seniority_levels": ["Owner/Partner", "CXO", "Director"],
+            "posted_on_linkedin": "true",
+            "limit": 60,
+        },
+    },
+    {
+        "name": "Combo E: Tech & Product Roles in Startups",
+        "code": "combo_E", "priority": "P3",
+        "input": {
+            "geo_codes": LATAM_GEOS,
+            "title_keywords": ["Product Manager", "Product Designer", "UX Designer", "Tech Lead", "Full Stack", "Developer", "Software Engineer", "Data Analyst", "AI Engineer"],
+            "company_headcounts": ["1-10", "11-50"],
+            "functions": ["Engineering", "Product Management", "Arts and Design"],
+            "seniority_levels": ["Senior", "Experienced Manager", "Owner/Partner"],
+            "posted_on_linkedin": "true",
+            "limit": 60,
+        },
+    },
+    {
+        "name": "Combo G: Sales & Business Dev in SMBs",
+        "code": "combo_G", "priority": "P3",
+        "input": {
+            "geo_codes": LATAM_GEOS,
+            "title_keywords": ["Sales Manager", "Business Development", "Account Executive", "Revenue Manager", "Head of Sales", "Ventas", "Desarrollo de Negocios"],
+            "company_headcounts": ["1-10", "11-50", "51-200"],
+            "functions": ["Sales", "Business Development"],
+            "seniority_levels": ["Experienced Manager", "Senior", "Director", "Entry Level"],
             "posted_on_linkedin": "true",
             "limit": 50,
-        },
-    },
-    {
-        "name": "組合G：Product/Engineering Manager",
-        "code": "combo_G", "priority": "P2",
-        "input": {
-            "geo_codes": [TAIWAN_GEO],
-            "title_keywords": ["Head of Product", "Product Director", "Engineering Manager", "AI Lead", "Head of AI", "AI Manager", "Data Lead", "ML Lead"],
-            "company_headcounts": ["11-50", "51-200"],
-            "functions": ["Product Management", "Engineering", "Information Technology"],
-            "seniority_levels": ["Director", "Experienced Manager", "Strategic"],
-            "posted_on_linkedin": "true",
-            "limit": 70,
         },
     },
 ]
@@ -405,7 +432,14 @@ def main():
     client = ApifyClient(APIFY_TOKEN)
     all_leads = []
 
-    for i, combo in enumerate(SEARCH_COMBOS):
+    # Use workshop combos when running as the workshop participant account
+    combos_to_run = (
+        _WORKSHOP_COMBOS
+        if (_WORKSHOP_KEY and account == _WORKSHOP_KEY and _WORKSHOP_COMBOS)
+        else SEARCH_COMBOS
+    )
+
+    for i, combo in enumerate(combos_to_run):
         if i > 0:
             log.info("⏳ 間隔 10 秒...")
             time.sleep(10)
