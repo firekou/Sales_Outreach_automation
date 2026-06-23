@@ -47,14 +47,17 @@ cp .env.example .env
 ```
 Then open `.env` in any text editor.
 
-They need to fill in **two fields**:
-- `ANTHROPIC_API_KEY` — tell them to ask the workshop organiser for this
-- `APIFY_TOKEN` — walk them through getting it:
-  1. Go to https://console.apify.com (free account)
-  2. Click avatar → Settings → Integrations → API tokens → Create new token
-  3. Copy and paste it into `.env`
+There are **two fields** to fill in:
 
-Wait for them to confirm both are filled in before moving on.
+**`ANTHROPIC_API_KEY`** — the organiser (Antonio) will give this to them directly. Ask: *"Do you have the Anthropic key Antonio shared?"* Have them paste it in.
+
+**`APIFY_TOKEN`** — each participant gets their own free account. Walk them through it:
+1. Go to https://console.apify.com and sign up (free)
+2. Click their avatar → **Settings** → **Integrations**
+3. Under **API tokens** → **+ Create new token** → copy it
+4. Paste it into `.env` next to `APIFY_TOKEN=`
+
+Wait for them to confirm both fields are filled before moving on.
 
 ---
 
