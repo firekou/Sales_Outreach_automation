@@ -85,8 +85,28 @@ ACCOUNT_PERSONAS = {
         "daily_limit": 20,
         "send_window": "11:00–12:00",
     },
+    "antonio": {
+        "display_name": "Antonio",
+        "title": "Marketing & Business Development, AI Token King",
+        "style": "Warm, analytical, peer-to-peer tone. Cross-cultural perspective: bridges Asian tech with Latin American market. Empathetic, never pushy. Writes like a smart friend who happens to know a lot about AI tools.",
+        "daily_limit": 20,
+        "send_window": "09:00–10:00",
+    },
 }
-DEFAULT_ACCOUNT = "kid"
+DEFAULT_ACCOUNT = "antonio"
+
+# Workshop: inject participant persona if workshop_config.py exists
+try:
+    from workshop_config import MY_ACCOUNT_KEY as _WS_KEY, MY_ACCOUNT as _WS_ACCT
+    ACCOUNT_PERSONAS[_WS_KEY] = {
+        "display_name": _WS_ACCT["display_name"],
+        "title":        _WS_ACCT["title"],
+        "style":        _WS_ACCT["style_hint"],
+        "daily_limit":  _WS_ACCT["daily_limit"],
+        "send_window":  _WS_ACCT["send_window"],
+    }
+except ImportError:
+    pass
 
 # ── ICP 評分規則 ──────────────────────────────────────────
 AI_KW = ["ChatGPT", "OpenAI", "Claude", "Gemini", "AI", "LLM", "Copilot",
@@ -120,36 +140,36 @@ def classify(score: int) -> str:
 # ── Claude 訊息草稿生成（帳號人設動態注入）──────────────
 def get_connection_system(account: str) -> str:
     persona = ACCOUNT_PERSONAS.get(account, ACCOUNT_PERSONAS[DEFAULT_ACCOUNT])
-    return f"""你是 {persona['display_name']}，{persona['title']}。
-風格要求：{persona['style']}
-任務：幫目標 Lead 寫一段 LinkedIn 連結請求附言（≤300字元，繁體中文）。
-規則：像朋友、不推銷、先表達好奇和共鳴。結尾不要說「請多指教」。
-格式：直接輸出訊息文字，不要加任何前綴說明。"""
+    return f"""You are {persona['display_name']}, {persona['title']}.
+Style: {persona['style']}
+Task: Write a LinkedIn connection request note for the target lead (≤300 characters, in Spanish).
+Rules: Warm and curious, like a message from a peer. No sales pitch. Express genuine interest first. Don't end with "cuento contigo" or similar filler.
+Format: Output only the message text, no prefixes or labels."""
 
 
 def get_value_system(account: str) -> str:
     persona = ACCOUNT_PERSONAS.get(account, ACCOUNT_PERSONAS[DEFAULT_ACCOUNT])
-    return f"""你是 {persona['display_name']}，{persona['title']}。
-風格要求：{persona['style']}
-任務：為這位 Lead 寫第一封價值觸達訊息（繁體中文，≤500字）。
-結構：① 你觀察到的現象（跟對方公司/職稱相關）→ ② AI Token King 如何解決這個問題 → ③ 開放式問句收尾。
-禁止：不要說「我想介紹我們的產品」。三版訊息可選：A（管理者痛點）B（老闆視角）C（代理商機會）。
-格式：直接輸出訊息文字，不要加任何前綴說明。"""
+    return f"""You are {persona['display_name']}, {persona['title']}.
+Style: {persona['style']}
+Task: Write the first value-touch message for this lead (in Spanish, ≤500 characters).
+Structure: ① Observation about their situation (tied to their role/company) → ② How AI Token King solves that specific problem → ③ Open-ended question to close.
+Forbidden: Never say "quiero presentarte nuestro producto" or anything that sounds like a sales intro. Provide three message variants: A (manager pain point), B (founder/owner angle), C (efficiency/ROI angle).
+Format: Output only the message text, no prefixes or labels."""
 
 
 def get_reply_system(account: str) -> str:
     persona = ACCOUNT_PERSONAS.get(account, ACCOUNT_PERSONAS[DEFAULT_ACCOUNT])
-    return f"""你是 {persona['display_name']}，{persona['title']}。
-分析這段 LinkedIn 回覆屬於哪一類，並建議下一步行動。
-輸出 JSON（僅輸出 JSON，不加任何說明）：
+    return f"""You are {persona['display_name']}, {persona['title']}.
+Analyze this LinkedIn reply and recommend the next action.
+Output JSON (JSON only, no explanation):
 {{
   "classification": "positive|neutral|negative",
   "sentiment_score": 1-5,
   "is_hot_lead": true|false,
-  "key_signal": "對方說了什麼關鍵字",
-  "route_to": "直銷/#leads-直銷|通路/#leads-通路|人工/#lead-review",
-  "next_action": "下一步行動（一句話）",
-  "reply_draft": "建議回覆訊息（繁體中文，≤300字）"
+  "key_signal": "key phrase the lead used",
+  "route_to": "direct-sales/#leads-direct|channel/#leads-channel|manual/#lead-review",
+  "next_action": "next step (one sentence)",
+  "reply_draft": "suggested reply (in Spanish, ≤300 chars)"
 }}"""
 
 
