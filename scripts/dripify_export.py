@@ -233,11 +233,20 @@ def print_summary(rows: list[dict], out_path: Path, account: str):
 def main():
     parser = argparse.ArgumentParser(description="AI Token King — Dripify CSV 匯出工具")
     parser.add_argument("source", help="drafts_*.json 或 leads_*.csv 路徑")
+    # Build valid account choices dynamically (includes workshop participant if configured)
+    _base_accounts = ["frank", "jet", "kid", "lauren", "alice", "antonio"]
+    try:
+        from workshop_config import MY_ACCOUNT_KEY as _WS_KEY
+        if _WS_KEY not in _base_accounts:
+            _base_accounts.append(_WS_KEY)
+    except ImportError:
+        pass
+
     parser.add_argument(
         "--account",
-        default="frank",
-        choices=["frank", "jet", "kid", "lauren", "alice"],
-        help="來源帳號（預設：frank）",
+        default="antonio",
+        choices=_base_accounts,
+        help="Source account (default: antonio)",
     )
     args = parser.parse_args()
 
