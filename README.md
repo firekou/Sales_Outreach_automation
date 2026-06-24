@@ -25,6 +25,7 @@ AI Token King — LinkedIn 自動化陌生開發系統
 | 目錄 | 說明 |
 |------|------|
 | `.claude/agents/` | Claude Sub-agent 定義（S1 業務、稽核、Kid Sales） |
+| `.claude/skills/` | Claude Skill（`s1-director-direct-outreach`：S1 直攻法端到端總指揮） |
 | `strategies/` | 四套 LinkedIn 開發策略 + 話術 + 自動化規格 |
 | `sales/` | Sales Playbook、CRM 設定、每日 Ops SOP |
 | `linkedin-outreach/` | Sales Agent 架構規格、TA Matrix、Phase 1 MVP |
